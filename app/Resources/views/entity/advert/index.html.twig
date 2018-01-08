@@ -1,0 +1,134 @@
+{% extends "::base.html.twig" %}
+
+{% block body %}
+
+
+
+<div class="container">
+        {% for advert in adverts %}
+<table>
+    <section>
+        <article id="two card-panel">
+            <h1> {{ advert.title }}</h1>
+            <p>    <a href="{{ path('entity_advert_show',{ 'id': advert.id }) }}">
+                    <img src="{{ asset('uploads/images/' ~ advert.image) }}" height="150px" width="300px" ></a>
+                <i class="material-icons">swatch</i>{% if advert.date %}{{ advert.date|date('Y-m-d H') }}{% endif %}
+
+                <i class="material-icons">book</i><strong style="color:dodgerblue;">{{ advert.author }}</strong>
+            <hr>
+                {{ advert.content }} </p>
+
+        </article>
+
+
+
+
+    </section>
+
+</table> {% endfor %}</div>  <div class="text-center">{{ knp_pagination_render(adverts) }}</div>
+
+    <div class="fixed-action-btn horizontal">
+        <a href="{{ path('entity_advert_new') }}" class="btn-floating btn-large red">
+            <i class="large material-icons">mode_edit</i>
+        </a>
+        <ul>
+            <li><a  class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+            <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+            <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+            <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+        </ul>
+    </div>
+
+
+    <style>@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            box-sizing: border-box;
+            -o-box-sizing: border-box;
+            -ms-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+        }
+
+        html, body {
+            min-height: 100%;
+        }
+
+        body {
+            background-color:dimgrey;
+            font-size: 15px;
+            color: #554E49;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 400;
+        }
+
+        h1 {
+            font-weight: 300;
+            font-size: 1.5em;
+            margin-bottom: 0.5em;
+        }
+
+
+        section {
+            position: relative;
+            margin-left: 4em;
+            max-width: 40em;
+            padding: 2.5em 0;
+        }
+        section:before {
+            height: 100%;
+            width: 1px;
+            background-color: red;
+            content: "";
+            position: absolute;
+            left: -2em;
+            top: 0;
+        }
+        section article {
+            position: relative;
+            background: #f5f6f6;
+            width: 100%;
+            padding: 1.333em;
+            margin-bottom: 2.5em;
+            transition: all 0.5s ease;
+        }
+        section article:last-child {
+            margin-bottom: 0;
+        }
+        section article:before {
+            content: "";
+            width: 1px;
+            height: 2.7em;
+            background: red;
+            position: absolute;
+            left: -1em;
+            top: -2.3em;
+            transform: rotate(-45deg);
+            transition: all 0.5s ease;
+        }
+        section article:after {
+            content: "";
+            width: 0.667em;
+            height: 0.667em;
+            position: absolute;
+            background: red;
+            top: 0;
+            left: 0;
+            transition: all 0.5s ease;
+        }
+        section article:hover {
+            box-shadow: 0 0 0 0.667em #554E49;
+        }
+        section article:hover:before, section article:hover:after {
+            background: #FAA718;
+        }
+    </style>
+    <script>$('a').click(function(){
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top - 30
+            }, 500);
+            return false;
+        });</script>
+{% endblock %}

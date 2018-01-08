@@ -1,0 +1,116 @@
+<?php
+
+namespace Acme\ActorBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * Actors
+ *
+ * @ORM\Table(name="Actors")
+ * @ORM\Entity
+ */
+class Acteurs
+{
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Categorie", type="string", length=28, nullable=false)
+     */
+    private $categorie;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Nomdudirigeant", type="string", length=70, nullable=false)
+     */
+    private $nomdudirigeant;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Adresse", type="string", length=67, nullable=false)
+     */
+    private $adresse;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="tel", type="string", length=31, nullable=true)
+     */
+    private $tel;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Mail", type="string", length=51, nullable=false)
+     */
+    private $mail;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Siteweb", type="string", length=43, nullable=true)
+     */
+    private $siteweb;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Facebook", type="string", length=34, nullable=true)
+     */
+    private $facebook;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Linkedin", type="string", length=13, nullable=true)
+     */
+    private $linkedin;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Twitter", type="string", length=15, nullable=true)
+     */
+    private $twitter;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Instagram", type="string", length=20, nullable=true)
+     */
+    private $instagram;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Secteur", type="string", length=139, nullable=false)
+     */
+    private $secteur;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Description", type="string", length=1406, nullable=false)
+     */
+    private $description;
+
+    /**
+     * @var string|null
+     *
+     * @ORM\Column(name="Competences", type="string", length=737, nullable=true)
+     */
+    private $competences;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="Raisonsocial", type="string", length=60)
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="IDENTITY")
+     */
+    private $raisonsocial;
+
+
+}

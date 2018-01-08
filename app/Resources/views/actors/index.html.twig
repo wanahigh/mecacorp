@@ -1,0 +1,54 @@
+
+{% extends 'base.html.twig' %}
+
+{% block body %}
+
+
+    <h1 class="header">LE CLUSTER</h1>
+
+
+
+    {% for actor in actors %}
+        <div class="container">
+            <div class="card medium">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" style="background-color:dodgerblue;" src="#">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4"><a href="{{ path('actors_show', { 'raisonsocial': actor.raisonsocial }) }}">{{ actor.raisonsocial }}</a><i class="material-icons right">more_vert</i></span>
+                    <p><a href="#">{{ actor.siteweb }}</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4"><i class="material-icons">accessibility</i>{{ actor.nomdudirigeant }}<i class="material-icons right">close</i></span>
+                    <ul>
+                        <li> <i class="material-icons">place</i>{{ actor.adresse }} </li>
+                        <li><i class="material-icons">phone</i> {{ actor.tel }} </li>
+                        <li><i class="material-icons">mail</i> {{ actor.mail }} </li>
+                        <li> <i class="material-icons">facebook</i> {{ actor.facebook }} </li>
+                        <li><i class="material-icons">linkedin</i> {{ actor.linkedin }} </li>
+                        <li> <i class="material-icons">twitter</i> {{actor.twitter }} </li>
+                        <li><i class="material-icons">instragram</i> {{ actor.instagram }} </li>
+                        <li>{{ actor.secteur}} </li>
+                        <li><i class="material-icons">arrow</i>  {{ actor.description }} </li>
+                        <li>  {{ actor.competences }} </li>
+                        <li> {{ actor.raisonsocial }} </li>
+                    </ul>
+                        <ul>
+                            <li>
+                                <a href="{{ path('actors_show', { 'raisonsocial': actor.raisonsocial }) }}">show</a>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+
+
+
+
+
+
+
+
+
+{% endblock %}

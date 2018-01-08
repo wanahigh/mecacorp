@@ -1,0 +1,72 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1>Actor</h1>
+
+    <table>
+        <tbody>
+            <tr>
+                <th>Categorie</th>
+                <td>{{ actor.categorie }}</td>
+            </tr>
+            <tr>
+                <th>Nomdudirigeant</th>
+                <td>{{ actor.nomdudirigeant }}</td>
+            </tr>
+            <tr>
+                <th>Adresse</th>
+                <td>{{ actor.adresse }}</td>
+            </tr>
+            <tr>
+                <th>Tel</th>
+                <td>{{ actor.tel }}</td>
+            </tr>
+            <tr>
+                <th>Mail</th>
+                <td>{{ actor.mail }}</td>
+            </tr>
+            <tr>
+                <th>Siteweb</th>
+                <td>{{ actor.siteweb }}</td>
+            </tr>
+            <tr>
+                <th>Facebook</th>
+                <td>{{ actor.facebook }}</td>
+            </tr>
+            <tr>
+                <th>Linkedin</th>
+                <td>{{ actor.linkedin }}</td>
+            </tr>
+            <tr>
+                <th>Twitter</th>
+                <td>{{ actor.twitter }}</td>
+            </tr>
+            <tr>
+                <th>Instagram</th>
+                <td>{{ actor.instagram }}</td>
+            </tr>
+            <tr>
+                <th>Secteur</th>
+                <td>{{ actor.secteur }}</td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>{{ actor.description }}</td>
+            </tr>
+            <tr>
+                <th>Competences</th>
+                <td>{{ actor.competences }}</td>
+            </tr>
+            <tr>
+                <th>Raisonsocial</th>
+                <td>{{ actor.raisonsocial }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul>
+        <li>
+            <a href="{{ path('actors_index') }}">Back to the list</a>
+        </li>
+    </ul>
+{% endblock %}
