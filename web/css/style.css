@@ -416,18 +416,46 @@ ul>li>a{
 
 /*PreLoader----------------------------------------*/
 .preloader-background {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     background-color: #eee;
-
     position: fixed;
-    z-index: 100;
+    z-index: 999;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
 }
+.preloader-background p {
+    padding-top: 120px;
+    margin-left: -60px;
+    opacity: 0.8;
+}
+
+.blinking {
+    -webkit-animation: blinker 0.5s linear infinite;
+    animation: blinker 0.5s linear infinite;
+}
+
+@-webkit-keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
 
 
 /*ACCUEIL-------------------------------------------*/

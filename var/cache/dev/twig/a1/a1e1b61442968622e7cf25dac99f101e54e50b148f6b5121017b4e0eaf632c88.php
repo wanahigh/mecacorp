@@ -21,131 +21,143 @@ class __TwigTemplate_5869a43fe2b335e2c81d5a5105c288ec6bbc17dfc9aff76fe707aa1080d
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_99f0b398b9856ea1ad2e3a3045d73adda797aedbd013f9706295c3d6fd592651 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_99f0b398b9856ea1ad2e3a3045d73adda797aedbd013f9706295c3d6fd592651->enter($__internal_99f0b398b9856ea1ad2e3a3045d73adda797aedbd013f9706295c3d6fd592651_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":actors:show.html.twig"));
+        $__internal_1c754980412ff05fcc5f7ebbc0012148cf9fa63fc2fe7253f916b15f683f6eae = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1c754980412ff05fcc5f7ebbc0012148cf9fa63fc2fe7253f916b15f683f6eae->enter($__internal_1c754980412ff05fcc5f7ebbc0012148cf9fa63fc2fe7253f916b15f683f6eae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":actors:show.html.twig"));
 
-        $__internal_6d45f5982812aaace0a044c272a3d6c812a2f5904c156b51c2a89193419d4f0a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_6d45f5982812aaace0a044c272a3d6c812a2f5904c156b51c2a89193419d4f0a->enter($__internal_6d45f5982812aaace0a044c272a3d6c812a2f5904c156b51c2a89193419d4f0a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":actors:show.html.twig"));
+        $__internal_7b7073847920f49c2992fbf475fd7c213aa404b2fa6b65ed430833180ea7d0d0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_7b7073847920f49c2992fbf475fd7c213aa404b2fa6b65ed430833180ea7d0d0->enter($__internal_7b7073847920f49c2992fbf475fd7c213aa404b2fa6b65ed430833180ea7d0d0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", ":actors:show.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_99f0b398b9856ea1ad2e3a3045d73adda797aedbd013f9706295c3d6fd592651->leave($__internal_99f0b398b9856ea1ad2e3a3045d73adda797aedbd013f9706295c3d6fd592651_prof);
+        $__internal_1c754980412ff05fcc5f7ebbc0012148cf9fa63fc2fe7253f916b15f683f6eae->leave($__internal_1c754980412ff05fcc5f7ebbc0012148cf9fa63fc2fe7253f916b15f683f6eae_prof);
 
         
-        $__internal_6d45f5982812aaace0a044c272a3d6c812a2f5904c156b51c2a89193419d4f0a->leave($__internal_6d45f5982812aaace0a044c272a3d6c812a2f5904c156b51c2a89193419d4f0a_prof);
+        $__internal_7b7073847920f49c2992fbf475fd7c213aa404b2fa6b65ed430833180ea7d0d0->leave($__internal_7b7073847920f49c2992fbf475fd7c213aa404b2fa6b65ed430833180ea7d0d0_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_1d2defd3fad061afe3089c0f924fc8f65409c3a565f8c0e8c7aafe0beba5e906 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1d2defd3fad061afe3089c0f924fc8f65409c3a565f8c0e8c7aafe0beba5e906->enter($__internal_1d2defd3fad061afe3089c0f924fc8f65409c3a565f8c0e8c7aafe0beba5e906_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a04fd193579aa94a0871273ab9be8ae399450015d99d1bb274ab7adaa71d2f0f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a04fd193579aa94a0871273ab9be8ae399450015d99d1bb274ab7adaa71d2f0f->enter($__internal_a04fd193579aa94a0871273ab9be8ae399450015d99d1bb274ab7adaa71d2f0f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_9ffaa0e8a40085b2cfaa818b452069914f09371a25de1560b11f1f7a572247bc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_9ffaa0e8a40085b2cfaa818b452069914f09371a25de1560b11f1f7a572247bc->enter($__internal_9ffaa0e8a40085b2cfaa818b452069914f09371a25de1560b11f1f7a572247bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_40f3fff680274a3836c316743cf29a78cef3b83e37c6bccd81b91e9ab2876087 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_40f3fff680274a3836c316743cf29a78cef3b83e37c6bccd81b91e9ab2876087->enter($__internal_40f3fff680274a3836c316743cf29a78cef3b83e37c6bccd81b91e9ab2876087_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 4
-        echo "    <h1>Actor</h1>
+        echo "    <style>h1{
+            background-color: #00a7d0;
+            text-align:center;
+        }
+
+    </style>
+
+
+    <div class=\" hover col l8 \" >
+    <h1 class=\"header\">";
+        // line 13
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 13, $this->getSourceContext()); })()), "raisonsocial", array()), "html", null, true);
+        echo "</h1>
 
     <table>
         <tbody>
             <tr>
                 <th>Categorie</th>
                 <td>";
-        // line 10
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 10, $this->getSourceContext()); })()), "categorie", array()), "html", null, true);
+        // line 19
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 19, $this->getSourceContext()); })()), "categorie", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Nomdudirigeant</th>
                 <td>";
-        // line 14
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 14, $this->getSourceContext()); })()), "nomdudirigeant", array()), "html", null, true);
+        // line 23
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 23, $this->getSourceContext()); })()), "nomdudirigeant", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Adresse</th>
                 <td>";
-        // line 18
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 18, $this->getSourceContext()); })()), "adresse", array()), "html", null, true);
+        // line 27
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 27, $this->getSourceContext()); })()), "adresse", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Tel</th>
                 <td>";
-        // line 22
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 22, $this->getSourceContext()); })()), "tel", array()), "html", null, true);
+        // line 31
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 31, $this->getSourceContext()); })()), "tel", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Mail</th>
                 <td>";
-        // line 26
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 26, $this->getSourceContext()); })()), "mail", array()), "html", null, true);
+        // line 35
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 35, $this->getSourceContext()); })()), "mail", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Siteweb</th>
                 <td>";
-        // line 30
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 30, $this->getSourceContext()); })()), "siteweb", array()), "html", null, true);
+        // line 39
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 39, $this->getSourceContext()); })()), "siteweb", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Facebook</th>
                 <td>";
-        // line 34
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 34, $this->getSourceContext()); })()), "facebook", array()), "html", null, true);
+        // line 43
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 43, $this->getSourceContext()); })()), "facebook", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Linkedin</th>
                 <td>";
-        // line 38
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 38, $this->getSourceContext()); })()), "linkedin", array()), "html", null, true);
+        // line 47
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 47, $this->getSourceContext()); })()), "linkedin", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Twitter</th>
                 <td>";
-        // line 42
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 42, $this->getSourceContext()); })()), "twitter", array()), "html", null, true);
+        // line 51
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 51, $this->getSourceContext()); })()), "twitter", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Instagram</th>
                 <td>";
-        // line 46
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 46, $this->getSourceContext()); })()), "instagram", array()), "html", null, true);
+        // line 55
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 55, $this->getSourceContext()); })()), "instagram", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Secteur</th>
                 <td>";
-        // line 50
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 50, $this->getSourceContext()); })()), "secteur", array()), "html", null, true);
+        // line 59
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 59, $this->getSourceContext()); })()), "secteur", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Description</th>
                 <td>";
-        // line 54
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 54, $this->getSourceContext()); })()), "description", array()), "html", null, true);
+        // line 63
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 63, $this->getSourceContext()); })()), "description", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Competences</th>
                 <td>";
-        // line 58
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 58, $this->getSourceContext()); })()), "competences", array()), "html", null, true);
+        // line 67
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 67, $this->getSourceContext()); })()), "competences", array()), "html", null, true);
         echo "</td>
             </tr>
             <tr>
                 <th>Raisonsocial</th>
                 <td>";
-        // line 62
-        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 62, $this->getSourceContext()); })()), "raisonsocial", array()), "html", null, true);
+        // line 71
+        echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["actor"]) || array_key_exists("actor", $context) ? $context["actor"] : (function () { throw new Twig_Error_Runtime('Variable "actor" does not exist.', 71, $this->getSourceContext()); })()), "raisonsocial", array()), "html", null, true);
         echo "</td>
             </tr>
         </tbody>
@@ -153,18 +165,19 @@ class __TwigTemplate_5869a43fe2b335e2c81d5a5105c288ec6bbc17dfc9aff76fe707aa1080d
 
     <ul>
         <li>
-            <a href=\"";
-        // line 69
+            <a class=\"btn pulse green\" href=\"";
+        // line 78
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("actors_index");
-        echo "\">Back to the list</a>
+        echo "\">Retour a la liste</a>
         </li>
     </ul>
+    </div>
 ";
         
-        $__internal_9ffaa0e8a40085b2cfaa818b452069914f09371a25de1560b11f1f7a572247bc->leave($__internal_9ffaa0e8a40085b2cfaa818b452069914f09371a25de1560b11f1f7a572247bc_prof);
+        $__internal_40f3fff680274a3836c316743cf29a78cef3b83e37c6bccd81b91e9ab2876087->leave($__internal_40f3fff680274a3836c316743cf29a78cef3b83e37c6bccd81b91e9ab2876087_prof);
 
         
-        $__internal_1d2defd3fad061afe3089c0f924fc8f65409c3a565f8c0e8c7aafe0beba5e906->leave($__internal_1d2defd3fad061afe3089c0f924fc8f65409c3a565f8c0e8c7aafe0beba5e906_prof);
+        $__internal_a04fd193579aa94a0871273ab9be8ae399450015d99d1bb274ab7adaa71d2f0f->leave($__internal_a04fd193579aa94a0871273ab9be8ae399450015d99d1bb274ab7adaa71d2f0f_prof);
 
     }
 
@@ -180,7 +193,7 @@ class __TwigTemplate_5869a43fe2b335e2c81d5a5105c288ec6bbc17dfc9aff76fe707aa1080d
 
     public function getDebugInfo()
     {
-        return array (  158 => 69,  148 => 62,  141 => 58,  134 => 54,  127 => 50,  120 => 46,  113 => 42,  106 => 38,  99 => 34,  92 => 30,  85 => 26,  78 => 22,  71 => 18,  64 => 14,  57 => 10,  49 => 4,  40 => 3,  11 => 1,);
+        return array (  170 => 78,  160 => 71,  153 => 67,  146 => 63,  139 => 59,  132 => 55,  125 => 51,  118 => 47,  111 => 43,  104 => 39,  97 => 35,  90 => 31,  83 => 27,  76 => 23,  69 => 19,  60 => 13,  49 => 4,  40 => 3,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -188,7 +201,16 @@ class __TwigTemplate_5869a43fe2b335e2c81d5a5105c288ec6bbc17dfc9aff76fe707aa1080d
         return new Twig_Source("{% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Actor</h1>
+    <style>h1{
+            background-color: #00a7d0;
+            text-align:center;
+        }
+
+    </style>
+
+
+    <div class=\" hover col l8 \" >
+    <h1 class=\"header\">{{ actor.raisonsocial  }}</h1>
 
     <table>
         <tbody>
@@ -253,10 +275,11 @@ class __TwigTemplate_5869a43fe2b335e2c81d5a5105c288ec6bbc17dfc9aff76fe707aa1080d
 
     <ul>
         <li>
-            <a href=\"{{ path('actors_index') }}\">Back to the list</a>
+            <a class=\"btn pulse green\" href=\"{{ path('actors_index') }}\">Retour a la liste</a>
         </li>
     </ul>
+    </div>
 {% endblock %}
-", ":actors:show.html.twig", "/home/fabien/symfony-stg/app/Resources/views/actors/show.html.twig");
+", ":actors:show.html.twig", "/var/www/monsite1/mecacorp/app/Resources/views/actors/show.html.twig");
     }
 }

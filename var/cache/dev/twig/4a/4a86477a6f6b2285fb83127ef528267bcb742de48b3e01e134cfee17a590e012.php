@@ -18,11 +18,11 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8fd9d55b10cae1b81d558f895587acf7a6d07c1e9c2564cdac585c258fa31dbc = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8fd9d55b10cae1b81d558f895587acf7a6d07c1e9c2564cdac585c258fa31dbc->enter($__internal_8fd9d55b10cae1b81d558f895587acf7a6d07c1e9c2564cdac585c258fa31dbc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3->enter($__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
-        $__internal_b072b8e209b4626b2b19c18bbd4419d69f6abc6badb1affce318202bcd1b4647 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_b072b8e209b4626b2b19c18bbd4419d69f6abc6badb1affce318202bcd1b4647->enter($__internal_b072b8e209b4626b2b19c18bbd4419d69f6abc6badb1affce318202bcd1b4647_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671->enter($__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -46,7 +46,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         <div class=\"nav-wrapper white\">
             <div class=\"row\">
                 <div class=\"col s12\">
-                    <a href=\"#modal1\" class=\"brand-logo\" style=\"display:block;float:left;\"><img src=\"";
+                    <a href=\"/\" class=\"brand-logo\" style=\"display:block;float:left;\"><img src=\"";
         // line 26
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/logo-filiere-spmeca-01.png"), "html", null, true);
         echo "\"></a>
@@ -85,7 +85,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         <div class=\"nav-wrapper\">
             <div class=\"row\">
                 <div class=\"col s12 white\">
-                    <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse show-on-large\"><i class=\"material-icons\">menu</i></a>
+                    <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse show-on-small\"><i class=\"material-icons\">menu</i></a>
                     <a class=\"fadeInLogo brand-logo animated slideInUp\">
 
                         <!-- <img src=\"https://materializecss.com/res/materialize.svg\" alt=\"\" style=\"margin-top:12px;\" height=\"40px\"/> -->
@@ -93,7 +93,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                     </a>
                     <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">
                         <li><a class=\"hover\" href=\"/Filiale\">La Filière</a></li>
-                        <li><a href=\"/Work\">Les Travaux</a></li>
+                        <li><a href=\"/entity_work\">Les Travaux</a></li>
                         <li><a href=\"/actors\">Les Acteurs</a></li>
                         <li><a href=\"/entity_advert\">L'actu</a></li>
                         <li><a>
@@ -173,7 +173,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href=\"/Work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
+                            <li><a href=\"/entity_work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
                             <li><a href=\"/actors\"><i class=\"material-icons\">directions_car</i>Les Acteurs</a></li>
                             <li><a href=\"/entity_advert\"><i class=\"material-icons\">event_note</i>L'actu</a></li>
 
@@ -230,21 +230,15 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                     </div>
                 </div>
             </div>
-
-            <a class=\"btn-floating btn-large halfway-fab waves-effect waves-light teal hide-on-med-and-down scale-transition scale-out pulse\" href=\"#modal1\">
-                <i class=\"material-icons\">call</i>
-            </a>
-
-        </div>
     </nav>
 </div>
 
 
 
 <div id=\"tab1\" class=\"col s12\">";
-        // line 180
+        // line 174
         $this->displayBlock('body', $context, $blocks);
-        // line 181
+        // line 175
         echo " </div>
 
 
@@ -348,140 +342,169 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 ";
-        // line 285
+        // line 279
         echo "    ";
+        // line 280
+        echo "        ";
+        // line 281
+        echo "        ";
+        // line 282
+        echo "        ";
+        // line 283
+        echo "            ";
+        // line 284
+        echo "            ";
+        // line 285
+        echo "            ";
         // line 286
-        echo "        ";
+        echo "            ";
         // line 287
-        echo "        ";
+        echo "            ";
         // line 288
-        echo "        ";
+        echo "            ";
         // line 289
-        echo "            ";
+        echo "                ";
         // line 290
-        echo "            ";
+        echo "                ";
         // line 291
-        echo "            ";
-        // line 292
-        echo "            ";
+        echo "
+                ";
         // line 293
-        echo "            ";
+        echo "                ";
         // line 294
-        echo "            ";
+        echo "                ";
         // line 295
         echo "                ";
         // line 296
-        echo "                ";
-        // line 297
-        echo "
-                ";
-        // line 299
-        echo "                ";
-        // line 300
-        echo "                ";
-        // line 301
-        echo "                ";
-        // line 302
         echo "            ";
-        // line 303
+        // line 297
         echo "        ";
-        // line 304
+        // line 298
         echo "    ";
-        // line 305
+        // line 299
         echo "
 ";
+        // line 302
+        echo "
+
+
+
+";
+        // line 307
+        echo "    ";
         // line 308
-        echo "
-
-
-
-";
-        // line 313
+        echo "        ";
+        // line 309
+        echo "            ";
+        // line 310
+        echo "        ";
+        // line 311
         echo "    ";
         // line 314
-        echo "        ";
-        // line 315
-        echo "            ";
-        // line 316
-        echo "        ";
-        // line 317
-        echo "    ";
-        // line 320
         echo "
 ";
-        // line 322
+        // line 316
         echo "    ";
-        // line 323
+        // line 317
         echo "        ";
+        // line 318
+        echo "            ";
+        // line 319
+        echo "                ";
+        // line 320
+        echo "                ";
+        // line 321
+        echo "            ";
+        // line 322
+        echo "            ";
+        // line 323
+        echo "                ";
         // line 324
-        echo "            ";
+        echo "                ";
         // line 325
-        echo "                ";
+        echo "                    ";
         // line 326
-        echo "                ";
+        echo "                    ";
         // line 327
-        echo "            ";
+        echo "                    ";
         // line 328
-        echo "            ";
+        echo "                    ";
         // line 329
         echo "                ";
         // line 330
-        echo "                ";
+        echo "            ";
         // line 331
-        echo "                    ";
+        echo "        ";
         // line 332
-        echo "                    ";
+        echo "    ";
         // line 333
-        echo "                    ";
+        echo "    ";
         // line 334
-        echo "                    ";
+        echo "        ";
         // line 335
-        echo "                ";
+        echo "            ";
         // line 336
-        echo "            ";
-        // line 337
-        echo "        ";
-        // line 338
-        echo "    ";
-        // line 339
-        echo "    ";
-        // line 340
-        echo "        ";
-        // line 341
-        echo "            ";
-        // line 342
         echo "
             ";
-        // line 344
+        // line 338
         echo "        ";
-        // line 345
+        // line 339
         echo "    ";
-        // line 352
-        echo "<div class=\"preloader-background\">
-    <div class=\"preloader-wrapper big active\">
-        <div class=\"spinner-layer spinner-blue-only\">
-            <div class=\"circle-clipper left\">
-                <div class=\"circle\"></div>
+        // line 345
+        echo "<!-- Preloader and it's background. -->
+    <div class=\"preloader-background\">
+        <div class=\"preloader-wrapper big active\">
+            <div class=\"spinner-layer spinner-blue\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
-            <div class=\"gap-patch\">
-                <div class=\"circle\"></div>
+
+            <div class=\"spinner-layer spinner-red\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
-            <div class=\"circle-clipper right\">
-                <div class=\"circle\"></div>
+
+            <div class=\"spinner-layer spinner-yellow\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
+            </div>
+
+            <div class=\"spinner-layer spinner-green\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
         </div>
+        <p class=\"blinking\">Loading</p>
     </div>
-</div>
 
 
 <script>document.addEventListener(\"DOMContentLoaded\", function(){
-        \$('.preloader-background').delay(1700).fadeOut('fast');
+        \$('.preloader-background').delay(1000).fadeOut('slow');
 
         \$('.preloader-wrapper')
-            .delay(1700)
+            .delay(1500)
             .fadeOut();
     });
-
     // Initialize collapse button
     \$(\".button-collapse\").sideNav();
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
@@ -543,17 +566,17 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
     \$(document).ready(function(){
         \$('.button-collapse').sideNav({
                 menuWidth: 300, // Default is 300
-                edge: 'left', // Choose the horizontal origin
-                closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                edge: 'right', // Choose the horizontal origin
+                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
                 draggable: true // Choose whether you can drag to open on touch screens
             }
         );
     });
     </script>
 ";
-        // line 445
+        // line 467
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 448
+        // line 470
         echo "
 
 
@@ -561,21 +584,21 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 </body>
 </html>";
         
-        $__internal_8fd9d55b10cae1b81d558f895587acf7a6d07c1e9c2564cdac585c258fa31dbc->leave($__internal_8fd9d55b10cae1b81d558f895587acf7a6d07c1e9c2564cdac585c258fa31dbc_prof);
+        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3->leave($__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3_prof);
 
         
-        $__internal_b072b8e209b4626b2b19c18bbd4419d69f6abc6badb1affce318202bcd1b4647->leave($__internal_b072b8e209b4626b2b19c18bbd4419d69f6abc6badb1affce318202bcd1b4647_prof);
+        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671->leave($__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671_prof);
 
     }
 
     // line 7
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_52515b5b5040975b478587523f67c3c1c1b228fcd6299ce4093e236505e02ecb = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_52515b5b5040975b478587523f67c3c1c1b228fcd6299ce4093e236505e02ecb->enter($__internal_52515b5b5040975b478587523f67c3c1c1b228fcd6299ce4093e236505e02ecb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611->enter($__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_a661cbdb6689b456130f04f94895ad7de6da517684ef0786f435833c2fa2ad1b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a661cbdb6689b456130f04f94895ad7de6da517684ef0786f435833c2fa2ad1b->enter($__internal_a661cbdb6689b456130f04f94895ad7de6da517684ef0786f435833c2fa2ad1b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319->enter($__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 8
         echo "        <script src=";
@@ -600,49 +623,49 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         echo "\">
 ";
         
-        $__internal_a661cbdb6689b456130f04f94895ad7de6da517684ef0786f435833c2fa2ad1b->leave($__internal_a661cbdb6689b456130f04f94895ad7de6da517684ef0786f435833c2fa2ad1b_prof);
+        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319->leave($__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319_prof);
 
         
-        $__internal_52515b5b5040975b478587523f67c3c1c1b228fcd6299ce4093e236505e02ecb->leave($__internal_52515b5b5040975b478587523f67c3c1c1b228fcd6299ce4093e236505e02ecb_prof);
+        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611->leave($__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611_prof);
 
     }
 
-    // line 180
+    // line 174
     public function block_body($context, array $blocks = array())
     {
-        $__internal_a0b54f134d95f55970c8f83c384144c24dcf45a157c0e6dbc61555a637b1c39b = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a0b54f134d95f55970c8f83c384144c24dcf45a157c0e6dbc61555a637b1c39b->enter($__internal_a0b54f134d95f55970c8f83c384144c24dcf45a157c0e6dbc61555a637b1c39b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98->enter($__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_7550d244193ebd0548aa4edc9ba2cd94739bdef9df204d17d6c137bdf424f1b4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7550d244193ebd0548aa4edc9ba2cd94739bdef9df204d17d6c137bdf424f1b4->enter($__internal_7550d244193ebd0548aa4edc9ba2cd94739bdef9df204d17d6c137bdf424f1b4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23->enter($__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 181
+        // line 175
         echo "    ";
         
-        $__internal_7550d244193ebd0548aa4edc9ba2cd94739bdef9df204d17d6c137bdf424f1b4->leave($__internal_7550d244193ebd0548aa4edc9ba2cd94739bdef9df204d17d6c137bdf424f1b4_prof);
+        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23->leave($__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23_prof);
 
         
-        $__internal_a0b54f134d95f55970c8f83c384144c24dcf45a157c0e6dbc61555a637b1c39b->leave($__internal_a0b54f134d95f55970c8f83c384144c24dcf45a157c0e6dbc61555a637b1c39b_prof);
+        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98->leave($__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98_prof);
 
     }
 
-    // line 445
+    // line 467
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_a6ddcb017cd6aa679f3ced1186bac091ec846748edca7a37409c0648f36b997a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a6ddcb017cd6aa679f3ced1186bac091ec846748edca7a37409c0648f36b997a->enter($__internal_a6ddcb017cd6aa679f3ced1186bac091ec846748edca7a37409c0648f36b997a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a->enter($__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_0eb8406089671a2beec29c4fab06215749905d6002762fff5cb00b3c4e4807fb = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0eb8406089671a2beec29c4fab06215749905d6002762fff5cb00b3c4e4807fb->enter($__internal_0eb8406089671a2beec29c4fab06215749905d6002762fff5cb00b3c4e4807fb_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc->enter($__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 446
+        // line 468
         echo "
 ";
         
-        $__internal_0eb8406089671a2beec29c4fab06215749905d6002762fff5cb00b3c4e4807fb->leave($__internal_0eb8406089671a2beec29c4fab06215749905d6002762fff5cb00b3c4e4807fb_prof);
+        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc->leave($__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc_prof);
 
         
-        $__internal_a6ddcb017cd6aa679f3ced1186bac091ec846748edca7a37409c0648f36b997a->leave($__internal_a6ddcb017cd6aa679f3ced1186bac091ec846748edca7a37409c0648f36b997a_prof);
+        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a->leave($__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a_prof);
 
     }
 
@@ -658,7 +681,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
     public function getDebugInfo()
     {
-        return array (  639 => 446,  630 => 445,  620 => 181,  611 => 180,  599 => 13,  595 => 12,  591 => 11,  586 => 9,  581 => 8,  572 => 7,  557 => 448,  555 => 445,  460 => 352,  458 => 345,  456 => 344,  453 => 342,  451 => 341,  449 => 340,  447 => 339,  445 => 338,  443 => 337,  441 => 336,  439 => 335,  437 => 334,  435 => 333,  433 => 332,  431 => 331,  429 => 330,  427 => 329,  425 => 328,  423 => 327,  421 => 326,  419 => 325,  417 => 324,  415 => 323,  413 => 322,  410 => 320,  408 => 317,  406 => 316,  404 => 315,  402 => 314,  400 => 313,  394 => 308,  391 => 305,  389 => 304,  387 => 303,  385 => 302,  383 => 301,  381 => 300,  379 => 299,  376 => 297,  374 => 296,  372 => 295,  370 => 294,  368 => 293,  366 => 292,  364 => 291,  362 => 290,  360 => 289,  358 => 288,  356 => 287,  354 => 286,  352 => 285,  248 => 181,  246 => 180,  229 => 165,  227 => 164,  225 => 163,  223 => 162,  221 => 161,  219 => 160,  217 => 159,  215 => 158,  213 => 157,  211 => 156,  209 => 155,  207 => 154,  205 => 153,  203 => 152,  201 => 151,  199 => 150,  197 => 149,  195 => 148,  193 => 147,  191 => 146,  189 => 145,  187 => 144,  185 => 143,  183 => 142,  120 => 80,  114 => 79,  109 => 77,  106 => 76,  104 => 75,  102 => 74,  51 => 26,  38 => 15,  36 => 7,  28 => 1,);
+        return array (  662 => 468,  653 => 467,  643 => 175,  634 => 174,  622 => 13,  618 => 12,  614 => 11,  609 => 9,  604 => 8,  595 => 7,  580 => 470,  578 => 467,  454 => 345,  452 => 339,  450 => 338,  447 => 336,  445 => 335,  443 => 334,  441 => 333,  439 => 332,  437 => 331,  435 => 330,  433 => 329,  431 => 328,  429 => 327,  427 => 326,  425 => 325,  423 => 324,  421 => 323,  419 => 322,  417 => 321,  415 => 320,  413 => 319,  411 => 318,  409 => 317,  407 => 316,  404 => 314,  402 => 311,  400 => 310,  398 => 309,  396 => 308,  394 => 307,  388 => 302,  385 => 299,  383 => 298,  381 => 297,  379 => 296,  377 => 295,  375 => 294,  373 => 293,  370 => 291,  368 => 290,  366 => 289,  364 => 288,  362 => 287,  360 => 286,  358 => 285,  356 => 284,  354 => 283,  352 => 282,  350 => 281,  348 => 280,  346 => 279,  242 => 175,  240 => 174,  229 => 165,  227 => 164,  225 => 163,  223 => 162,  221 => 161,  219 => 160,  217 => 159,  215 => 158,  213 => 157,  211 => 156,  209 => 155,  207 => 154,  205 => 153,  203 => 152,  201 => 151,  199 => 150,  197 => 149,  195 => 148,  193 => 147,  191 => 146,  189 => 145,  187 => 144,  185 => 143,  183 => 142,  120 => 80,  114 => 79,  109 => 77,  106 => 76,  104 => 75,  102 => 74,  51 => 26,  38 => 15,  36 => 7,  28 => 1,);
     }
 
     public function getSourceContext()
@@ -688,7 +711,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         <div class=\"nav-wrapper white\">
             <div class=\"row\">
                 <div class=\"col s12\">
-                    <a href=\"#modal1\" class=\"brand-logo\" style=\"display:block;float:left;\"><img src=\"{{ asset('../../../images/logo-filiere-spmeca-01.png') }}\"></a>
+                    <a href=\"/\" class=\"brand-logo\" style=\"display:block;float:left;\"><img src=\"{{ asset('../../../images/logo-filiere-spmeca-01.png') }}\"></a>
                     <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">
 
                         <li>
@@ -724,7 +747,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         <div class=\"nav-wrapper\">
             <div class=\"row\">
                 <div class=\"col s12 white\">
-                    <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse show-on-large\"><i class=\"material-icons\">menu</i></a>
+                    <a href=\"#\" data-activates=\"mobile-demo\" class=\"button-collapse show-on-small\"><i class=\"material-icons\">menu</i></a>
                     <a class=\"fadeInLogo brand-logo animated slideInUp\">
 
                         <!-- <img src=\"https://materializecss.com/res/materialize.svg\" alt=\"\" style=\"margin-top:12px;\" height=\"40px\"/> -->
@@ -732,7 +755,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                     </a>
                     <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">
                         <li><a class=\"hover\" href=\"/Filiale\">La Filière</a></li>
-                        <li><a href=\"/Work\">Les Travaux</a></li>
+                        <li><a href=\"/entity_work\">Les Travaux</a></li>
                         <li><a href=\"/actors\">Les Acteurs</a></li>
                         <li><a href=\"/entity_advert\">L'actu</a></li>
                         <li><a>
@@ -798,7 +821,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href=\"/Work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
+                            <li><a href=\"/entity_work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
                             <li><a href=\"/actors\"><i class=\"material-icons\">directions_car</i>Les Acteurs</a></li>
                             <li><a href=\"/entity_advert\"><i class=\"material-icons\">event_note</i>L'actu</a></li>
 
@@ -831,12 +854,6 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                     </div>
                 </div>
             </div>
-
-            <a class=\"btn-floating btn-large halfway-fab waves-effect waves-light teal hide-on-med-and-down scale-transition scale-out pulse\" href=\"#modal1\">
-                <i class=\"material-icons\">call</i>
-            </a>
-
-        </div>
     </nav>
 </div>
 
@@ -1013,32 +1030,60 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 
+    <!-- Preloader and it's background. -->
+    <div class=\"preloader-background\">
+        <div class=\"preloader-wrapper big active\">
+            <div class=\"spinner-layer spinner-blue\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
+            </div>
 
-<div class=\"preloader-background\">
-    <div class=\"preloader-wrapper big active\">
-        <div class=\"spinner-layer spinner-blue-only\">
-            <div class=\"circle-clipper left\">
-                <div class=\"circle\"></div>
+            <div class=\"spinner-layer spinner-red\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
-            <div class=\"gap-patch\">
-                <div class=\"circle\"></div>
+
+            <div class=\"spinner-layer spinner-yellow\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
-            <div class=\"circle-clipper right\">
-                <div class=\"circle\"></div>
+
+            <div class=\"spinner-layer spinner-green\">
+                <div class=\"circle-clipper left\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"gap-patch\">
+                    <div class=\"circle\"></div>
+                </div><div class=\"circle-clipper right\">
+                    <div class=\"circle\"></div>
+                </div>
             </div>
         </div>
+        <p class=\"blinking\">Loading</p>
     </div>
-</div>
 
 
 <script>document.addEventListener(\"DOMContentLoaded\", function(){
-        \$('.preloader-background').delay(1700).fadeOut('fast');
+        \$('.preloader-background').delay(1000).fadeOut('slow');
 
         \$('.preloader-wrapper')
-            .delay(1700)
+            .delay(1500)
             .fadeOut();
     });
-
     // Initialize collapse button
     \$(\".button-collapse\").sideNav();
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
@@ -1100,8 +1145,8 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
     \$(document).ready(function(){
         \$('.button-collapse').sideNav({
                 menuWidth: 300, // Default is 300
-                edge: 'left', // Choose the horizontal origin
-                closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                edge: 'right', // Choose the horizontal origin
+                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
                 draggable: true // Choose whether you can drag to open on touch screens
             }
         );
@@ -1115,6 +1160,6 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 </body>
-</html>", "base.html.twig", "/home/fabien/symfony-stg/app/Resources/views/base.html.twig");
+</html>", "base.html.twig", "/var/www/monsite1/mecacorp/app/Resources/views/base.html.twig");
     }
 }

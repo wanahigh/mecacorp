@@ -4,7 +4,7 @@ namespace Acme\ActorBundle\Controller;
 
 use Acme\ActorBundle\Entity\Actors;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-
+use Symfony\Component\HttpFoundation\Request;
 
 /**
  * Actor controller.
@@ -16,15 +16,21 @@ class ActorsController extends Controller
      * Lists all actor entities.
      *
      */
-    public function indexAction()
+    public function indexAction(Request $request)
     {
-        $em = $this->getDoctrine()->getManager();
+        $em    = $this->get('doctrine.orm.entity_manager');
+        $dql   = "SELECT a FROM AcmeActorBundle:Actors a";
+        $query = $em->createQuery($dql);
 
-        $actors = $em->getRepository('AcmeActorBundle:Actors')->findAll();
+        $paginator  = $this->get('knp_paginator');
+        $pagination = $paginator->paginate(
+            $query, /* query NOT result */
+            $request->query->getInt('page', 1)/*page number*/,
+            10/*limit per page*/
+        );
 
-        return $this->render('actors/index.html.twig', array(
-            'actors' => $actors,
-        ));
+        // parameters to template
+        return $this->render('actors/index.html.twig', array('pagination' => $pagination));
     }
 
     /**

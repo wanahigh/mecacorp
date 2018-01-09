@@ -6,7 +6,7 @@ use Acme\ActuBundle\Entity\Entity\Advert;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Acme\ActuBundle\Form\Entity\CommentType;
-use Acme\ActuBundle\Entity\Entity\Comment;
+
 /**
  * Advert controller.
  *

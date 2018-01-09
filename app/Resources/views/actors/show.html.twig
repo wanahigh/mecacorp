@@ -1,7 +1,16 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Actor</h1>
+    <style>h1{
+            background-color: #00a7d0;
+            text-align:center;
+        }
+
+    </style>
+
+
+    <div class=" hover col l8 " >
+    <h1 class="header">{{ actor.raisonsocial  }}</h1>
 
     <table>
         <tbody>
@@ -66,7 +75,8 @@
 
     <ul>
         <li>
-            <a href="{{ path('actors_index') }}">Back to the list</a>
+            <a class="btn pulse green" href="{{ path('actors_index') }}">Retour a la liste</a>
         </li>
     </ul>
+    </div>
 {% endblock %}

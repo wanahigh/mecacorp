@@ -9,12 +9,13 @@
 <table>
     <section>
         <article id="two card-panel">
+
             <h1> {{ advert.title }}</h1>
-            <p>    <a href="{{ path('entity_advert_show',{ 'id': advert.id }) }}">
+            <p>    <a class="card red" href="{{ path('entity_advert_show',{ 'id': advert.id }) }}">
                     <img src="{{ asset('uploads/images/' ~ advert.image) }}" height="150px" width="300px" ></a>
                 <i class="material-icons">swatch</i>{% if advert.date %}{{ advert.date|date('Y-m-d H') }}{% endif %}
 
-                <i class="material-icons">book</i><strong style="color:dodgerblue;">{{ advert.author }}</strong>
+                <i class="material-icons">book</i><strong style="color:dodgerblue;">    <blockquote>{{ advert.author }}</blockquote></strong>
             <hr>
                 {{ advert.content }} </p>
 

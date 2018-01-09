@@ -3,6 +3,7 @@ acme_actor:
     prefix:   /
 
 
+
 easy_admin_bundle:
     resource: "@EasyAdminBundle/Controller/AdminController.php"
     type:     annotation

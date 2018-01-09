@@ -1336,16 +1336,16 @@
         },
         {
             "name": "gedmo/doctrine-extensions",
-            "version": "v2.4.32",
+            "version": "v2.4.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Atlantic18/DoctrineExtensions.git",
-                "reference": "a268224b312353be62d72e6390a286f4166a7542"
+                "reference": "d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/a268224b312353be62d72e6390a286f4166a7542",
-                "reference": "a268224b312353be62d72e6390a286f4166a7542",
+                "url": "https://api.github.com/repos/Atlantic18/DoctrineExtensions/zipball/d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78",
+                "reference": "d5fdc573b6a2ecfa29c070ecb3db8397ac55ed78",
                 "shasum": ""
             },
             "require": {
@@ -1410,7 +1410,7 @@
                 "tree",
                 "uploadable"
             ],
-            "time": "2017-12-28 14:36:10"
+            "time": "2018-01-08 14:13:45"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -3439,16 +3439,16 @@
         },
         {
             "name": "symfony/security",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/security.git",
-                "reference": "6ff0f1e97f583583c10152e4050e8a4fac2cfd1e"
+                "reference": "dfc0ef20a75b723ab2f20449a7b5dd768800c9e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/security/zipball/6ff0f1e97f583583c10152e4050e8a4fac2cfd1e",
-                "reference": "6ff0f1e97f583583c10152e4050e8a4fac2cfd1e",
+                "url": "https://api.github.com/repos/symfony/security/zipball/dfc0ef20a75b723ab2f20449a7b5dd768800c9e2",
+                "reference": "dfc0ef20a75b723ab2f20449a7b5dd768800c9e2",
                 "shasum": ""
             },
             "require": {
@@ -3512,20 +3512,20 @@
             ],
             "description": "Symfony Security Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14 19:48:22"
+            "time": "2018-01-03 17:15:19"
         },
         {
             "name": "symfony/serializer",
-            "version": "v4.0.2",
+            "version": "v4.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "dcfc5c5fdea34a1107d90b57240fa514953a0f99"
+                "reference": "f039d9d4352f5436a70571cc48dbb518af171940"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/dcfc5c5fdea34a1107d90b57240fa514953a0f99",
-                "reference": "dcfc5c5fdea34a1107d90b57240fa514953a0f99",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/f039d9d4352f5436a70571cc48dbb518af171940",
+                "reference": "f039d9d4352f5436a70571cc48dbb518af171940",
                 "shasum": ""
             },
             "require": {
@@ -3590,7 +3590,7 @@
             ],
             "description": "Symfony Serializer Component",
             "homepage": "https://symfony.com",
-            "time": "2017-12-08 15:46:13"
+            "time": "2018-01-03 07:38:00"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -3653,16 +3653,16 @@
         },
         {
             "name": "symfony/symfony",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03"
+                "reference": "21abeae69baf64d689b04ca33663b4354be1a226"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/29961b693fa2157a3f349d1a801f9f8742be4e03",
-                "reference": "29961b693fa2157a3f349d1a801f9f8742be4e03",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/21abeae69baf64d689b04ca33663b4354be1a226",
+                "reference": "21abeae69baf64d689b04ca33663b4354be1a226",
                 "shasum": ""
             },
             "require": {
@@ -3804,7 +3804,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-12-15 02:05:35"
+            "time": "2018-01-05 08:33:31"
         },
         {
             "name": "twig/extensions",
@@ -4211,16 +4211,16 @@
         },
         {
             "name": "symfony/phpunit-bridge",
-            "version": "v3.4.2",
+            "version": "v3.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/phpunit-bridge.git",
-                "reference": "074c2e205c849a5fb37b1c24ade03cc975ac8079"
+                "reference": "24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/074c2e205c849a5fb37b1c24ade03cc975ac8079",
-                "reference": "074c2e205c849a5fb37b1c24ade03cc975ac8079",
+                "url": "https://api.github.com/repos/symfony/phpunit-bridge/zipball/24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9",
+                "reference": "24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9",
                 "shasum": ""
             },
             "require": {
@@ -4240,6 +4240,10 @@
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.4-dev"
+                },
+                "thanks": {
+                    "name": "phpunit/phpunit",
+                    "url": "https://github.com/sebastianbergmann/phpunit"
                 }
             },
             "autoload": {
@@ -4269,7 +4273,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-12-14 19:40:10"
+            "time": "2018-01-04 17:19:23"
         }
     ],
     "aliases": [],

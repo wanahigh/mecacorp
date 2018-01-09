@@ -1,6 +1,6 @@
 <?php
 
-/* index.html.twig */
+/* ::index.html.twig */
 class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f7851e extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -8,7 +8,7 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("::base.html.twig", "index.html.twig", 1);
+        $this->parent = $this->loadTemplate("::base.html.twig", "::index.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
             'javascripts' => array($this, 'block_javascripts'),
@@ -22,100 +22,38 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5210075b627a2033689326fe6d3861011b7aae30c71351064ff24e43fd6afe3c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5210075b627a2033689326fe6d3861011b7aae30c71351064ff24e43fd6afe3c->enter($__internal_5210075b627a2033689326fe6d3861011b7aae30c71351064ff24e43fd6afe3c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "index.html.twig"));
+        $__internal_c7215868c74a28f386b76e792cd2ba9a9387659be6cc4fce869238b40401b98f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c7215868c74a28f386b76e792cd2ba9a9387659be6cc4fce869238b40401b98f->enter($__internal_c7215868c74a28f386b76e792cd2ba9a9387659be6cc4fce869238b40401b98f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::index.html.twig"));
 
-        $__internal_245a020f24b2fd42af8fff973ec80de1c0aa00d8029c3f8dac1f43c4312e1442 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_245a020f24b2fd42af8fff973ec80de1c0aa00d8029c3f8dac1f43c4312e1442->enter($__internal_245a020f24b2fd42af8fff973ec80de1c0aa00d8029c3f8dac1f43c4312e1442_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "index.html.twig"));
+        $__internal_acbdd005e4b27e9d93c97a3458bbc489a31c710bec595b5b5adbe5f2a81e7947 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_acbdd005e4b27e9d93c97a3458bbc489a31c710bec595b5b5adbe5f2a81e7947->enter($__internal_acbdd005e4b27e9d93c97a3458bbc489a31c710bec595b5b5adbe5f2a81e7947_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "::index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_5210075b627a2033689326fe6d3861011b7aae30c71351064ff24e43fd6afe3c->leave($__internal_5210075b627a2033689326fe6d3861011b7aae30c71351064ff24e43fd6afe3c_prof);
+        $__internal_c7215868c74a28f386b76e792cd2ba9a9387659be6cc4fce869238b40401b98f->leave($__internal_c7215868c74a28f386b76e792cd2ba9a9387659be6cc4fce869238b40401b98f_prof);
 
         
-        $__internal_245a020f24b2fd42af8fff973ec80de1c0aa00d8029c3f8dac1f43c4312e1442->leave($__internal_245a020f24b2fd42af8fff973ec80de1c0aa00d8029c3f8dac1f43c4312e1442_prof);
+        $__internal_acbdd005e4b27e9d93c97a3458bbc489a31c710bec595b5b5adbe5f2a81e7947->leave($__internal_acbdd005e4b27e9d93c97a3458bbc489a31c710bec595b5b5adbe5f2a81e7947_prof);
 
     }
 
     // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_ffe2338966d3f15b914204a8aea64ddb141b8f51366fe70227d396d52bea87b6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_ffe2338966d3f15b914204a8aea64ddb141b8f51366fe70227d396d52bea87b6->enter($__internal_ffe2338966d3f15b914204a8aea64ddb141b8f51366fe70227d396d52bea87b6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_f67e639e1bdfcc7e9e61c57f020fabc3acec710c6f1d1f1794a79ccd79a83213 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f67e639e1bdfcc7e9e61c57f020fabc3acec710c6f1d1f1794a79ccd79a83213->enter($__internal_f67e639e1bdfcc7e9e61c57f020fabc3acec710c6f1d1f1794a79ccd79a83213_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_bd5f29161e56c1c1b730f797e934c33631c74c6500c0757a7281ffdc213d90ed = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bd5f29161e56c1c1b730f797e934c33631c74c6500c0757a7281ffdc213d90ed->enter($__internal_bd5f29161e56c1c1b730f797e934c33631c74c6500c0757a7281ffdc213d90ed_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_ac18e001ff66f15a9399a57a26a33ead8c06b6bf135dda440df04efa85890d80 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ac18e001ff66f15a9399a57a26a33ead8c06b6bf135dda440df04efa85890d80->enter($__internal_ac18e001ff66f15a9399a57a26a33ead8c06b6bf135dda440df04efa85890d80_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 7
-        echo "<div class=\"row\">
-        <div class=\"col s12\">  <h2 class=\"header\">La filière “Sports Mécaniques & Mobilité Durable”</h2></div>
-        <hr>
-        <div class=\"col s6\"><h4>Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
-            Face aux mutations économiques qu’a connu le bassin alésien, territoire
-            fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
-            années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
-            aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
-            territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
-            vives locales : une attractivité démographique retrouvée, une économie
-            dynamique en mutation et un cadre de vie attractif.</h4>
-            <div class=\"row\"> <img id=\"pole1\" src=\"";
-        // line 18
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/Pole-Mecanique-vueaerienne.jpg"), "html", null, true);
-        echo "\"></div>
-           </div>
-        <div class=\"col s6\"><h4>Tissé avec les premières filatures de vers à soie puis forgé avec les
-            premières technologies minières, l’esprit industriel pionnier du bassin
-            alésien se renouvelle aujourd’hui grâce au développement de filières
-            stratégiques telles que la mécanique sportive et durable, les
-            éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
-            biotechnologies., attestant d’une forte culture d’adaptation au
-            changement, d’ouverture et d’accueil.
-            En investissant dès 1995 dans la création du Pôle Mécanique Alès
-            Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
-            bâtiments industriels, l’agglomération a fait le choix d’un marqueur
-            identitaire fort, celui des savoir-faire dans les sports mécaniques.
-            Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
-            ligne d’accélération de 600 m, se prêtent à des essais industriels de
-            roulage, des activités de loisirs et des compétitions sportives de haut
-            niveau.
-            Avec près de 100 entreprises dans la filière dont une trentaine
-            implantée au Pôle Mécanique (et plus de 600 en intégrant les
-            concessionnaires, garages et clubs), ces activités génèrent
-            quelques 1100 emplois.
-            Cet écosystème d’entreprises, doté de compétences complémentaires
-            à forte valeur ajoutée, est animé par l’Agence de développement Alès
-            Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
-            de fédérer ces acteurs et accroitre leur compétitivité.</h4>
-        </div>
-    </div>";
-        // line 49
-        echo "<div class=\"carousel carousel-slider center\" data-indicators=\"true\">
-        <div class=\"carousel-fixed-item center\">
-            <a class=\"btn waves-effect white grey-text darken-text-2\">accueil</a>
-        </div>
-        <div class=\"carousel-item red white-text\" href=\"#one!\">
-            <h2>First Panel</h2>
-            <p class=\"white-text\">This is your first panel</p>
-        </div>
-        <div class=\"carousel-item amber white-text\" href=\"#two!\">
-            <h2>Second Panel</h2>
-            <p class=\"white-text\">This is your second panel</p>
-        </div>
-        <div class=\"carousel-item green white-text\" href=\"#three!\">
-            <h2>Third Panel</h2>
-            <p class=\"white-text\">This is your third panel</p>
-        </div>
-        <div class=\"carousel-item blue white-text\" href=\"#four!\">
-            <h2>Fourth Panel</h2>
-            <p class=\"white-text\">This is your fourth panel</p>
-        </div>
-    </div>";
-        // line 71
-        echo "<div class=\"slider\">
+        // line 4
+        echo "
+    <div class=\"slider\">
+
         <ul class=\"slides\">
             <li>
                 <img src=\"";
-        // line 74
+        // line 9
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/Pole-Mecanique-vueaerienne-vueweb-1030x773.jpg"), "html", null, true);
         echo "\"> <!-- random image -->
                 <div class=\"caption center-align\">
@@ -145,36 +83,107 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
                 </div>
             </li>
         </ul>
-    </div>
-    <div class=\"card\">
-        <img id=\"dStructure\" src=\"";
-        // line 104
+    </div>";
+        // line 42
+        echo "<div class=\"row z-depth-5 flow-text\">
+
+        <div class=\"col s12\">  <blockquote class=\"z-depth-5 hover\"><h1 class=\"header \">La filière “Sports Mécaniques & Mobilité Durable”</h1> </blockquote></div>
+
+        <div class=\"col s6\"><p class=\"flow-text\">Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
+            Face aux mutations économiques qu’a connu le bassin alésien, territoire
+            fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
+            années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
+            aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
+            territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
+            vives locales : une attractivité démographique retrouvée, une économie
+            dynamique en mutation et un cadre de vie attractif.</p>
+            <div class=\"row \"> <img class=\"responsive-img\" id=\"pole1\" src=\"";
+        // line 54
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/Pole-Mecanique-vueaerienne.jpg"), "html", null, true);
+        echo "\"></div>
+           </div>
+        <div class=\"col s6\"><<p class=\"flow-text\">>Tissé avec les premières filatures de vers à soie puis forgé avec les
+            premières technologies minières, l’esprit industriel pionnier du bassin
+            alésien se renouvelle aujourd’hui grâce au développement de filières
+            stratégiques telles que la mécanique sportive et durable, les
+            éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
+            biotechnologies., attestant d’une forte culture d’adaptation au
+            changement, d’ouverture et d’accueil.
+            En investissant dès 1995 dans la création du Pôle Mécanique Alès
+            Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
+            bâtiments industriels, l’agglomération a fait le choix d’un marqueur
+            identitaire fort, celui des savoir-faire dans les sports mécaniques.
+            Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
+            ligne d’accélération de 600 m, se prêtent à des essais industriels de
+            roulage, des activités de loisirs et des compétitions sportives de haut
+            niveau.
+            Avec près de 100 entreprises dans la filière dont une trentaine
+            implantée au Pôle Mécanique (et plus de 600 en intégrant les
+            concessionnaires, garages et clubs), ces activités génèrent
+            quelques 1100 emplois.
+            Cet écosystème d’entreprises, doté de compétences complémentaires
+            à forte valeur ajoutée, est animé par l’Agence de développement Alès
+            Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
+            de fédérer ces acteurs et accroitre leur compétitivité.</p>
+        </div>
+        </p>
+    </div>";
+        // line 87
+        echo "<div class=\"carousel carousel-slider\" data-indicators=\"true\">
+        <div class=\"carousel-fixed-item center\">
+            <a class=\"btn waves-effect white grey-text darken-text-2\">accueil</a>
+        </div>
+        <div class=\"carousel-item red white-text\" href=\"#one!\">
+            <h2>First Panel</h2>
+            <p class=\"white-text\">This is your first panel</p>
+        </div>
+        <div class=\"carousel-item amber white-text\" href=\"#two!\">
+            <h2>Second Panel</h2>
+            <p class=\"white-text\">This is your second panel</p>
+        </div>
+        <div class=\"carousel-item green white-text\" href=\"#three!\">
+            <h2>Third Panel</h2>
+            <p class=\"white-text\">This is your third panel</p>
+        </div>
+        <div class=\"carousel-item blue white-text\" href=\"#four!\">
+            <h2>Fourth Panel</h2>
+            <p class=\"white-text\">This is your fourth panel</p>
+        </div>
+    </div>";
+        // line 112
+        echo "<div class=\"card hover\">
+        <img id=\"dStructure\" class=\" z-depth-5 responsive\" src=\"";
+        // line 113
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/demarche-structuration-01.png"), "html", null, true);
         echo "\">
 
     </div>
 
     ";
-        // line 108
+        // line 117
         $this->displayBlock('javascripts', $context, $blocks);
         
-        $__internal_bd5f29161e56c1c1b730f797e934c33631c74c6500c0757a7281ffdc213d90ed->leave($__internal_bd5f29161e56c1c1b730f797e934c33631c74c6500c0757a7281ffdc213d90ed_prof);
+        $__internal_ac18e001ff66f15a9399a57a26a33ead8c06b6bf135dda440df04efa85890d80->leave($__internal_ac18e001ff66f15a9399a57a26a33ead8c06b6bf135dda440df04efa85890d80_prof);
 
         
-        $__internal_ffe2338966d3f15b914204a8aea64ddb141b8f51366fe70227d396d52bea87b6->leave($__internal_ffe2338966d3f15b914204a8aea64ddb141b8f51366fe70227d396d52bea87b6_prof);
+        $__internal_f67e639e1bdfcc7e9e61c57f020fabc3acec710c6f1d1f1794a79ccd79a83213->leave($__internal_f67e639e1bdfcc7e9e61c57f020fabc3acec710c6f1d1f1794a79ccd79a83213_prof);
 
     }
 
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_2f69ba223505e27cd7aaa2029d6fee3f3f5503059dd7608e27ef5f0dcf8a1c9e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2f69ba223505e27cd7aaa2029d6fee3f3f5503059dd7608e27ef5f0dcf8a1c9e->enter($__internal_2f69ba223505e27cd7aaa2029d6fee3f3f5503059dd7608e27ef5f0dcf8a1c9e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_42c7587b8a021a528b743b0e1ee41b7fcfb002200ba97c22af5b0501f7736ca4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_42c7587b8a021a528b743b0e1ee41b7fcfb002200ba97c22af5b0501f7736ca4->enter($__internal_42c7587b8a021a528b743b0e1ee41b7fcfb002200ba97c22af5b0501f7736ca4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_7c288487298be1066f7e1c81007c66f761aa5f9918a5652900db6546646ec17e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_7c288487298be1066f7e1c81007c66f761aa5f9918a5652900db6546646ec17e->enter($__internal_7c288487298be1066f7e1c81007c66f761aa5f9918a5652900db6546646ec17e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_de1a9c56d29d2adecfa528afa1b155b6ad82167bc46a8115a223b5e36b43734e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_de1a9c56d29d2adecfa528afa1b155b6ad82167bc46a8115a223b5e36b43734e->enter($__internal_de1a9c56d29d2adecfa528afa1b155b6ad82167bc46a8115a223b5e36b43734e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 109
-        echo "        <script> \$(document).ready(function(){
+        // line 118
+        echo "        <script>
+
+
+
+            \$(document).ready(function(){
                 \$('.carousel.carousel-slider').carousel({fullWidth: true})});
             \$('.carousel').carousel({
                 padding: 200
@@ -199,16 +208,16 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
 
     ";
         
-        $__internal_7c288487298be1066f7e1c81007c66f761aa5f9918a5652900db6546646ec17e->leave($__internal_7c288487298be1066f7e1c81007c66f761aa5f9918a5652900db6546646ec17e_prof);
+        $__internal_de1a9c56d29d2adecfa528afa1b155b6ad82167bc46a8115a223b5e36b43734e->leave($__internal_de1a9c56d29d2adecfa528afa1b155b6ad82167bc46a8115a223b5e36b43734e_prof);
 
         
-        $__internal_2f69ba223505e27cd7aaa2029d6fee3f3f5503059dd7608e27ef5f0dcf8a1c9e->leave($__internal_2f69ba223505e27cd7aaa2029d6fee3f3f5503059dd7608e27ef5f0dcf8a1c9e_prof);
+        $__internal_42c7587b8a021a528b743b0e1ee41b7fcfb002200ba97c22af5b0501f7736ca4->leave($__internal_42c7587b8a021a528b743b0e1ee41b7fcfb002200ba97c22af5b0501f7736ca4_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "index.html.twig";
+        return "::index.html.twig";
     }
 
     public function isTraitable()
@@ -218,7 +227,7 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
 
     public function getDebugInfo()
     {
-        return array (  177 => 109,  159 => 108,  152 => 104,  119 => 74,  114 => 71,  92 => 49,  63 => 18,  50 => 7,  41 => 3,  11 => 1,);
+        return array (  182 => 118,  164 => 117,  157 => 113,  154 => 112,  132 => 87,  102 => 54,  88 => 42,  57 => 9,  50 => 4,  41 => 3,  11 => 1,);
     }
 
     public function getSourceContext()
@@ -227,73 +236,8 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
 
 {% block body %}
 
-
-    {#---------------------------------------------------------------------------------------------------------#}
-    <div class=\"row\">
-        <div class=\"col s12\">  <h2 class=\"header\">La filière “Sports Mécaniques & Mobilité Durable”</h2></div>
-        <hr>
-        <div class=\"col s6\"><h4>Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
-            Face aux mutations économiques qu’a connu le bassin alésien, territoire
-            fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
-            années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
-            aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
-            territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
-            vives locales : une attractivité démographique retrouvée, une économie
-            dynamique en mutation et un cadre de vie attractif.</h4>
-            <div class=\"row\"> <img id=\"pole1\" src=\"{{ asset('../../../images/Pole-Mecanique-vueaerienne.jpg')}}\"></div>
-           </div>
-        <div class=\"col s6\"><h4>Tissé avec les premières filatures de vers à soie puis forgé avec les
-            premières technologies minières, l’esprit industriel pionnier du bassin
-            alésien se renouvelle aujourd’hui grâce au développement de filières
-            stratégiques telles que la mécanique sportive et durable, les
-            éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
-            biotechnologies., attestant d’une forte culture d’adaptation au
-            changement, d’ouverture et d’accueil.
-            En investissant dès 1995 dans la création du Pôle Mécanique Alès
-            Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
-            bâtiments industriels, l’agglomération a fait le choix d’un marqueur
-            identitaire fort, celui des savoir-faire dans les sports mécaniques.
-            Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
-            ligne d’accélération de 600 m, se prêtent à des essais industriels de
-            roulage, des activités de loisirs et des compétitions sportives de haut
-            niveau.
-            Avec près de 100 entreprises dans la filière dont une trentaine
-            implantée au Pôle Mécanique (et plus de 600 en intégrant les
-            concessionnaires, garages et clubs), ces activités génèrent
-            quelques 1100 emplois.
-            Cet écosystème d’entreprises, doté de compétences complémentaires
-            à forte valeur ajoutée, est animé par l’Agence de développement Alès
-            Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
-            de fédérer ces acteurs et accroitre leur compétitivité.</h4>
-        </div>
-    </div>
-
-
-    {#---------------------------------------------------------------------------------------------------------#}
-
-    <div class=\"carousel carousel-slider center\" data-indicators=\"true\">
-        <div class=\"carousel-fixed-item center\">
-            <a class=\"btn waves-effect white grey-text darken-text-2\">accueil</a>
-        </div>
-        <div class=\"carousel-item red white-text\" href=\"#one!\">
-            <h2>First Panel</h2>
-            <p class=\"white-text\">This is your first panel</p>
-        </div>
-        <div class=\"carousel-item amber white-text\" href=\"#two!\">
-            <h2>Second Panel</h2>
-            <p class=\"white-text\">This is your second panel</p>
-        </div>
-        <div class=\"carousel-item green white-text\" href=\"#three!\">
-            <h2>Third Panel</h2>
-            <p class=\"white-text\">This is your third panel</p>
-        </div>
-        <div class=\"carousel-item blue white-text\" href=\"#four!\">
-            <h2>Fourth Panel</h2>
-            <p class=\"white-text\">This is your fourth panel</p>
-        </div>
-    </div>
-{#---------------------------------------------------------------------------------------------------------#}
     <div class=\"slider\">
+
         <ul class=\"slides\">
             <li>
                 <img src=\"{{ asset('../../../images/Pole-Mecanique-vueaerienne-vueweb-1030x773.jpg') }}\"> <!-- random image -->
@@ -325,13 +269,91 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
             </li>
         </ul>
     </div>
-    <div class=\"card\">
-        <img id=\"dStructure\" src=\"{{ asset('../../../images/demarche-structuration-01.png') }}\">
+
+
+
+    {#---------------------------------------------------------------------------------------------------------#}
+    <div class=\"row z-depth-5 flow-text\">
+
+        <div class=\"col s12\">  <blockquote class=\"z-depth-5 hover\"><h1 class=\"header \">La filière “Sports Mécaniques & Mobilité Durable”</h1> </blockquote></div>
+
+        <div class=\"col s6\"><p class=\"flow-text\">Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
+            Face aux mutations économiques qu’a connu le bassin alésien, territoire
+            fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
+            années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
+            aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
+            territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
+            vives locales : une attractivité démographique retrouvée, une économie
+            dynamique en mutation et un cadre de vie attractif.</p>
+            <div class=\"row \"> <img class=\"responsive-img\" id=\"pole1\" src=\"{{ asset('../../../images/Pole-Mecanique-vueaerienne.jpg')}}\"></div>
+           </div>
+        <div class=\"col s6\"><<p class=\"flow-text\">>Tissé avec les premières filatures de vers à soie puis forgé avec les
+            premières technologies minières, l’esprit industriel pionnier du bassin
+            alésien se renouvelle aujourd’hui grâce au développement de filières
+            stratégiques telles que la mécanique sportive et durable, les
+            éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
+            biotechnologies., attestant d’une forte culture d’adaptation au
+            changement, d’ouverture et d’accueil.
+            En investissant dès 1995 dans la création du Pôle Mécanique Alès
+            Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
+            bâtiments industriels, l’agglomération a fait le choix d’un marqueur
+            identitaire fort, celui des savoir-faire dans les sports mécaniques.
+            Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
+            ligne d’accélération de 600 m, se prêtent à des essais industriels de
+            roulage, des activités de loisirs et des compétitions sportives de haut
+            niveau.
+            Avec près de 100 entreprises dans la filière dont une trentaine
+            implantée au Pôle Mécanique (et plus de 600 en intégrant les
+            concessionnaires, garages et clubs), ces activités génèrent
+            quelques 1100 emplois.
+            Cet écosystème d’entreprises, doté de compétences complémentaires
+            à forte valeur ajoutée, est animé par l’Agence de développement Alès
+            Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
+            de fédérer ces acteurs et accroitre leur compétitivité.</p>
+        </div>
+        </p>
+    </div>
+
+
+
+    {#---------------------------------------------------------------------------------------------------------#}
+
+    <div class=\"carousel carousel-slider\" data-indicators=\"true\">
+        <div class=\"carousel-fixed-item center\">
+            <a class=\"btn waves-effect white grey-text darken-text-2\">accueil</a>
+        </div>
+        <div class=\"carousel-item red white-text\" href=\"#one!\">
+            <h2>First Panel</h2>
+            <p class=\"white-text\">This is your first panel</p>
+        </div>
+        <div class=\"carousel-item amber white-text\" href=\"#two!\">
+            <h2>Second Panel</h2>
+            <p class=\"white-text\">This is your second panel</p>
+        </div>
+        <div class=\"carousel-item green white-text\" href=\"#three!\">
+            <h2>Third Panel</h2>
+            <p class=\"white-text\">This is your third panel</p>
+        </div>
+        <div class=\"carousel-item blue white-text\" href=\"#four!\">
+            <h2>Fourth Panel</h2>
+            <p class=\"white-text\">This is your fourth panel</p>
+        </div>
+    </div>
+
+
+{#---------------------------------------------------------------------------------------------------------#}
+
+    <div class=\"card hover\">
+        <img id=\"dStructure\" class=\" z-depth-5 responsive\" src=\"{{ asset('../../../images/demarche-structuration-01.png') }}\">
 
     </div>
 
     {% block javascripts %}
-        <script> \$(document).ready(function(){
+        <script>
+
+
+
+            \$(document).ready(function(){
                 \$('.carousel.carousel-slider').carousel({fullWidth: true})});
             \$('.carousel').carousel({
                 padding: 200
@@ -356,6 +378,6 @@ class __TwigTemplate_c0974a8906cb4b4596a96f2a18424dcb5ced98db508ea6e3df0ffeaff9f
 
     {% endblock %}
 {% endblock %}
-", "index.html.twig", "/home/fabien/symfony-stg/app/Resources/views/index.html.twig");
+", "::index.html.twig", "/var/www/monsite1/mecacorp/app/Resources/views/index.html.twig");
     }
 }

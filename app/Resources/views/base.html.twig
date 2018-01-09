@@ -23,7 +23,7 @@
         <div class="nav-wrapper white">
             <div class="row">
                 <div class="col s12">
-                    <a href="#modal1" class="brand-logo" style="display:block;float:left;"><img src="{{ asset('../../../images/logo-filiere-spmeca-01.png') }}"></a>
+                    <a href="/" class="brand-logo" style="display:block;float:left;"><img src="{{ asset('../../../images/logo-filiere-spmeca-01.png') }}"></a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
 
                         <li>
@@ -59,7 +59,7 @@
         <div class="nav-wrapper">
             <div class="row">
                 <div class="col s12 white">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse show-on-large"><i class="material-icons">menu</i></a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse show-on-small"><i class="material-icons">menu</i></a>
                     <a class="fadeInLogo brand-logo animated slideInUp">
 
                         <!-- <img src="https://materializecss.com/res/materialize.svg" alt="" style="margin-top:12px;" height="40px"/> -->
@@ -67,7 +67,7 @@
                     </a>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="hover" href="/Filiale">La Filière</a></li>
-                        <li><a href="/Work">Les Travaux</a></li>
+                        <li><a href="/entity_work">Les Travaux</a></li>
                         <li><a href="/actors">Les Acteurs</a></li>
                         <li><a href="/entity_advert">L'actu</a></li>
                         <li><a>
@@ -133,7 +133,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href="/Work"><i class="material-icons">build</i>Les Travaux</a></li>
+                            <li><a href="/entity_work"><i class="material-icons">build</i>Les Travaux</a></li>
                             <li><a href="/actors"><i class="material-icons">directions_car</i>Les Acteurs</a></li>
                             <li><a href="/entity_advert"><i class="material-icons">event_note</i>L'actu</a></li>
 
@@ -166,12 +166,6 @@
                     </div>
                 </div>
             </div>
-
-            <a class="btn-floating btn-large halfway-fab waves-effect waves-light teal hide-on-med-and-down scale-transition scale-out pulse" href="#modal1">
-                <i class="material-icons">call</i>
-            </a>
-
-        </div>
     </nav>
 </div>
 
@@ -348,32 +342,60 @@
 
 
 
+    <!-- Preloader and it's background. -->
+    <div class="preloader-background">
+        <div class="preloader-wrapper big active">
+            <div class="spinner-layer spinner-blue">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
+            </div>
 
-<div class="preloader-background">
-    <div class="preloader-wrapper big active">
-        <div class="spinner-layer spinner-blue-only">
-            <div class="circle-clipper left">
-                <div class="circle"></div>
+            <div class="spinner-layer spinner-red">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
             </div>
-            <div class="gap-patch">
-                <div class="circle"></div>
+
+            <div class="spinner-layer spinner-yellow">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
             </div>
-            <div class="circle-clipper right">
-                <div class="circle"></div>
+
+            <div class="spinner-layer spinner-green">
+                <div class="circle-clipper left">
+                    <div class="circle"></div>
+                </div><div class="gap-patch">
+                    <div class="circle"></div>
+                </div><div class="circle-clipper right">
+                    <div class="circle"></div>
+                </div>
             </div>
         </div>
+        <p class="blinking">Loading</p>
     </div>
-</div>
 
 
 <script>document.addEventListener("DOMContentLoaded", function(){
-        $('.preloader-background').delay(1700).fadeOut('fast');
+        $('.preloader-background').delay(1000).fadeOut('slow');
 
         $('.preloader-wrapper')
-            .delay(1700)
+            .delay(1500)
             .fadeOut();
     });
-
     // Initialize collapse button
     $(".button-collapse").sideNav();
     // Initialize collapsible (uncomment the line below if you use the dropdown variation)
@@ -435,8 +457,8 @@
     $(document).ready(function(){
         $('.button-collapse').sideNav({
                 menuWidth: 300, // Default is 300
-                edge: 'left', // Choose the horizontal origin
-                closeOnClick: false, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+                edge: 'right', // Choose the horizontal origin
+                closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
                 draggable: true // Choose whether you can drag to open on touch screens
             }
         );

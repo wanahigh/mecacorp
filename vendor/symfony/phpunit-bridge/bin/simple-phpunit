@@ -51,7 +51,7 @@ if (false === $SYMFONY_PHPUNIT_REMOVE = getenv('SYMFONY_PHPUNIT_REMOVE')) {
 }
 
 if (!file_exists("$PHPUNIT_DIR/phpunit-$PHPUNIT_VERSION/phpunit") || md5_file(__FILE__)."\n".$SYMFONY_PHPUNIT_REMOVE !== @file_get_contents("$PHPUNIT_DIR/.$PHPUNIT_VERSION.md5")) {
-    // Build a standalone phpunit without symfony/yaml nor prophecy by Default
+    // Build a standalone phpunit without symfony/yaml nor prophecy by default
 
     @mkdir($PHPUNIT_DIR, 0777, true);
     chdir($PHPUNIT_DIR);
