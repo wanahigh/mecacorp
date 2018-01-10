@@ -11,6 +11,6 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-        return $this->render('AcmeActuBundle:Default:index.html.twig');
+        return $this->render('AcmeActuBundle:Default:Home.html.twig');
     }
 }

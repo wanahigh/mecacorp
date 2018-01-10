@@ -8,6 +8,6 @@ class DefaultController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('AcmeActorBundle:Default:index.html.twig');
+        return $this->render('AcmeActorBundle:Default:Accueil.html.twig');
     }
 }
