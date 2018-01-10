@@ -18,10 +18,8 @@ class AppKernel extends Kernel
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
             new FOS\UserBundle\FOSUserBundle(),
-            new Acme\AdminBundle\AcmeHomeBundle(),
             new Acme\ContactBundle\AcmeContactBundle(),
             new Acme\FilialeBundle\AcmeFilialeBundle(),
-            new Acme\WorkBundle\AcmeWorkBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
             new Acme\ActuBundle\AcmeActuBundle(),
             new Symfony\Bundle\AsseticBundle\AsseticBundle(),
@@ -30,6 +28,7 @@ class AppKernel extends Kernel
             new Evheniy\MaterializeBundle\MaterializeBundle(),
             new EasyCorp\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new Acme\ActorBundle\AcmeActorBundle(),
+            new Acme\AccueilBundle\AcmeAccueilBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

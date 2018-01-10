@@ -2,11 +2,10 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
-    - { resource: "@AcmeHomeBundle/Resources/config/services.yml" }
     - { resource: "@AcmeContactBundle/Resources/config/services.yml" }
     - { resource: "@AcmeFilialeBundle/Resources/config/services.yml" }
-    - { resource: "@AcmeWorkBundle/Resources/config/services.yml" }
     - { resource: "@AcmeActorBundle/Resources/config/services.yml" }
+    - { resource: "@AcmeAccueilBundle/Resources/config/services.yml" }
 
 assetic:
     debug:  '%kernel.debug%'
@@ -119,11 +118,10 @@ easy_admin:
     site_name: '  <em style="font-size: 80%;">MecaCorps Backoffice.</em>'
     design:
             brand_color: '#1ABC9C'
-            menu: [ { entity: 'Work', label: 'Travaux' }, { entity: 'Advert', label: 'Blog' }, { entity: 'Actors', label: 'Cluster' }, { entity: 'User', label: 'Membre' }]
+            menu: [ { entity: 'Advert', label: 'Blog' }, { entity: 'Actors', label: 'Cluster' }, { entity: 'User', label: 'Membre' }]
     entities:
         - Acme\ActuBundle\Entity\Entity\Advert
         - Acme\ActorBundle\Entity\Actors
-        - Acme\WorkBundle\Entity\Entity\Work
         - AppBundle\Entity\User
 
 

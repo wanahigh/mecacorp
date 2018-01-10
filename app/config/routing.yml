@@ -1,8 +1,12 @@
-acme_actor:
-    resource: "@AcmeActorBundle/Resources/config/routing.yml"
+acme_accueil:
+    resource: "@AcmeAccueilBundle/Controller/"
+    type:     annotation
     prefix:   /
 
 
+acme_actor:
+    resource: "@AcmeActorBundle/Resources/config/routing.yml"
+    prefix:   /
 
 easy_admin_bundle:
     resource: "@EasyAdminBundle/Controller/AdminController.php"
@@ -13,9 +17,6 @@ acme_actu:
     resource: "@AcmeActuBundle/Resources/config/routing.yml"
     prefix:   /
 
-acme_work:
-    resource: "@AcmeWorkBundle/Resources/config/routing.yml"
-    prefix:   /
 
 acme_filiale:
     resource: "@AcmeFilialeBundle/Resources/config/routing.yml"
@@ -23,10 +24,6 @@ acme_filiale:
 
 acme_contact:
     resource: "@AcmeContactBundle/Resources/config/routing.yml"
-    prefix:   /
-
-acme_home:
-    resource: "@AcmeHomeBundle/Resources/config/routing.yml"
     prefix:   /
 
 app:
