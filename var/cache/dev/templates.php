@@ -175,6 +175,7 @@
   'EasyAdminBundle:form:bootstrap_3_layout.html.twig' => __DIR__.'/../../../vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_layout.html.twig',
   'EasyAdminBundle:form:bootstrap_3_horizontal_layout.html.twig' => __DIR__.'/../../../vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/form/bootstrap_3_horizontal_layout.html.twig',
   'AcmeActorBundle:Default:index.html.twig' => __DIR__.'/../../../src/Acme/ActorBundle/Resources/views/Default/index.html.twig',
+  'AcmeAccueilBundle:Default:index.html.twig' => __DIR__.'/../../../src/Acme/AccueilBundle/Resources/views/Default/index.html.twig',
   'DebugBundle:Profiler:dump.html.twig' => __DIR__.'/../../../vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views/Profiler/dump.html.twig',
   'WebProfilerBundle:Profiler:toolbar.css.twig' => __DIR__.'/../../../vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/toolbar.css.twig',
   'WebProfilerBundle:Profiler:table.html.twig' => __DIR__.'/../../../vendor/symfony/symfony/src/Symfony/Bundle/WebProfilerBundle/Resources/views/Profiler/table.html.twig',
