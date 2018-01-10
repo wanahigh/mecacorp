@@ -18,11 +18,11 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3->enter($__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_5e9ced26e57db06b0573d8635fd1d1b34439dfb20a1aff5c4289b67b413595f7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_5e9ced26e57db06b0573d8635fd1d1b34439dfb20a1aff5c4289b67b413595f7->enter($__internal_5e9ced26e57db06b0573d8635fd1d1b34439dfb20a1aff5c4289b67b413595f7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
-        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671->enter($__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
+        $__internal_cfd27d765381c4f29f06536a5968265ac5372bcc13b8f19d8451baf833547b9b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_cfd27d765381c4f29f06536a5968265ac5372bcc13b8f19d8451baf833547b9b->enter($__internal_cfd27d765381c4f29f06536a5968265ac5372bcc13b8f19d8451baf833547b9b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "base.html.twig"));
 
         // line 1
         echo "<!DOCTYPE html>
@@ -66,8 +66,8 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">search</i></a></li> -->
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">view_module</i></a></li> -->
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">refresh</i></a></li> -->
-                        <li><a class=\"waves-effect waves-light btn btn-large green animated tada\" href=\"/contact\"><i class=\"material-icons left\">place</i>contact!</a></li>
-                        <li><a href=\"#sheet1\"><i class=\"material-icons\">more_vert</i></a></li>
+
+
 
                     </ul>
 
@@ -92,10 +92,10 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                         <i style=\"color:red;\" class=\"large material-icons\">important_devices</i>
                     </a>
                     <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">
-                        <li><a class=\"hover\" href=\"/Filiale\">La Filière</a></li>
-                        <li><a href=\"/entity_work\">Les Travaux</a></li>
-                        <li><a href=\"/actors\">Les Acteurs</a></li>
+                        <li><a href=\"/Filial\">La Filière</a></li>
                         <li><a href=\"/entity_advert\">L'actu</a></li>
+                        <li><a href=\"/actors\">Les Acteurs</a></li>
+                        <li><a href=\"/contact\">Contact</a></li>
                         <li><a>
                         ";
         // line 74
@@ -173,60 +173,10 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href=\"/entity_work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
+
                             <li><a href=\"/actors\"><i class=\"material-icons\">directions_car</i>Les Acteurs</a></li>
                             <li><a href=\"/entity_advert\"><i class=\"material-icons\">event_note</i>L'actu</a></li>
-
-
-                            ";
-        // line 142
-        echo "                                ";
-        // line 143
-        echo "                                    ";
-        // line 144
-        echo "                                        ";
-        // line 145
-        echo "                                            ";
-        // line 146
-        echo "                                        ";
-        // line 147
-        echo "                                        ";
-        // line 148
-        echo "                                            ";
-        // line 149
-        echo "                                        ";
-        // line 150
-        echo "                                        ";
-        // line 151
-        echo "                                            ";
-        // line 152
-        echo "                                        ";
-        // line 153
-        echo "                                        ";
-        // line 154
-        echo "                                            ";
-        // line 155
-        echo "                                        ";
-        // line 156
-        echo "                                        ";
-        // line 157
-        echo "                                            ";
-        // line 158
-        echo "                                        ";
-        // line 159
-        echo "                                        ";
-        // line 160
-        echo "                                            ";
-        // line 161
-        echo "                                        ";
-        // line 162
-        echo "                                    ";
-        // line 163
-        echo "                                ";
-        // line 164
-        echo "                            ";
-        // line 165
-        echo "                        </ul>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -236,9 +186,9 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 <div id=\"tab1\" class=\"col s12\">";
-        // line 174
+        // line 148
         $this->displayBlock('body', $context, $blocks);
-        // line 175
+        // line 149
         echo " </div>
 
 
@@ -342,54 +292,101 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 ";
-        // line 279
+        // line 253
         echo "    ";
-        // line 280
+        // line 254
         echo "        ";
+        // line 255
+        echo "        ";
+        // line 256
+        echo "        ";
+        // line 257
+        echo "            ";
+        // line 258
+        echo "            ";
+        // line 259
+        echo "            ";
+        // line 260
+        echo "            ";
+        // line 261
+        echo "            ";
+        // line 262
+        echo "            ";
+        // line 263
+        echo "                ";
+        // line 264
+        echo "                ";
+        // line 265
+        echo "
+                ";
+        // line 267
+        echo "                ";
+        // line 268
+        echo "                ";
+        // line 269
+        echo "                ";
+        // line 270
+        echo "            ";
+        // line 271
+        echo "        ";
+        // line 272
+        echo "    ";
+        // line 273
+        echo "
+";
+        // line 276
+        echo "
+
+
+
+";
         // line 281
-        echo "        ";
+        echo "    ";
         // line 282
         echo "        ";
         // line 283
         echo "            ";
         // line 284
-        echo "            ";
+        echo "        ";
         // line 285
-        echo "            ";
-        // line 286
-        echo "            ";
-        // line 287
-        echo "            ";
+        echo "    ";
         // line 288
-        echo "            ";
-        // line 289
-        echo "                ";
-        // line 290
-        echo "                ";
-        // line 291
         echo "
-                ";
+";
+        // line 290
+        echo "    ";
+        // line 291
+        echo "        ";
+        // line 292
+        echo "            ";
         // line 293
         echo "                ";
         // line 294
         echo "                ";
         // line 295
-        echo "                ";
+        echo "            ";
         // line 296
         echo "            ";
         // line 297
-        echo "        ";
+        echo "                ";
         // line 298
-        echo "    ";
+        echo "                ";
         // line 299
-        echo "
-";
+        echo "                    ";
+        // line 300
+        echo "                    ";
+        // line 301
+        echo "                    ";
         // line 302
-        echo "
-
-
-
-";
+        echo "                    ";
+        // line 303
+        echo "                ";
+        // line 304
+        echo "            ";
+        // line 305
+        echo "        ";
+        // line 306
+        echo "    ";
         // line 307
         echo "    ";
         // line 308
@@ -397,60 +394,13 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         // line 309
         echo "            ";
         // line 310
-        echo "        ";
-        // line 311
-        echo "    ";
-        // line 314
-        echo "
-";
-        // line 316
-        echo "    ";
-        // line 317
-        echo "        ";
-        // line 318
-        echo "            ";
-        // line 319
-        echo "                ";
-        // line 320
-        echo "                ";
-        // line 321
-        echo "            ";
-        // line 322
-        echo "            ";
-        // line 323
-        echo "                ";
-        // line 324
-        echo "                ";
-        // line 325
-        echo "                    ";
-        // line 326
-        echo "                    ";
-        // line 327
-        echo "                    ";
-        // line 328
-        echo "                    ";
-        // line 329
-        echo "                ";
-        // line 330
-        echo "            ";
-        // line 331
-        echo "        ";
-        // line 332
-        echo "    ";
-        // line 333
-        echo "    ";
-        // line 334
-        echo "        ";
-        // line 335
-        echo "            ";
-        // line 336
         echo "
             ";
-        // line 338
+        // line 312
         echo "        ";
-        // line 339
+        // line 313
         echo "    ";
-        // line 345
+        // line 319
         echo "<!-- Preloader and it's background. -->
     <div class=\"preloader-background\">
         <div class=\"preloader-wrapper big active\">
@@ -574,9 +524,9 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
     });
     </script>
 ";
-        // line 467
+        // line 441
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 470
+        // line 444
         echo "
 
 
@@ -584,21 +534,21 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 </body>
 </html>";
         
-        $__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3->leave($__internal_d7ce71e9acfaa3d811ad11d707da9440d6195909173855259bc230e6da237ed3_prof);
+        $__internal_5e9ced26e57db06b0573d8635fd1d1b34439dfb20a1aff5c4289b67b413595f7->leave($__internal_5e9ced26e57db06b0573d8635fd1d1b34439dfb20a1aff5c4289b67b413595f7_prof);
 
         
-        $__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671->leave($__internal_58f5829ba7d2f443cbfab5a02ba2aed6cb375ae0c15a01d35a71311fd8925671_prof);
+        $__internal_cfd27d765381c4f29f06536a5968265ac5372bcc13b8f19d8451baf833547b9b->leave($__internal_cfd27d765381c4f29f06536a5968265ac5372bcc13b8f19d8451baf833547b9b_prof);
 
     }
 
     // line 7
     public function block_stylesheets($context, array $blocks = array())
     {
-        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611->enter($__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_160c4dc1acfc41ae3881aae36162d48ef1608e4c1b763614d93bf422b9d4bee3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_160c4dc1acfc41ae3881aae36162d48ef1608e4c1b763614d93bf422b9d4bee3->enter($__internal_160c4dc1acfc41ae3881aae36162d48ef1608e4c1b763614d93bf422b9d4bee3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
-        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319->enter($__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
+        $__internal_f1eb384fdfb91400ed8aa1e530632d96791daf9aa8e253c6a048d850112aa29a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_f1eb384fdfb91400ed8aa1e530632d96791daf9aa8e253c6a048d850112aa29a->enter($__internal_f1eb384fdfb91400ed8aa1e530632d96791daf9aa8e253c6a048d850112aa29a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "stylesheets"));
 
         // line 8
         echo "        <script src=";
@@ -623,49 +573,49 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
         echo "\">
 ";
         
-        $__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319->leave($__internal_bcb344622e0e843d251ea1d009da8d63b456d1317129ac0a30026f216dfd5319_prof);
+        $__internal_f1eb384fdfb91400ed8aa1e530632d96791daf9aa8e253c6a048d850112aa29a->leave($__internal_f1eb384fdfb91400ed8aa1e530632d96791daf9aa8e253c6a048d850112aa29a_prof);
 
         
-        $__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611->leave($__internal_815e3209be775b02e3696d2122969a2313d0bdbd4579e9d31ec96f5010b9b611_prof);
+        $__internal_160c4dc1acfc41ae3881aae36162d48ef1608e4c1b763614d93bf422b9d4bee3->leave($__internal_160c4dc1acfc41ae3881aae36162d48ef1608e4c1b763614d93bf422b9d4bee3_prof);
 
     }
 
-    // line 174
+    // line 148
     public function block_body($context, array $blocks = array())
     {
-        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98->enter($__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_0e998d607e160245436dd5758c84eba303a0584af102d00b8e95465d7d6bdb39 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_0e998d607e160245436dd5758c84eba303a0584af102d00b8e95465d7d6bdb39->enter($__internal_0e998d607e160245436dd5758c84eba303a0584af102d00b8e95465d7d6bdb39_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23->enter($__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_576b4904e8005bb70bf23ec582bee59e4254b16d5ed88e15731a5ce358d2c5f0 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_576b4904e8005bb70bf23ec582bee59e4254b16d5ed88e15731a5ce358d2c5f0->enter($__internal_576b4904e8005bb70bf23ec582bee59e4254b16d5ed88e15731a5ce358d2c5f0_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 175
+        // line 149
         echo "    ";
         
-        $__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23->leave($__internal_562ff8aba88b075de082bed450903656c6cd190790d42ae835d73b8608066c23_prof);
+        $__internal_576b4904e8005bb70bf23ec582bee59e4254b16d5ed88e15731a5ce358d2c5f0->leave($__internal_576b4904e8005bb70bf23ec582bee59e4254b16d5ed88e15731a5ce358d2c5f0_prof);
 
         
-        $__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98->leave($__internal_580a534db2c19e96004cbd892a5bbb2c01fc6a1e922040b0ddbb78eb1dbdfc98_prof);
+        $__internal_0e998d607e160245436dd5758c84eba303a0584af102d00b8e95465d7d6bdb39->leave($__internal_0e998d607e160245436dd5758c84eba303a0584af102d00b8e95465d7d6bdb39_prof);
 
     }
 
-    // line 467
+    // line 441
     public function block_javascripts($context, array $blocks = array())
     {
-        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a->enter($__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_4a198f33bde3399e2fbfcfd32b3f9993d24b40f82aacd36c167417c7b2e372ec = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_4a198f33bde3399e2fbfcfd32b3f9993d24b40f82aacd36c167417c7b2e372ec->enter($__internal_4a198f33bde3399e2fbfcfd32b3f9993d24b40f82aacd36c167417c7b2e372ec_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc->enter($__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+        $__internal_bf5e7ae8530d23bae2ce4bcaf40d4e920c706890cccee6f746288da2145a7a00 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_bf5e7ae8530d23bae2ce4bcaf40d4e920c706890cccee6f746288da2145a7a00->enter($__internal_bf5e7ae8530d23bae2ce4bcaf40d4e920c706890cccee6f746288da2145a7a00_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
 
-        // line 468
+        // line 442
         echo "
 ";
         
-        $__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc->leave($__internal_8a2b7c768c6c1af535c4fc637ed4e4ccb3314811da40532b07aba1a1c05929bc_prof);
+        $__internal_bf5e7ae8530d23bae2ce4bcaf40d4e920c706890cccee6f746288da2145a7a00->leave($__internal_bf5e7ae8530d23bae2ce4bcaf40d4e920c706890cccee6f746288da2145a7a00_prof);
 
         
-        $__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a->leave($__internal_1fd7c2eaa74c8ec854f9eb9cf77f896643cfbcc3073363ff4756c3a8cb51905a_prof);
+        $__internal_4a198f33bde3399e2fbfcfd32b3f9993d24b40f82aacd36c167417c7b2e372ec->leave($__internal_4a198f33bde3399e2fbfcfd32b3f9993d24b40f82aacd36c167417c7b2e372ec_prof);
 
     }
 
@@ -681,7 +631,7 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
     public function getDebugInfo()
     {
-        return array (  662 => 468,  653 => 467,  643 => 175,  634 => 174,  622 => 13,  618 => 12,  614 => 11,  609 => 9,  604 => 8,  595 => 7,  580 => 470,  578 => 467,  454 => 345,  452 => 339,  450 => 338,  447 => 336,  445 => 335,  443 => 334,  441 => 333,  439 => 332,  437 => 331,  435 => 330,  433 => 329,  431 => 328,  429 => 327,  427 => 326,  425 => 325,  423 => 324,  421 => 323,  419 => 322,  417 => 321,  415 => 320,  413 => 319,  411 => 318,  409 => 317,  407 => 316,  404 => 314,  402 => 311,  400 => 310,  398 => 309,  396 => 308,  394 => 307,  388 => 302,  385 => 299,  383 => 298,  381 => 297,  379 => 296,  377 => 295,  375 => 294,  373 => 293,  370 => 291,  368 => 290,  366 => 289,  364 => 288,  362 => 287,  360 => 286,  358 => 285,  356 => 284,  354 => 283,  352 => 282,  350 => 281,  348 => 280,  346 => 279,  242 => 175,  240 => 174,  229 => 165,  227 => 164,  225 => 163,  223 => 162,  221 => 161,  219 => 160,  217 => 159,  215 => 158,  213 => 157,  211 => 156,  209 => 155,  207 => 154,  205 => 153,  203 => 152,  201 => 151,  199 => 150,  197 => 149,  195 => 148,  193 => 147,  191 => 146,  189 => 145,  187 => 144,  185 => 143,  183 => 142,  120 => 80,  114 => 79,  109 => 77,  106 => 76,  104 => 75,  102 => 74,  51 => 26,  38 => 15,  36 => 7,  28 => 1,);
+        return array (  612 => 442,  603 => 441,  593 => 149,  584 => 148,  572 => 13,  568 => 12,  564 => 11,  559 => 9,  554 => 8,  545 => 7,  530 => 444,  528 => 441,  404 => 319,  402 => 313,  400 => 312,  397 => 310,  395 => 309,  393 => 308,  391 => 307,  389 => 306,  387 => 305,  385 => 304,  383 => 303,  381 => 302,  379 => 301,  377 => 300,  375 => 299,  373 => 298,  371 => 297,  369 => 296,  367 => 295,  365 => 294,  363 => 293,  361 => 292,  359 => 291,  357 => 290,  354 => 288,  352 => 285,  350 => 284,  348 => 283,  346 => 282,  344 => 281,  338 => 276,  335 => 273,  333 => 272,  331 => 271,  329 => 270,  327 => 269,  325 => 268,  323 => 267,  320 => 265,  318 => 264,  316 => 263,  314 => 262,  312 => 261,  310 => 260,  308 => 259,  306 => 258,  304 => 257,  302 => 256,  300 => 255,  298 => 254,  296 => 253,  192 => 149,  190 => 148,  120 => 80,  114 => 79,  109 => 77,  106 => 76,  104 => 75,  102 => 74,  51 => 26,  38 => 15,  36 => 7,  28 => 1,);
     }
 
     public function getSourceContext()
@@ -728,8 +678,8 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">search</i></a></li> -->
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">view_module</i></a></li> -->
                         <!-- <li><a href=\"#modal1\"><i class=\"material-icons\">refresh</i></a></li> -->
-                        <li><a class=\"waves-effect waves-light btn btn-large green animated tada\" href=\"/contact\"><i class=\"material-icons left\">place</i>contact!</a></li>
-                        <li><a href=\"#sheet1\"><i class=\"material-icons\">more_vert</i></a></li>
+
+
 
                     </ul>
 
@@ -754,10 +704,10 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                         <i style=\"color:red;\" class=\"large material-icons\">important_devices</i>
                     </a>
                     <ul id=\"nav-mobile\" class=\"right hide-on-med-and-down\">
-                        <li><a class=\"hover\" href=\"/Filiale\">La Filière</a></li>
-                        <li><a href=\"/entity_work\">Les Travaux</a></li>
-                        <li><a href=\"/actors\">Les Acteurs</a></li>
+                        <li><a href=\"/Filial\">La Filière</a></li>
                         <li><a href=\"/entity_advert\">L'actu</a></li>
+                        <li><a href=\"/actors\">Les Acteurs</a></li>
+                        <li><a href=\"/contact\">Contact</a></li>
                         <li><a>
                         {% if is_granted(\"IS_AUTHENTICATED_REMEMBERED\") %}
                         {#{{ app.user.username }}#}
@@ -821,35 +771,9 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
                                     </li>
                                 </ul>
                             </li>
-                            <li><a href=\"/entity_work\"><i class=\"material-icons\">build</i>Les Travaux</a></li>
+
                             <li><a href=\"/actors\"><i class=\"material-icons\">directions_car</i>Les Acteurs</a></li>
                             <li><a href=\"/entity_advert\"><i class=\"material-icons\">event_note</i>L'actu</a></li>
-
-
-                            {#<li class=\"sidenav-footer\">#}
-                                {#<div class=\"row\">#}
-                                    {#<div class=\"social-icons\">#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-linkedin-square\"></i></a>#}
-                                        {#</div>#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-facebook-official\"></i></a>#}
-                                        {#</div>#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-twitter\"></i></a>#}
-                                        {#</div>#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-google-plus\"></i></a>#}
-                                        {#</div>#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-pinterest\"></i></a>#}
-                                        {#</div>#}
-                                        {#<div class=\"col s2\">#}
-                                            {#<a href=\"#\"><i class=\"fa fa-lg fa-youtube\"></i></a>#}
-                                        {#</div>#}
-                                    {#</div>#}
-                                {#</div>#}
-                            {#</li>#}
                         </ul>
                     </div>
                 </div>
@@ -1160,6 +1084,6 @@ class __TwigTemplate_40eb2140d373275ffa5f9e049db9c0f869bbeac7a97236008044a0fc9c3
 
 
 </body>
-</html>", "base.html.twig", "/var/www/monsite1/mecacorp/app/Resources/views/base.html.twig");
+</html>", "base.html.twig", "/home/fabien/Téléchargements/mecacorp/app/Resources/views/base.html.twig");
     }
 }
