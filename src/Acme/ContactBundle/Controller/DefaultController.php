@@ -27,7 +27,7 @@ class DefaultController extends Controller
 
                     // Everything OK, redirect to wherever you want ! :
 
-                    return $this->redirectToRoute('acme_home_homepage');
+                    return $this->redirectToRoute('homepage');
                 }else{
                     // An error ocurred, handle
                     var_dump("Errooooor :(");
@@ -53,7 +53,7 @@ class DefaultController extends Controller
 
         $mailer = \Swift_Mailer::newInstance($transport);
 
-        $message = \Swift_Message::newInstance("Our Code World Contact Form ". $data["subject"])
+        $message = \Swift_Message::newInstance("Metacorp Messagerie". $data["subject"])
             ->setFrom(array($myappContactMail => "Message by ".$data["name"]))
             ->setTo(array(
                 $myappContactMail => $myappContactMail

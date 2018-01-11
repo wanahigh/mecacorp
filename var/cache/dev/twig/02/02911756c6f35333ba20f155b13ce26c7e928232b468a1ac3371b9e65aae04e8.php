@@ -1,6 +1,6 @@
 <?php
 
-/* EasyAdminBundle:default:label_empty.html.twig */
+/* @EasyAdmin/default/label_empty.html.twig */
 class __TwigTemplate_4a2f61cc8f3c573e430d61f0737eb3420243f300b7a891ce97151040f26d3ef4 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_4a2f61cc8f3c573e430d61f0737eb3420243f300b7a891ce97151040f26
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_5080c3d50fa25cf9506b6d99a6d1d81331137e504b416033da29ae0f4d483004 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_5080c3d50fa25cf9506b6d99a6d1d81331137e504b416033da29ae0f4d483004->enter($__internal_5080c3d50fa25cf9506b6d99a6d1d81331137e504b416033da29ae0f4d483004_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default:label_empty.html.twig"));
+        $__internal_cd6110d63246645366610114d4e09972e62484d371f3b3894732b1b78bd3422c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_cd6110d63246645366610114d4e09972e62484d371f3b3894732b1b78bd3422c->enter($__internal_cd6110d63246645366610114d4e09972e62484d371f3b3894732b1b78bd3422c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/label_empty.html.twig"));
 
-        $__internal_54fb17238d53c490b36c114f77af96521a4f44f512f2ef80a4aa8e3337f34c60 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_54fb17238d53c490b36c114f77af96521a4f44f512f2ef80a4aa8e3337f34c60->enter($__internal_54fb17238d53c490b36c114f77af96521a4f44f512f2ef80a4aa8e3337f34c60_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default:label_empty.html.twig"));
+        $__internal_50e037d89be7a56f200fc170226c790e19e5bd972b0045d2dd9166432eaff2f5 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_50e037d89be7a56f200fc170226c790e19e5bd972b0045d2dd9166432eaff2f5->enter($__internal_50e037d89be7a56f200fc170226c790e19e5bd972b0045d2dd9166432eaff2f5_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/label_empty.html.twig"));
 
         // line 1
         echo "<span class=\"label label-empty\">";
@@ -27,16 +27,16 @@ class __TwigTemplate_4a2f61cc8f3c573e430d61f0737eb3420243f300b7a891ce97151040f26
         echo "</span>
 ";
         
-        $__internal_5080c3d50fa25cf9506b6d99a6d1d81331137e504b416033da29ae0f4d483004->leave($__internal_5080c3d50fa25cf9506b6d99a6d1d81331137e504b416033da29ae0f4d483004_prof);
+        $__internal_cd6110d63246645366610114d4e09972e62484d371f3b3894732b1b78bd3422c->leave($__internal_cd6110d63246645366610114d4e09972e62484d371f3b3894732b1b78bd3422c_prof);
 
         
-        $__internal_54fb17238d53c490b36c114f77af96521a4f44f512f2ef80a4aa8e3337f34c60->leave($__internal_54fb17238d53c490b36c114f77af96521a4f44f512f2ef80a4aa8e3337f34c60_prof);
+        $__internal_50e037d89be7a56f200fc170226c790e19e5bd972b0045d2dd9166432eaff2f5->leave($__internal_50e037d89be7a56f200fc170226c790e19e5bd972b0045d2dd9166432eaff2f5_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "EasyAdminBundle:default:label_empty.html.twig";
+        return "@EasyAdmin/default/label_empty.html.twig";
     }
 
     public function isTraitable()
@@ -52,6 +52,6 @@ class __TwigTemplate_4a2f61cc8f3c573e430d61f0737eb3420243f300b7a891ce97151040f26
     public function getSourceContext()
     {
         return new Twig_Source("<span class=\"label label-empty\">{{ 'label.empty'|trans(domain = 'EasyAdminBundle') }}</span>
-", "EasyAdminBundle:default:label_empty.html.twig", "/home/fabien/Téléchargements/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/label_empty.html.twig");
+", "@EasyAdmin/default/label_empty.html.twig", "/home/fabien/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/label_empty.html.twig");
     }
 }

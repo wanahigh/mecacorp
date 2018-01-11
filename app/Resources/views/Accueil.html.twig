@@ -139,7 +139,7 @@
     </section>
 
     {#------------------------------------------------------------------------------------------   #}
-    <section class="row">
+    <section class="row ">
         <blockquote class="card z-depth-3"><h3 class="header">Les dernières Actus</h3></blockquote>
     {% for advert in adverts %}
         <div id="scth3">
@@ -162,9 +162,159 @@
 
     </section>
     <div class="row">
-    <a href="/Actu" class="btn-large">Voir toutes les Actus</a>
-    </div>
+        <div class="buttons">
+            <a href="/entity_advert"><button class="blob-btn">
+               Voir l'intégrale de l'actu
+                <span class="blob-btn__inner">
+      <span class="blob-btn__blobs">
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+        <span class="blob-btn__blob"></span>
+      </span>
+    </span>
+            </button></a>
+        </div>
+        <hr>
 
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+            <defs>
+                <filter id="goo">
+                    <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10"></feGaussianBlur>
+                    <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 21 -7" result="goo"></feColorMatrix>
+                    <feBlend in2="goo" in="SourceGraphic" result="mix"></feBlend>
+                </filter>
+            </defs>
+        </svg>
+    </div>
+    <style>*, *:before, *:after {
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+
+        .buttons {
+            margin-top: 28em;
+            text-align: center;
+        }
+
+        .blob-btn {
+            z-index: 1;
+            position: relative;
+            padding: 20px 46px;
+            margin-bottom: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #0d6aad;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: transparent;
+            outline: none;
+            border: none;
+            -webkit-transition: color 0.5s;
+            transition: color 0.5s;
+            cursor: pointer;
+        }
+        .blob-btn:before {
+            content: "";
+            z-index: 1;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            border: 6px solid dodgerblue;
+        }
+        .blob-btn:after {
+            content: "";
+            z-index: -2;
+            position: absolute;
+            left: 9px;
+            top: 9px;
+            width: 100%;
+            height: 100%;
+            border: 6px solid #222;
+            -webkit-transition: all 0.3s 0.2s;
+            transition: all 0.3s 0.2s;
+        }
+        .blob-btn:hover {
+            color: #222;
+        }
+        .blob-btn:hover:after {
+            -webkit-transition: all 0.3s;
+            transition: all 0.3s;
+            left: 0;
+            top: 0;
+        }
+        .blob-btn__inner {
+            z-index: -1;
+            overflow: hidden;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .blob-btn__blobs {
+            position: relative;
+            display: block;
+            height: 100%;
+            -webkit-filter: url("#goo");
+            filter: url("#goo");
+        }
+        .blob-btn__blob {
+            position: absolute;
+            top: 6px;
+            width: 25%;
+            height: 100%;
+            background: dodgerblue;
+            border-radius: 100%;
+            -webkit-transform: translate3d(0, 150%, 0) scale(1.7);
+            transform: translate3d(0, 150%, 0) scale(1.7);
+            -webkit-transition: -webkit-transform 0.45s;
+            transition: -webkit-transform 0.45s;
+            transition: transform 0.45s;
+            transition: transform 0.45s, -webkit-transform 0.45s;
+        }
+        @supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+            .blob-btn__blob {
+                -webkit-transform: translate3d(0, 150%, 0) scale(1.4);
+                transform: translate3d(0, 150%, 0) scale(1.4);
+            }
+        }
+        .blob-btn__blob:nth-child(1) {
+            left: 0%;
+            -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+        }
+        .blob-btn__blob:nth-child(2) {
+            left: 30%;
+            -webkit-transition-delay: 0.08s;
+            transition-delay: 0.08s;
+        }
+        .blob-btn__blob:nth-child(3) {
+            left: 60%;
+            -webkit-transition-delay: 0.16s;
+            transition-delay: 0.16s;
+        }
+        .blob-btn__blob:nth-child(4) {
+            left: 90%;
+            -webkit-transition-delay: 0.24s;
+            transition-delay: 0.24s;
+        }
+        .blob-btn:hover .blob-btn__blob {
+            -webkit-transform: translateZ(0) scale(1.7);
+            transform: translateZ(0) scale(1.7);
+        }
+        @supports ((-webkit-filter: url("#goo")) or (filter: url("#goo"))) {
+            .blob-btn:hover .blob-btn__blob {
+                -webkit-transform: translateZ(0) scale(1.4);
+                transform: translateZ(0) scale(1.4);
+            }
+        }
+        </style>
 
     <script>
         $(document).ready(function(){

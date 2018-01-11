@@ -3,6 +3,17 @@
 namespace Acme\ActorBundle\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Symfony\Component\HttpFoundation\File\File;
+use Symfony\Component\Validator\Constraints as Assert;
+use Doctrine\Common\Collections\ArrayCollection;
+
+/**
+ * @ORM\Entity(repositoryClass="Acme\ActorBundle\Repository\ActorRepository")
+ * @ORM\Table(name="Actors")
+ * @ORM\HasLifecycleCallbacks()
+ */
+
+
 
 /**
  * Actors
@@ -113,6 +124,13 @@ class Actors
      */
     private $raisonsocial;
 
+    /**
+     * @ORM\Column(type="string")
+     *
+     * @Assert\NotBlank(message="Ajouter une image jpg")
+     * @Assert\File(mimeTypes={ "image/jpeg" })
+     */
+    private $image;
 
 
     /**
@@ -436,4 +454,29 @@ class Actors
     {
         return $this->raisonsocial;
     }
+
+    /**
+     * Set image.
+     *
+     * @param string $image
+     *
+     * @return string
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image.
+     *
+     * @return string
+     */
+    public function getImage()
+    {
+        return $this->image;
+    }
+
 }

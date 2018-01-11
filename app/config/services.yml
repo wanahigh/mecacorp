@@ -49,3 +49,14 @@ services:
             tags:
                 - { name: doctrine.event_listener, event: prePersist }
                 - { name: doctrine.event_listener, event: preUpdate }
+
+    actor.image_uploader:
+            class: Acme\ActorBundle\ImageUpload
+            arguments: ['%images_directory%']
+
+    actor.doctrine_image_listener:
+            class: Acme\ActorBundle\EventListener\UploadImageListener
+            arguments: ['@Actor.image_uploader']
+            tags:
+                - { name: doctrine.event_listener, event: prePersist }
+                - { name: doctrine.event_listener, event: preUpdate }
