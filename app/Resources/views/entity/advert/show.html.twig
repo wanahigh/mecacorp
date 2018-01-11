@@ -1,41 +1,25 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <h1>Advert</h1>
+    <h1 class="header">  {{ advert.title }}</h1>
 
     <table>
         <tbody>
             <tr>
-                <th>Id</th>
                 <td>{{ advert.id }}</td>
-            </tr>
-            <tr>
-                <th>Date</th>
-                <td>{% if advert.date %}{{ advert.date|date('Y-m-d H:i') }}{% endif %}</td>
-            </tr>
-            <tr>
-                <th>Title</th>
-                <td>{{ advert.title }}</td>
-            </tr>
-            <tr>
-                <th>Author</th>
-                <td>{{ advert.author }}</td>
-            </tr>
-            <tr>
-                <th>Content</th>
-                <td>{{ advert.content }}</td>
-            </tr>
-            <tr>
-                <th>Image</th>
-                <td><img src="{{ asset('uploads/images/' ~ advert.image) }}" height="100px" width="250px"></td>
-            </tr>
-            <tr>
-                <th>Categories</th>
-                <td>{{ advert.categories }}</td>
-            </tr>
-        </tbody>
-    </table>
+                    <article id="two card-panel">
 
+
+                        <p><a class="card red" href="">
+                                <img src="{{ asset('uploads/images/' ~ advert.image) }}" height="300px" width="600px" ></a>
+                            <i class="material-icons">swatch</i>{% if advert.date %}{{ advert.date|date('Y-m-d H') }}{% endif %}
+
+                        <blockquote>  <i class="material-icons">book</i><strong style="color:dodgerblue;">  {{ advert.author }}</strong></blockquote>
+                        <hr>
+                        </p>
+                        {{ advert.content }}
+
+                    </article>
     <ul>
         <li>
             <a href="{{ path('entity_advert_index') }}" class="btn-large blue" >Retour</a>

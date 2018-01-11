@@ -1,6 +1,6 @@
 <?php
 
-/* EasyAdminBundle:default/includes:_actions.html.twig */
+/* @EasyAdmin/default/includes/_actions.html.twig */
 class __TwigTemplate_121a60052017b40a6d9178bc80d5422c0ef4cdfd8002ace6a78fc82e3ad81191 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_121a60052017b40a6d9178bc80d5422c0ef4cdfd8002ace6a78fc82e3ad
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_8654b8e20c1e26090644025905f8cf1aeac5a6d32e6d24116f887c1650a680b3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8654b8e20c1e26090644025905f8cf1aeac5a6d32e6d24116f887c1650a680b3->enter($__internal_8654b8e20c1e26090644025905f8cf1aeac5a6d32e6d24116f887c1650a680b3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default/includes:_actions.html.twig"));
+        $__internal_69f949e31b0d6e2c537626e7212dbb9798854f49a70ed1b6ad10efcd57b50b2e = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_69f949e31b0d6e2c537626e7212dbb9798854f49a70ed1b6ad10efcd57b50b2e->enter($__internal_69f949e31b0d6e2c537626e7212dbb9798854f49a70ed1b6ad10efcd57b50b2e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/includes/_actions.html.twig"));
 
-        $__internal_4b177e54a31bcb684c9031b733933d01acb1c48342932172b2686e8d237c552b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_4b177e54a31bcb684c9031b733933d01acb1c48342932172b2686e8d237c552b->enter($__internal_4b177e54a31bcb684c9031b733933d01acb1c48342932172b2686e8d237c552b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default/includes:_actions.html.twig"));
+        $__internal_ce9261dc670cc1ff8cf3c9078379eaafb567fa5b6edf34e95d8d4a6d1008234e = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_ce9261dc670cc1ff8cf3c9078379eaafb567fa5b6edf34e95d8d4a6d1008234e->enter($__internal_ce9261dc670cc1ff8cf3c9078379eaafb567fa5b6edf34e95d8d4a6d1008234e_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/includes/_actions.html.twig"));
 
         // line 1
         $context['_parent'] = $context;
@@ -77,16 +77,16 @@ class __TwigTemplate_121a60052017b40a6d9178bc80d5422c0ef4cdfd8002ace6a78fc82e3ad
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['action'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         
-        $__internal_8654b8e20c1e26090644025905f8cf1aeac5a6d32e6d24116f887c1650a680b3->leave($__internal_8654b8e20c1e26090644025905f8cf1aeac5a6d32e6d24116f887c1650a680b3_prof);
+        $__internal_69f949e31b0d6e2c537626e7212dbb9798854f49a70ed1b6ad10efcd57b50b2e->leave($__internal_69f949e31b0d6e2c537626e7212dbb9798854f49a70ed1b6ad10efcd57b50b2e_prof);
 
         
-        $__internal_4b177e54a31bcb684c9031b733933d01acb1c48342932172b2686e8d237c552b->leave($__internal_4b177e54a31bcb684c9031b733933d01acb1c48342932172b2686e8d237c552b_prof);
+        $__internal_ce9261dc670cc1ff8cf3c9078379eaafb567fa5b6edf34e95d8d4a6d1008234e->leave($__internal_ce9261dc670cc1ff8cf3c9078379eaafb567fa5b6edf34e95d8d4a6d1008234e_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "EasyAdminBundle:default/includes:_actions.html.twig";
+        return "@EasyAdmin/default/includes/_actions.html.twig";
     }
 
     public function isTraitable()
@@ -117,6 +117,6 @@ class __TwigTemplate_121a60052017b40a6d9178bc80d5422c0ef4cdfd8002ace6a78fc82e3ad
         {%- endif -%}
     </a>
 {% endfor %}
-", "EasyAdminBundle:default/includes:_actions.html.twig", "/var/www/monsite1/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/includes/_actions.html.twig");
+", "@EasyAdmin/default/includes/_actions.html.twig", "/home/fabien/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/includes/_actions.html.twig");
     }
 }

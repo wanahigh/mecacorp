@@ -339,54 +339,14 @@ class appDevDebugProjectContainerUrlMatcher extends Symfony\Bundle\FrameworkBund
 
         }
 
-        elseif (0 === strpos($pathinfo, '/entity_work')) {
-            // entity_work_index
-            if ('/entity_work' === $trimmedPathinfo) {
-                if ('GET' !== $canonicalMethod) {
-                    $allow[] = 'GET';
-                    goto not_entity_work_index;
-                }
-
-                $ret = array (  '_controller' => 'Acme\\WorkBundle\\Controller\\Entity\\WorkController::indexAction',  '_route' => 'entity_work_index',);
-                if (substr($pathinfo, -1) !== '/') {
-                    return array_replace($ret, $this->redirect($rawPathinfo.'/', 'entity_work_index'));
-                }
-
-                return $ret;
-            }
-            not_entity_work_index:
-
-            // entity_work_show
-            if (preg_match('#^/entity_work/(?P<id>[^/]++)/show$#s', $pathinfo, $matches)) {
-                if ('GET' !== $canonicalMethod) {
-                    $allow[] = 'GET';
-                    goto not_entity_work_show;
-                }
-
-                return $this->mergeDefaults(array_replace($matches, array('_route' => 'entity_work_show')), array (  '_controller' => 'Acme\\WorkBundle\\Controller\\Entity\\WorkController::showAction',));
-            }
-            not_entity_work_show:
-
-        }
-
         // acme_actu_homepage
         if ('/Actu' === $pathinfo) {
             return array (  '_controller' => 'Acme\\ActuBundle\\Controller\\DefaultController::indexAction',  '_route' => 'acme_actu_homepage',);
         }
 
         // acme_filiale_homepage
-        if ('/Filiale' === $pathinfo) {
+        if ('/Filial' === $pathinfo) {
             return array (  '_controller' => 'Acme\\FilialeBundle\\Controller\\DefaultController::indexAction',  '_route' => 'acme_filiale_homepage',);
-        }
-
-        // acme_home_homepage
-        if ('' === $trimmedPathinfo) {
-            $ret = array (  '_controller' => 'Acme\\AdminBundle\\Controller\\DefaultController::indexAction',  '_route' => 'acme_home_homepage',);
-            if (substr($pathinfo, -1) !== '/') {
-                return array_replace($ret, $this->redirect($rawPathinfo.'/', 'acme_home_homepage'));
-            }
-
-            return $ret;
         }
 
         // homepage

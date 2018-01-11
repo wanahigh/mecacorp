@@ -1,6 +1,6 @@
 <?php
 
-/* EasyAdminBundle:default:flash_messages.html.twig */
+/* @EasyAdmin/default/flash_messages.html.twig */
 class __TwigTemplate_77b7d23fc700795e56e9b482102f9448b272ad4d0278dd31c4645ee17a1d8c12 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_77b7d23fc700795e56e9b482102f9448b272ad4d0278dd31c4645ee17a1
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_51c4726352084f35f0186ad03db4b7674d082b582fe51bad8a6f60644389c1a6 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_51c4726352084f35f0186ad03db4b7674d082b582fe51bad8a6f60644389c1a6->enter($__internal_51c4726352084f35f0186ad03db4b7674d082b582fe51bad8a6f60644389c1a6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default:flash_messages.html.twig"));
+        $__internal_47700f26a8ff52f15e17703f5f9c3518a3a831c80aa0436ee7c51b332a8dde25 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_47700f26a8ff52f15e17703f5f9c3518a3a831c80aa0436ee7c51b332a8dde25->enter($__internal_47700f26a8ff52f15e17703f5f9c3518a3a831c80aa0436ee7c51b332a8dde25_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/flash_messages.html.twig"));
 
-        $__internal_fbd9079a63817a855ac94b368014b3ff141d327925b65adc91bf605724473404 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fbd9079a63817a855ac94b368014b3ff141d327925b65adc91bf605724473404->enter($__internal_fbd9079a63817a855ac94b368014b3ff141d327925b65adc91bf605724473404_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "EasyAdminBundle:default:flash_messages.html.twig"));
+        $__internal_e5c9b722c70da3993638152d810d973786115eab707f301b1fb5bb64345cfa7b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_e5c9b722c70da3993638152d810d973786115eab707f301b1fb5bb64345cfa7b->enter($__internal_e5c9b722c70da3993638152d810d973786115eab707f301b1fb5bb64345cfa7b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/flash_messages.html.twig"));
 
         // line 1
         if (( !(null === twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 1, $this->getSourceContext()); })()), "session", array())) && twig_get_attribute($this->env, $this->getSourceContext(), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["app"]) || array_key_exists("app", $context) ? $context["app"] : (function () { throw new Twig_Error_Runtime('Variable "app" does not exist.', 1, $this->getSourceContext()); })()), "session", array()), "started", array()))) {
@@ -60,16 +60,16 @@ class __TwigTemplate_77b7d23fc700795e56e9b482102f9448b272ad4d0278dd31c4645ee17a1
 ";
         }
         
-        $__internal_51c4726352084f35f0186ad03db4b7674d082b582fe51bad8a6f60644389c1a6->leave($__internal_51c4726352084f35f0186ad03db4b7674d082b582fe51bad8a6f60644389c1a6_prof);
+        $__internal_47700f26a8ff52f15e17703f5f9c3518a3a831c80aa0436ee7c51b332a8dde25->leave($__internal_47700f26a8ff52f15e17703f5f9c3518a3a831c80aa0436ee7c51b332a8dde25_prof);
 
         
-        $__internal_fbd9079a63817a855ac94b368014b3ff141d327925b65adc91bf605724473404->leave($__internal_fbd9079a63817a855ac94b368014b3ff141d327925b65adc91bf605724473404_prof);
+        $__internal_e5c9b722c70da3993638152d810d973786115eab707f301b1fb5bb64345cfa7b->leave($__internal_e5c9b722c70da3993638152d810d973786115eab707f301b1fb5bb64345cfa7b_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "EasyAdminBundle:default:flash_messages.html.twig";
+        return "@EasyAdmin/default/flash_messages.html.twig";
     }
 
     public function isTraitable()
@@ -95,6 +95,6 @@ class __TwigTemplate_77b7d23fc700795e56e9b482102f9448b272ad4d0278dd31c4645ee17a1
         {% endfor %}
     </div>
 {% endif %}
-", "EasyAdminBundle:default:flash_messages.html.twig", "/var/www/monsite1/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/flash_messages.html.twig");
+", "@EasyAdmin/default/flash_messages.html.twig", "/home/fabien/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/flash_messages.html.twig");
     }
 }
