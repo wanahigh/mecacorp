@@ -8,78 +8,241 @@ class __TwigTemplate_6688ac73920445d25ea55fc18c1d5911513fd47642f10897256241eca6c
         parent::__construct($env);
 
         // line 1
-        $this->parent = $this->loadTemplate("base.html.twig", "AcmeFilialeBundle:Default:index.html.twig", 1);
+        $this->parent = $this->loadTemplate("::base.html.twig", "AcmeFilialeBundle:Default:index.html.twig", 1);
         $this->blocks = array(
             'body' => array($this, 'block_body'),
+            'javascripts' => array($this, 'block_javascripts'),
         );
     }
 
     protected function doGetParent(array $context)
     {
-        return "base.html.twig";
+        return "::base.html.twig";
     }
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_6522776a04c0dcb3e227029c1708b9c02427646b5cfbce868e6d0949906af1ab = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_6522776a04c0dcb3e227029c1708b9c02427646b5cfbce868e6d0949906af1ab->enter($__internal_6522776a04c0dcb3e227029c1708b9c02427646b5cfbce868e6d0949906af1ab_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AcmeFilialeBundle:Default:index.html.twig"));
+        $__internal_43a51663c42b4c45341b09fe330cd0a462dd8a87866a804dfaa3c4fb85d8c3bf = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_43a51663c42b4c45341b09fe330cd0a462dd8a87866a804dfaa3c4fb85d8c3bf->enter($__internal_43a51663c42b4c45341b09fe330cd0a462dd8a87866a804dfaa3c4fb85d8c3bf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AcmeFilialeBundle:Default:index.html.twig"));
 
-        $__internal_fd880972109ef60c52f105dbae564d6b3fd80c43bc9674cf8e770297384df666 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_fd880972109ef60c52f105dbae564d6b3fd80c43bc9674cf8e770297384df666->enter($__internal_fd880972109ef60c52f105dbae564d6b3fd80c43bc9674cf8e770297384df666_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AcmeFilialeBundle:Default:index.html.twig"));
+        $__internal_11a142dc025a26362dd4852172503a8406265fb72ff497fbe5b7e29b0c591e77 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_11a142dc025a26362dd4852172503a8406265fb72ff497fbe5b7e29b0c591e77->enter($__internal_11a142dc025a26362dd4852172503a8406265fb72ff497fbe5b7e29b0c591e77_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "AcmeFilialeBundle:Default:index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_6522776a04c0dcb3e227029c1708b9c02427646b5cfbce868e6d0949906af1ab->leave($__internal_6522776a04c0dcb3e227029c1708b9c02427646b5cfbce868e6d0949906af1ab_prof);
+        $__internal_43a51663c42b4c45341b09fe330cd0a462dd8a87866a804dfaa3c4fb85d8c3bf->leave($__internal_43a51663c42b4c45341b09fe330cd0a462dd8a87866a804dfaa3c4fb85d8c3bf_prof);
 
         
-        $__internal_fd880972109ef60c52f105dbae564d6b3fd80c43bc9674cf8e770297384df666->leave($__internal_fd880972109ef60c52f105dbae564d6b3fd80c43bc9674cf8e770297384df666_prof);
+        $__internal_11a142dc025a26362dd4852172503a8406265fb72ff497fbe5b7e29b0c591e77->leave($__internal_11a142dc025a26362dd4852172503a8406265fb72ff497fbe5b7e29b0c591e77_prof);
 
     }
 
-    // line 4
+    // line 3
     public function block_body($context, array $blocks = array())
     {
-        $__internal_9825c6ab1a6e24ef37690f41525b069285f5ada3c90ad02011d269495abad9d4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_9825c6ab1a6e24ef37690f41525b069285f5ada3c90ad02011d269495abad9d4->enter($__internal_9825c6ab1a6e24ef37690f41525b069285f5ada3c90ad02011d269495abad9d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_bee03c5ab7e8eb441bf0b240c95dd593e4072045fa3d8be1a2ea7bba36c75af4 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_bee03c5ab7e8eb441bf0b240c95dd593e4072045fa3d8be1a2ea7bba36c75af4->enter($__internal_bee03c5ab7e8eb441bf0b240c95dd593e4072045fa3d8be1a2ea7bba36c75af4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_946713618750fc6c99bb425a990f77f6470b11e035ed91e1e2bf2e9e5ef0e9da = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_946713618750fc6c99bb425a990f77f6470b11e035ed91e1e2bf2e9e5ef0e9da->enter($__internal_946713618750fc6c99bb425a990f77f6470b11e035ed91e1e2bf2e9e5ef0e9da_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_a56040122ffc8f226b6cde1a53b0f6d6203f4478ef3a7c5c62fb6a3739bd3b2b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_a56040122ffc8f226b6cde1a53b0f6d6203f4478ef3a7c5c62fb6a3739bd3b2b->enter($__internal_a56040122ffc8f226b6cde1a53b0f6d6203f4478ef3a7c5c62fb6a3739bd3b2b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        // line 5
-        echo "    <div class=\"row\">
-        <div class=\"col s12 m9 l10\">
-            <div id=\"introduction\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+        // line 4
+        echo "    ---------------------------------------------------------------------------------------------------------
+    <div class=\"row z-depth-5 flow-text\">
 
-            <div id=\"structure\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+        <div class=\"col s12\">  <blockquote><h1 class=\"header \">La filière “Sports Mécaniques et Mobilité Durable”</h1> </blockquote></div>
 
-            <div id=\"initialization\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+        <div class=\"col s6\"><p class=\"flow-text\">Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
+                Face aux mutations économiques qu’a connu le bassin alésien, territoire
+                fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
+                années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
+                aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
+                territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
+                vives locales : une attractivité démographique retrouvée, une économie
+                dynamique en mutation et un cadre de vie attractif.</p>
+            <div class=\"row \"> <img class=\"responsive-img\" id=\"pole1\" src=\"";
+        // line 17
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/Pole-Mecanique-vueaerienne.jpg"), "html", null, true);
+        echo "\"></div>
         </div>
-        <div class=\"col hide-on-small-only m3 l2\">
-            <ul class=\"section table-of-contents\">
-                <li><a href=\"#introduction\">Introduction</a></li>
-                <li><a href=\"#structure\">Structure</a></li>
-                <li><a href=\"#initialization\">Intialization</a></li>
-            </ul>
+        <div class=\"col s6\"><p class=\"flow-text\">Tissé avec les premières filatures de vers à soie puis forgé avec les
+                premières technologies minières, l’esprit industriel pionnier du bassin
+                alésien se renouvelle aujourd’hui grâce au développement de filières
+                stratégiques telles que la mécanique sportive et durable, les
+                éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
+                biotechnologies., attestant d’une forte culture d’adaptation au
+                changement, d’ouverture et d’accueil.
+                En investissant dès 1995 dans la création du Pôle Mécanique Alès
+                Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
+                bâtiments industriels, l’agglomération a fait le choix d’un marqueur
+                identitaire fort, celui des savoir-faire dans les sports mécaniques.
+                Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
+                ligne d’accélération de 600 m, se prêtent à des essais industriels de
+                roulage, des activités de loisirs et des compétitions sportives de haut
+                niveau.
+                Avec près de 100 entreprises dans la filière dont une trentaine
+                implantée au Pôle Mécanique (et plus de 600 en intégrant les
+                concessionnaires, garages et clubs), ces activités génèrent
+                quelques 1100 emplois.
+                Cet écosystème d’entreprises, doté de compétences complémentaires
+                à forte valeur ajoutée, est animé par l’Agence de développement Alès
+                Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
+                de fédérer ces acteurs et accroitre leur compétitivité.</p>
         </div>
     </div>
 
-    <script>  \$(document).ready(function(){
-            \$('.scrollspy').scrollSpy();
-        });</script>
+
+    <style>
+
+    </style>
 
 
-";
+
+        <img id=\"dStructure\" class=\" z-depth-5 responsive\" src=\"";
+        // line 52
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/demarche-structuration-01.png"), "html", null, true);
+        echo "\">
+
+
+
+    <section>
+        <div class=\"row\">
+            <div class=\"col l1\"></div>
+            <div class=\"col l3 card z-depth-3\">
+                <img style=\"max-width: 400px\" src=\"";
+        // line 60
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/voiture1.jpg"), "html", null, true);
+        echo "\" alt=\"\">
+                <blockquote><h1>LOISIRS et COMPÉTITION</h1></blockquote>
+                <p class=\"flow-text\">C’est le « cœur de métier » des entreprises
+                    résidentes du Pôle Mécanique.
+                    Il s’agit de concrétiser les nombreux projets
+                    en cours, tant dans le domaine automobile,
+                    moto que karting et de travailler en synergie
+                    en s’appuyant si besoin sur des entreprises
+                    françaises ou étrangères concernées par les
+                    projets.</p> </div>
+            <div class=\"col l1\"></div>
+            <div class=\"col l3 card z-depth-3\">
+                <img style=\"max-width: 400px\" src=\"";
+        // line 72
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/voiture2.jpeg"), "html", null, true);
+        echo "\" alt=\"\">
+                    <blockquote><h1>VÉHICULES D’ÉPOQUE</h1></blockquote>
+                    <p class=\"flow-text\">Le bassin alésien dispose d’un vivier
+                        important de compétences liées à la
+                        restauration de véhicules d’époque, de
+                        nombreux clubs de passionnés et une
+                        dynamique importante autour des sports
+                        mécaniques grâce notamment aux activités
+                        du Pôle Mécanique Alès Cévennes et des
+                        nombreuses entreprises qui gravitent autour.
+                        Le véhicule historique constitue aujourd’hui
+                        un excellent placement.
+                        L’objectif est de travailler sur plusieurs
+                        briques constituant un véritable écosystème
+                        dédié au Véhicule d’Epoque : centre
+                        d’hivernage, atelier de restauration et
+                        personnalisation, centre de documentation
+                        technique, centre de formation pour
+                        sauvegarder les métiers anciens liés à ce
+                        type de véhicules (la restauration de
+                        véhicules d’époque requiert des savoir-faire
+                        apparentés à de l’artisanat d’art, il est urgent
+                        que les artisans, souvent âgés dans ces
+                        professions, transmettent leurs savoir-faire à
+                        la jeune génération).</p> </div>
+            <div class=\"col l1\"></div>
+        <div class=\"col l3 card z-depth-3\">
+            <img style=\"max-width: 400px\" src=\"";
+        // line 99
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/voiture3.jpeg"), "html", null, true);
+        echo "\" alt=\"\">
+                <blockquote><h1>MOBILITE DURABLE</h1></blockquote>
+                <p class=\"flow-text\">C’est une spécificité du bassin alésien.
+                    Grâce à la démarche volontariste du territoire
+                    en matière de développement durable, à
+                    l’accueil, tous les 2 ans, des Rencontres
+                    Internationales des Véhicules Ecologiques
+                    (RIVE) sur le Pôle Mécanique Alès Cévennes
+                    attirant près de 800 professionnels de plus
+                    de 15 pays, le territoire bénéficie d’une
+                    émulation favorable au développement de
+                    projets individuels et collectifs en lien avec la
+                    mobilité durable.
+                    Ainsi, des projets de création de véhicules
+                    électriques, la mise en place d’un réseau
+                    d’infrastructures de recharge pour véhicules
+                    électriques, l’offre de location de motos
+                    électriques pour des balades en Cévennes,
+                    la mise en place d’une unité de production
+                    de pédalos électrique de luxe... ont pu voir le
+                    jour sur le territoire. Il s’agit donc, sur cette
+                    thématique, de mettre en relation des
+                    compétences complémentaires en région
+                    pour réaliser l’intégralité des projets de
+                    création de véhicules dans une démarche
+                    100% « made in Occitanie ».</p>  </div >
+
+        </div>
+        </div>
+
+
+</section>
+
+    ";
+        // line 132
+        $this->displayBlock('javascripts', $context, $blocks);
         
-        $__internal_946713618750fc6c99bb425a990f77f6470b11e035ed91e1e2bf2e9e5ef0e9da->leave($__internal_946713618750fc6c99bb425a990f77f6470b11e035ed91e1e2bf2e9e5ef0e9da_prof);
+        $__internal_a56040122ffc8f226b6cde1a53b0f6d6203f4478ef3a7c5c62fb6a3739bd3b2b->leave($__internal_a56040122ffc8f226b6cde1a53b0f6d6203f4478ef3a7c5c62fb6a3739bd3b2b_prof);
 
         
-        $__internal_9825c6ab1a6e24ef37690f41525b069285f5ada3c90ad02011d269495abad9d4->leave($__internal_9825c6ab1a6e24ef37690f41525b069285f5ada3c90ad02011d269495abad9d4_prof);
+        $__internal_bee03c5ab7e8eb441bf0b240c95dd593e4072045fa3d8be1a2ea7bba36c75af4->leave($__internal_bee03c5ab7e8eb441bf0b240c95dd593e4072045fa3d8be1a2ea7bba36c75af4_prof);
+
+    }
+
+    public function block_javascripts($context, array $blocks = array())
+    {
+        $__internal_f75dc77c68fbc7cd190788bb9f9a7abb0912d161d43fc01cb03c99b891edf4ca = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_f75dc77c68fbc7cd190788bb9f9a7abb0912d161d43fc01cb03c99b891edf4ca->enter($__internal_f75dc77c68fbc7cd190788bb9f9a7abb0912d161d43fc01cb03c99b891edf4ca_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        $__internal_67a4648050d9342ab93def3fda6fe28e000615c4c4b06bb9f3f8b7e4bd9f50cc = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_67a4648050d9342ab93def3fda6fe28e000615c4c4b06bb9f3f8b7e4bd9f50cc->enter($__internal_67a4648050d9342ab93def3fda6fe28e000615c4c4b06bb9f3f8b7e4bd9f50cc_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "javascripts"));
+
+        // line 133
+        echo "        <script>
+
+
+
+            \$(document).ready(function(){
+                \$('.carousel.carousel-slider').carousel({fullWidth: true})});
+            \$('.carousel').carousel({
+                padding: 200
+            });
+            autoplay();
+            function autoplay() {
+                \$('.carousel').carousel('next');
+                setTimeout(autoplay, 4500);
+            }
+            \$(document).ready(function(){
+                \$('.parallax').parallax();
+            });
+
+            \$(document).ready(function(){
+                \$('.slider').slider();
+            });
+
+        </script>
+
+
+
+
+    ";
+        
+        $__internal_67a4648050d9342ab93def3fda6fe28e000615c4c4b06bb9f3f8b7e4bd9f50cc->leave($__internal_67a4648050d9342ab93def3fda6fe28e000615c4c4b06bb9f3f8b7e4bd9f50cc_prof);
+
+        
+        $__internal_f75dc77c68fbc7cd190788bb9f9a7abb0912d161d43fc01cb03c99b891edf4ca->leave($__internal_f75dc77c68fbc7cd190788bb9f9a7abb0912d161d43fc01cb03c99b891edf4ca_prof);
 
     }
 
@@ -95,53 +258,172 @@ class __TwigTemplate_6688ac73920445d25ea55fc18c1d5911513fd47642f10897256241eca6c
 
     public function getDebugInfo()
     {
-        return array (  49 => 5,  40 => 4,  11 => 1,);
+        return array (  213 => 133,  195 => 132,  159 => 99,  129 => 72,  114 => 60,  103 => 52,  65 => 17,  50 => 4,  41 => 3,  11 => 1,);
     }
 
     public function getSourceContext()
     {
-        return new Twig_Source("{% extends 'base.html.twig' %}
+        return new Twig_Source("{% extends '::base.html.twig' %}
 
-{#------------------------------------------HEADER END---------------------------------------------------------------    #}
 {% block body %}
-    <div class=\"row\">
-        <div class=\"col s12 m9 l10\">
-            <div id=\"introduction\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+    ---------------------------------------------------------------------------------------------------------
+    <div class=\"row z-depth-5 flow-text\">
 
-            <div id=\"structure\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+        <div class=\"col s12\">  <blockquote><h1 class=\"header \">La filière “Sports Mécaniques et Mobilité Durable”</h1> </blockquote></div>
 
-            <div id=\"initialization\" class=\"section scrollspy\">
-                <p>Content </p>
-            </div>
+        <div class=\"col s6\"><p class=\"flow-text\">Près de 100 entreprises dans la filière sur le territoire Alès Cévennes
+                Face aux mutations économiques qu’a connu le bassin alésien, territoire
+                fragilisé par le déclin de l’industrie minière à la fin des années 70, la fin des
+                années 90 a marqué un tournant dans son évolution. Trois facteurs illustrent
+                aujourd’hui la dynamique de redressement dans laquelle s’est engagé le
+                territoire d’Alès Agglomération sous l’impulsion des acteurs publics et forces
+                vives locales : une attractivité démographique retrouvée, une économie
+                dynamique en mutation et un cadre de vie attractif.</p>
+            <div class=\"row \"> <img class=\"responsive-img\" id=\"pole1\" src=\"{{ asset('../../../images/Pole-Mecanique-vueaerienne.jpg')}}\"></div>
         </div>
-        <div class=\"col hide-on-small-only m3 l2\">
-            <ul class=\"section table-of-contents\">
-                <li><a href=\"#introduction\">Introduction</a></li>
-                <li><a href=\"#structure\">Structure</a></li>
-                <li><a href=\"#initialization\">Intialization</a></li>
-            </ul>
+        <div class=\"col s6\"><p class=\"flow-text\">Tissé avec les premières filatures de vers à soie puis forgé avec les
+                premières technologies minières, l’esprit industriel pionnier du bassin
+                alésien se renouvelle aujourd’hui grâce au développement de filières
+                stratégiques telles que la mécanique sportive et durable, les
+                éco-activités, la filière agroalimentaire et bois, la filière tourisme et les
+                biotechnologies., attestant d’une forte culture d’adaptation au
+                changement, d’ouverture et d’accueil.
+                En investissant dès 1995 dans la création du Pôle Mécanique Alès
+                Cévennes, importante infrastructure de 90 hectares et de 8000 m2 de
+                bâtiments industriels, l’agglomération a fait le choix d’un marqueur
+                identitaire fort, celui des savoir-faire dans les sports mécaniques.
+                Six circuits, dont un de vitesse réversible (unique en Europe) doté d’une
+                ligne d’accélération de 600 m, se prêtent à des essais industriels de
+                roulage, des activités de loisirs et des compétitions sportives de haut
+                niveau.
+                Avec près de 100 entreprises dans la filière dont une trentaine
+                implantée au Pôle Mécanique (et plus de 600 en intégrant les
+                concessionnaires, garages et clubs), ces activités génèrent
+                quelques 1100 emplois.
+                Cet écosystème d’entreprises, doté de compétences complémentaires
+                à forte valeur ajoutée, est animé par l’Agence de développement Alès
+                Myriapolis qui a d’ailleurs initié, fin 2016, une démarche collective afin
+                de fédérer ces acteurs et accroitre leur compétitivité.</p>
         </div>
     </div>
 
-    <script>  \$(document).ready(function(){
-            \$('.scrollspy').scrollSpy();
-        });</script>
+
+    <style>
+
+    </style>
 
 
+
+        <img id=\"dStructure\" class=\" z-depth-5 responsive\" src=\"{{ asset('../../../images/demarche-structuration-01.png') }}\">
+
+
+
+    <section>
+        <div class=\"row\">
+            <div class=\"col l1\"></div>
+            <div class=\"col l3 card z-depth-3\">
+                <img style=\"max-width: 400px\" src=\"{{ asset('../../../images/voiture1.jpg') }}\" alt=\"\">
+                <blockquote><h1>LOISIRS et COMPÉTITION</h1></blockquote>
+                <p class=\"flow-text\">C’est le « cœur de métier » des entreprises
+                    résidentes du Pôle Mécanique.
+                    Il s’agit de concrétiser les nombreux projets
+                    en cours, tant dans le domaine automobile,
+                    moto que karting et de travailler en synergie
+                    en s’appuyant si besoin sur des entreprises
+                    françaises ou étrangères concernées par les
+                    projets.</p> </div>
+            <div class=\"col l1\"></div>
+            <div class=\"col l3 card z-depth-3\">
+                <img style=\"max-width: 400px\" src=\"{{ asset('../../../images/voiture2.jpeg') }}\" alt=\"\">
+                    <blockquote><h1>VÉHICULES D’ÉPOQUE</h1></blockquote>
+                    <p class=\"flow-text\">Le bassin alésien dispose d’un vivier
+                        important de compétences liées à la
+                        restauration de véhicules d’époque, de
+                        nombreux clubs de passionnés et une
+                        dynamique importante autour des sports
+                        mécaniques grâce notamment aux activités
+                        du Pôle Mécanique Alès Cévennes et des
+                        nombreuses entreprises qui gravitent autour.
+                        Le véhicule historique constitue aujourd’hui
+                        un excellent placement.
+                        L’objectif est de travailler sur plusieurs
+                        briques constituant un véritable écosystème
+                        dédié au Véhicule d’Epoque : centre
+                        d’hivernage, atelier de restauration et
+                        personnalisation, centre de documentation
+                        technique, centre de formation pour
+                        sauvegarder les métiers anciens liés à ce
+                        type de véhicules (la restauration de
+                        véhicules d’époque requiert des savoir-faire
+                        apparentés à de l’artisanat d’art, il est urgent
+                        que les artisans, souvent âgés dans ces
+                        professions, transmettent leurs savoir-faire à
+                        la jeune génération).</p> </div>
+            <div class=\"col l1\"></div>
+        <div class=\"col l3 card z-depth-3\">
+            <img style=\"max-width: 400px\" src=\"{{ asset('../../../images/voiture3.jpeg') }}\" alt=\"\">
+                <blockquote><h1>MOBILITE DURABLE</h1></blockquote>
+                <p class=\"flow-text\">C’est une spécificité du bassin alésien.
+                    Grâce à la démarche volontariste du territoire
+                    en matière de développement durable, à
+                    l’accueil, tous les 2 ans, des Rencontres
+                    Internationales des Véhicules Ecologiques
+                    (RIVE) sur le Pôle Mécanique Alès Cévennes
+                    attirant près de 800 professionnels de plus
+                    de 15 pays, le territoire bénéficie d’une
+                    émulation favorable au développement de
+                    projets individuels et collectifs en lien avec la
+                    mobilité durable.
+                    Ainsi, des projets de création de véhicules
+                    électriques, la mise en place d’un réseau
+                    d’infrastructures de recharge pour véhicules
+                    électriques, l’offre de location de motos
+                    électriques pour des balades en Cévennes,
+                    la mise en place d’une unité de production
+                    de pédalos électrique de luxe... ont pu voir le
+                    jour sur le territoire. Il s’agit donc, sur cette
+                    thématique, de mettre en relation des
+                    compétences complémentaires en région
+                    pour réaliser l’intégralité des projets de
+                    création de véhicules dans une démarche
+                    100% « made in Occitanie ».</p>  </div >
+
+        </div>
+        </div>
+
+
+</section>
+
+    {% block javascripts %}
+        <script>
+
+
+
+            \$(document).ready(function(){
+                \$('.carousel.carousel-slider').carousel({fullWidth: true})});
+            \$('.carousel').carousel({
+                padding: 200
+            });
+            autoplay();
+            function autoplay() {
+                \$('.carousel').carousel('next');
+                setTimeout(autoplay, 4500);
+            }
+            \$(document).ready(function(){
+                \$('.parallax').parallax();
+            });
+
+            \$(document).ready(function(){
+                \$('.slider').slider();
+            });
+
+        </script>
+
+
+
+
+    {% endblock %}
 {% endblock %}
-
-
-
-
-
-
-    {#-------------------------------------------FOOTER BEGIN---------------------------------------------------    #}
-
-
-", "AcmeFilialeBundle:Default:index.html.twig", "/var/www/monsite1/mecacorp/src/Acme/FilialeBundle/Resources/views/Default/index.html.twig");
+", "AcmeFilialeBundle:Default:index.html.twig", "/home/fabien/mecacorp/src/Acme/FilialeBundle/Resources/views/Default/index.html.twig");
     }
 }

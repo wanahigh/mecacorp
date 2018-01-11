@@ -2,6 +2,9 @@
 {% block body %}
 
     <style>
+        img:hover{
+        contrast(200%);
+        }
         .auto{
             margin:auto;
         }
@@ -142,14 +145,14 @@
         <div id="scth3">
     <table >
             <article  class="card hover z-depth-5"  id="card-panel">
-                <a class="card red" href="{{ path('entity_advert_show',{ 'id': advert.id }) }}">
+                <a class="card red z-depth-3" href="{{ path('entity_advert_show',{ 'id': advert.id }) }}">
                     <img src="{{ asset('uploads/images/' ~ advert.image) }}" height="150px" width="300px" >
                 </a>
                 <h5 class="header"> {{ advert.title }}</h5>
-                <p>
+
                     <i class="material-icons">swatch</i>{% if advert.date %}{{ advert.date|date('Y-m-d H') }}{% endif %}
 
-                    <i class="material-icons">book</i><strong><blockquote>{{ advert.author }}</blockquote></strong>
+                <p > <i class="material-icons">book</i><strong><blockquote>{{ advert.author }}</blockquote></strong>
 
                 </p>
             </article>
