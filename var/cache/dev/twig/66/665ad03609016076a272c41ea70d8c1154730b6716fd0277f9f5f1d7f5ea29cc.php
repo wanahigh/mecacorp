@@ -1,6 +1,6 @@
 <?php
 
-/* FOSUserBundle:Registration:register_content.html.twig */
+/* @FOSUser/Registration/register_content.html.twig */
 class __TwigTemplate_7faf8cf0df26b7f1b730e39713fcf263b1eaafd382fc0f2468589a94098284ca extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -15,11 +15,11 @@ class __TwigTemplate_7faf8cf0df26b7f1b730e39713fcf263b1eaafd382fc0f2468589a94098
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_a759e312aa19e219f9844585fa25f849dc91019bf57e2be7e461c2b6d684381f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_a759e312aa19e219f9844585fa25f849dc91019bf57e2be7e461c2b6d684381f->enter($__internal_a759e312aa19e219f9844585fa25f849dc91019bf57e2be7e461c2b6d684381f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Registration:register_content.html.twig"));
+        $__internal_a943c50cd53cd71c789ce479e2a446a63acd4fa905d30c24cd49f1c4020ed339 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_a943c50cd53cd71c789ce479e2a446a63acd4fa905d30c24cd49f1c4020ed339->enter($__internal_a943c50cd53cd71c789ce479e2a446a63acd4fa905d30c24cd49f1c4020ed339_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
-        $__internal_01e02b326e6fd3d404eb19877f9b81b4fc38ce7a71c82e61521d88b40a5855f6 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_01e02b326e6fd3d404eb19877f9b81b4fc38ce7a71c82e61521d88b40a5855f6->enter($__internal_01e02b326e6fd3d404eb19877f9b81b4fc38ce7a71c82e61521d88b40a5855f6_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "FOSUserBundle:Registration:register_content.html.twig"));
+        $__internal_1b2b5b93ef31071952e4800dd65f03256c89b0cc13a08522bea1ed547fac04ae = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_1b2b5b93ef31071952e4800dd65f03256c89b0cc13a08522bea1ed547fac04ae->enter($__internal_1b2b5b93ef31071952e4800dd65f03256c89b0cc13a08522bea1ed547fac04ae_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Registration/register_content.html.twig"));
 
         // line 2
         echo "
@@ -32,7 +32,7 @@ class __TwigTemplate_7faf8cf0df26b7f1b730e39713fcf263b1eaafd382fc0f2468589a94098
         echo $this->env->getRuntime('Symfony\Component\Form\FormRenderer')->searchAndRenderBlock((isset($context["form"]) || array_key_exists("form", $context) ? $context["form"] : (function () { throw new Twig_Error_Runtime('Variable "form" does not exist.', 4, $this->getSourceContext()); })()), 'widget');
         echo "
     <div>
-        <input type=\"submit\" value=\"";
+        <input class=\"btn-large pink\" type=\"submit\" value=\"";
         // line 6
         echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("registration.submit", array(), "FOSUserBundle"), "html", null, true);
         echo "\" />
@@ -43,16 +43,16 @@ class __TwigTemplate_7faf8cf0df26b7f1b730e39713fcf263b1eaafd382fc0f2468589a94098
         echo "
 ";
         
-        $__internal_a759e312aa19e219f9844585fa25f849dc91019bf57e2be7e461c2b6d684381f->leave($__internal_a759e312aa19e219f9844585fa25f849dc91019bf57e2be7e461c2b6d684381f_prof);
+        $__internal_a943c50cd53cd71c789ce479e2a446a63acd4fa905d30c24cd49f1c4020ed339->leave($__internal_a943c50cd53cd71c789ce479e2a446a63acd4fa905d30c24cd49f1c4020ed339_prof);
 
         
-        $__internal_01e02b326e6fd3d404eb19877f9b81b4fc38ce7a71c82e61521d88b40a5855f6->leave($__internal_01e02b326e6fd3d404eb19877f9b81b4fc38ce7a71c82e61521d88b40a5855f6_prof);
+        $__internal_1b2b5b93ef31071952e4800dd65f03256c89b0cc13a08522bea1ed547fac04ae->leave($__internal_1b2b5b93ef31071952e4800dd65f03256c89b0cc13a08522bea1ed547fac04ae_prof);
 
     }
 
     public function getTemplateName()
     {
-        return "FOSUserBundle:Registration:register_content.html.twig";
+        return "@FOSUser/Registration/register_content.html.twig";
     }
 
     public function isTraitable()
@@ -72,9 +72,9 @@ class __TwigTemplate_7faf8cf0df26b7f1b730e39713fcf263b1eaafd382fc0f2468589a94098
 {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
     {{ form_widget(form) }}
     <div>
-        <input type=\"submit\" value=\"{{ 'registration.submit'|trans }}\" />
+        <input class=\"btn-large pink\" type=\"submit\" value=\"{{ 'registration.submit'|trans }}\" />
     </div>
 {{ form_end(form) }}
-", "FOSUserBundle:Registration:register_content.html.twig", "/var/www/monsite1/mecacorp/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig");
+", "@FOSUser/Registration/register_content.html.twig", "/home/fabien/mecacorp/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig");
     }
 }

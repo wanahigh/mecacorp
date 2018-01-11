@@ -15,72 +15,142 @@ class __TwigTemplate_7c26a4760af57f29266d93bcbb634a10d70252b29d99d63493adfc1d336
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_1fbc9bab0a562c48189c042486ebafe030d736f526f46a59b91cedb1b44be080 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_1fbc9bab0a562c48189c042486ebafe030d736f526f46a59b91cedb1b44be080->enter($__internal_1fbc9bab0a562c48189c042486ebafe030d736f526f46a59b91cedb1b44be080_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
+        $__internal_5f0b4c1b8a14941f81e2855579b276afcb21b4f1b0f3c19eb8dc9e2470faefac = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_5f0b4c1b8a14941f81e2855579b276afcb21b4f1b0f3c19eb8dc9e2470faefac->enter($__internal_5f0b4c1b8a14941f81e2855579b276afcb21b4f1b0f3c19eb8dc9e2470faefac_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
-        $__internal_0a1d3f363546ffa6df7c36e22e62f23c714f1ef68434fd3208fc9b9aeb6779d4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_0a1d3f363546ffa6df7c36e22e62f23c714f1ef68434fd3208fc9b9aeb6779d4->enter($__internal_0a1d3f363546ffa6df7c36e22e62f23c714f1ef68434fd3208fc9b9aeb6779d4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
+        $__internal_15a596cac49eb8f2068e3aac710cacb8907a3f69d4982329281485e7517983cf = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_15a596cac49eb8f2068e3aac710cacb8907a3f69d4982329281485e7517983cf->enter($__internal_15a596cac49eb8f2068e3aac710cacb8907a3f69d4982329281485e7517983cf_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@FOSUser/Security/login_content.html.twig"));
 
         // line 2
         echo "
-";
-        // line 3
-        if ((isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 3, $this->getSourceContext()); })())) {
-            // line 4
-            echo "    <div>";
-            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans(twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 4, $this->getSourceContext()); })()), "messageKey", array()), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 4, $this->getSourceContext()); })()), "messageData", array()), "security"), "html", null, true);
+
+
+
+
+
+
+
+
+
+
+    ";
+        // line 13
+        if ((isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 13, $this->getSourceContext()); })())) {
+            // line 14
+            echo "        <div>";
+            echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans(twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 14, $this->getSourceContext()); })()), "messageKey", array()), twig_get_attribute($this->env, $this->getSourceContext(), (isset($context["error"]) || array_key_exists("error", $context) ? $context["error"] : (function () { throw new Twig_Error_Runtime('Variable "error" does not exist.', 14, $this->getSourceContext()); })()), "messageData", array()), "security"), "html", null, true);
             echo "</div>
-";
+    ";
         }
-        // line 6
+        // line 16
         echo "
 <form action=\"";
-        // line 7
+        // line 17
         echo $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("fos_user_security_check");
         echo "\" method=\"post\">
-    ";
-        // line 8
-        if ((isset($context["csrf_token"]) || array_key_exists("csrf_token", $context) ? $context["csrf_token"] : (function () { throw new Twig_Error_Runtime('Variable "csrf_token" does not exist.', 8, $this->getSourceContext()); })())) {
-            // line 9
-            echo "        <input type=\"hidden\" name=\"_csrf_token\" value=\"";
-            echo twig_escape_filter($this->env, (isset($context["csrf_token"]) || array_key_exists("csrf_token", $context) ? $context["csrf_token"] : (function () { throw new Twig_Error_Runtime('Variable "csrf_token" does not exist.', 9, $this->getSourceContext()); })()), "html", null, true);
-            echo "\" />
-    ";
-        }
-        // line 11
-        echo "
-    <label for=\"username\">";
-        // line 12
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.username", array(), "FOSUserBundle"), "html", null, true);
+<div class=\"login-container\">
+
+    <div class=\"row\">
+        <div class=\"col s10 m6 l3 offset-l5 offset-s1  offset-m3\">
+            <div class=\"card z-depth-2\">
+                <div class=\"card-header\">
+                    <img  src=\"";
+        // line 24
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl("../../../images/logo-filiere-spmeca-01.png"), "html", null, true);
+        echo "\" alt=\"\">
+
+                </div>
+                <div class=\"card-content\">
+                    <form action=\"\" method=\"post\">
+                        <div class=\"row\">
+                            <div class=\"input-field\">
+                                <i class=\"material-icons prefix\">account_circle</i>
+                                <label for=\"username\">";
+        // line 32
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Pseudo", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
-    <input type=\"text\" id=\"username\" name=\"_username\" value=\"";
-        // line 13
-        echo twig_escape_filter($this->env, (isset($context["last_username"]) || array_key_exists("last_username", $context) ? $context["last_username"] : (function () { throw new Twig_Error_Runtime('Variable "last_username" does not exist.', 13, $this->getSourceContext()); })()), "html", null, true);
+                                <input type=\"text\" id=\"username\" name=\"_username\" value=\"";
+        // line 33
+        echo twig_escape_filter($this->env, (isset($context["last_username"]) || array_key_exists("last_username", $context) ? $context["last_username"] : (function () { throw new Twig_Error_Runtime('Variable "last_username" does not exist.', 33, $this->getSourceContext()); })()), "html", null, true);
         echo "\" required=\"required\" />
-
-    <label for=\"password\">";
-        // line 15
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.password", array(), "FOSUserBundle"), "html", null, true);
+                            </div>
+                        </div>
+                        <div class=\"row\">
+                            <div class=\"input-field\">
+                                <i class=\"material-icons prefix\">lock_outline</i>
+                                <label for=\"password\">";
+        // line 39
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Password", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
-    <input type=\"password\" id=\"password\" name=\"_password\" required=\"required\" />
-
-    <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
-    <label for=\"remember_me\">";
-        // line 19
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.remember_me", array(), "FOSUserBundle"), "html", null, true);
+                                <input type=\"password\" id=\"password\" name=\"_password\" required=\"required\" />
+                            </div>
+                        </div>
+                        <div class=\"row\">
+                            <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
+                            <label for=\"remember_me\">";
+        // line 45
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("remember me", array(), "FOSUserBundle"), "html", null, true);
         echo "</label>
+                        </div>
+                        <div class=\"row\">
+                            ";
+        // line 48
+        if ((isset($context["csrf_token"]) || array_key_exists("csrf_token", $context) ? $context["csrf_token"] : (function () { throw new Twig_Error_Runtime('Variable "csrf_token" does not exist.', 48, $this->getSourceContext()); })())) {
+            // line 49
+            echo "                                <input type=\"hidden\" name=\"_csrf_token\" value=\"";
+            echo twig_escape_filter($this->env, (isset($context["csrf_token"]) || array_key_exists("csrf_token", $context) ? $context["csrf_token"] : (function () { throw new Twig_Error_Runtime('Variable "csrf_token" does not exist.', 49, $this->getSourceContext()); })()), "html", null, true);
+            echo "\" />
+                            ";
+        }
+        // line 51
+        echo "                            <button class=\"btn-large pink\" type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"";
+        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("Envoyer", array(), "FOSUserBundle"), "html", null, true);
+        echo "\" ><i class=\"material-icons\">send</i></button>
 
-    <input type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"";
-        // line 21
-        echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\TranslationExtension')->trans("security.login.submit", array(), "FOSUserBundle"), "html", null, true);
-        echo "\" />
-</form>
+                        </div>
+                    </form>
+                </div>
+                <div class=\"card-action\">
+                    <a href=\"/register\">SIGN UP</a>
+                    <a href=\"#\">FORGOT PASSWORD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    html, body {
+        height: 100%;
+        width: 100%;
+        display: table;
+
+    }
+
+    .login-container {
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+
+    .login-container {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .card-header{
+
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+</style>
 ";
         
-        $__internal_1fbc9bab0a562c48189c042486ebafe030d736f526f46a59b91cedb1b44be080->leave($__internal_1fbc9bab0a562c48189c042486ebafe030d736f526f46a59b91cedb1b44be080_prof);
+        $__internal_5f0b4c1b8a14941f81e2855579b276afcb21b4f1b0f3c19eb8dc9e2470faefac->leave($__internal_5f0b4c1b8a14941f81e2855579b276afcb21b4f1b0f3c19eb8dc9e2470faefac_prof);
 
         
-        $__internal_0a1d3f363546ffa6df7c36e22e62f23c714f1ef68434fd3208fc9b9aeb6779d4->leave($__internal_0a1d3f363546ffa6df7c36e22e62f23c714f1ef68434fd3208fc9b9aeb6779d4_prof);
+        $__internal_15a596cac49eb8f2068e3aac710cacb8907a3f69d4982329281485e7517983cf->leave($__internal_15a596cac49eb8f2068e3aac710cacb8907a3f69d4982329281485e7517983cf_prof);
 
     }
 
@@ -96,33 +166,101 @@ class __TwigTemplate_7c26a4760af57f29266d93bcbb634a10d70252b29d99d63493adfc1d336
 
     public function getDebugInfo()
     {
-        return array (  75 => 21,  70 => 19,  63 => 15,  58 => 13,  54 => 12,  51 => 11,  45 => 9,  43 => 8,  39 => 7,  36 => 6,  30 => 4,  28 => 3,  25 => 2,);
+        return array (  106 => 51,  100 => 49,  98 => 48,  92 => 45,  83 => 39,  74 => 33,  70 => 32,  59 => 24,  49 => 17,  46 => 16,  40 => 14,  38 => 13,  25 => 2,);
     }
 
     public function getSourceContext()
     {
         return new Twig_Source("{% trans_default_domain 'FOSUserBundle' %}
 
-{% if error %}
-    <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
-{% endif %}
 
-<form action=\"{{ path(\"fos_user_security_check\") }}\" method=\"post\">
-    {% if csrf_token %}
-        <input type=\"hidden\" name=\"_csrf_token\" value=\"{{ csrf_token }}\" />
+
+
+
+
+
+
+
+
+
+    {% if error %}
+        <div>{{ error.messageKey|trans(error.messageData, 'security') }}</div>
     {% endif %}
 
-    <label for=\"username\">{{ 'security.login.username'|trans }}</label>
-    <input type=\"text\" id=\"username\" name=\"_username\" value=\"{{ last_username }}\" required=\"required\" />
+<form action=\"{{ path(\"fos_user_security_check\") }}\" method=\"post\">
+<div class=\"login-container\">
 
-    <label for=\"password\">{{ 'security.login.password'|trans }}</label>
-    <input type=\"password\" id=\"password\" name=\"_password\" required=\"required\" />
+    <div class=\"row\">
+        <div class=\"col s10 m6 l3 offset-l5 offset-s1  offset-m3\">
+            <div class=\"card z-depth-2\">
+                <div class=\"card-header\">
+                    <img  src=\"{{ asset('../../../images/logo-filiere-spmeca-01.png') }}\" alt=\"\">
 
-    <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
-    <label for=\"remember_me\">{{ 'security.login.remember_me'|trans }}</label>
+                </div>
+                <div class=\"card-content\">
+                    <form action=\"\" method=\"post\">
+                        <div class=\"row\">
+                            <div class=\"input-field\">
+                                <i class=\"material-icons prefix\">account_circle</i>
+                                <label for=\"username\">{{ 'Pseudo'|trans }}</label>
+                                <input type=\"text\" id=\"username\" name=\"_username\" value=\"{{ last_username }}\" required=\"required\" />
+                            </div>
+                        </div>
+                        <div class=\"row\">
+                            <div class=\"input-field\">
+                                <i class=\"material-icons prefix\">lock_outline</i>
+                                <label for=\"password\">{{ 'Password'|trans }}</label>
+                                <input type=\"password\" id=\"password\" name=\"_password\" required=\"required\" />
+                            </div>
+                        </div>
+                        <div class=\"row\">
+                            <input type=\"checkbox\" id=\"remember_me\" name=\"_remember_me\" value=\"on\" />
+                            <label for=\"remember_me\">{{ 'remember me'|trans }}</label>
+                        </div>
+                        <div class=\"row\">
+                            {% if csrf_token %}
+                                <input type=\"hidden\" name=\"_csrf_token\" value=\"{{ csrf_token }}\" />
+                            {% endif %}
+                            <button class=\"btn-large pink\" type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"{{ 'Envoyer'|trans }}\" ><i class=\"material-icons\">send</i></button>
 
-    <input type=\"submit\" id=\"_submit\" name=\"_submit\" value=\"{{ 'security.login.submit'|trans }}\" />
-</form>
+                        </div>
+                    </form>
+                </div>
+                <div class=\"card-action\">
+                    <a href=\"/register\">SIGN UP</a>
+                    <a href=\"#\">FORGOT PASSWORD</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    html, body {
+        height: 100%;
+        width: 100%;
+        display: table;
+
+    }
+
+    .login-container {
+        display: table-cell;
+        vertical-align: middle;
+
+    }
+
+    .login-container {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .card-header{
+
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+</style>
 ", "@FOSUser/Security/login_content.html.twig", "/home/fabien/mecacorp/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig");
     }
 }
