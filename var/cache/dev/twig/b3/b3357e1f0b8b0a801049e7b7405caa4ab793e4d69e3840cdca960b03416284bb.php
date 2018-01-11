@@ -15,11 +15,11 @@ class __TwigTemplate_d8cdd84a2fafedccf91e0b62b1c4424bc8e3cf7bca9cf31c12ab6bf7a8e
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_e941445207fbdbb85b104fdb49eb52a301a79711caacf5bdb24646e77d036ed3 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_e941445207fbdbb85b104fdb49eb52a301a79711caacf5bdb24646e77d036ed3->enter($__internal_e941445207fbdbb85b104fdb49eb52a301a79711caacf5bdb24646e77d036ed3_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/field_string.html.twig"));
+        $__internal_c7f96e914a0921ddeb9e2ac97a8bc2672557420e1eba4fe542b3c584d58098f9 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_c7f96e914a0921ddeb9e2ac97a8bc2672557420e1eba4fe542b3c584d58098f9->enter($__internal_c7f96e914a0921ddeb9e2ac97a8bc2672557420e1eba4fe542b3c584d58098f9_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/field_string.html.twig"));
 
-        $__internal_a44fd6274f434dd6d231ca169fdaf45442040fc41c376fdb96e7dc9c4417d37b = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_a44fd6274f434dd6d231ca169fdaf45442040fc41c376fdb96e7dc9c4417d37b->enter($__internal_a44fd6274f434dd6d231ca169fdaf45442040fc41c376fdb96e7dc9c4417d37b_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/field_string.html.twig"));
+        $__internal_afcec2a2db797ab91dcf966daa6f533a5743b0c6813329867f97548027f7b239 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_afcec2a2db797ab91dcf966daa6f533a5743b0c6813329867f97548027f7b239->enter($__internal_afcec2a2db797ab91dcf966daa6f533a5743b0c6813329867f97548027f7b239_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "@EasyAdmin/default/field_string.html.twig"));
 
         // line 1
         if (((isset($context["view"]) || array_key_exists("view", $context) ? $context["view"] : (function () { throw new Twig_Error_Runtime('Variable "view" does not exist.', 1, $this->getSourceContext()); })()) == "show")) {
@@ -36,10 +36,10 @@ class __TwigTemplate_d8cdd84a2fafedccf91e0b62b1c4424bc8e3cf7bca9cf31c12ab6bf7a8e
 ";
         }
         
-        $__internal_e941445207fbdbb85b104fdb49eb52a301a79711caacf5bdb24646e77d036ed3->leave($__internal_e941445207fbdbb85b104fdb49eb52a301a79711caacf5bdb24646e77d036ed3_prof);
+        $__internal_c7f96e914a0921ddeb9e2ac97a8bc2672557420e1eba4fe542b3c584d58098f9->leave($__internal_c7f96e914a0921ddeb9e2ac97a8bc2672557420e1eba4fe542b3c584d58098f9_prof);
 
         
-        $__internal_a44fd6274f434dd6d231ca169fdaf45442040fc41c376fdb96e7dc9c4417d37b->leave($__internal_a44fd6274f434dd6d231ca169fdaf45442040fc41c376fdb96e7dc9c4417d37b_prof);
+        $__internal_afcec2a2db797ab91dcf966daa6f533a5743b0c6813329867f97548027f7b239->leave($__internal_afcec2a2db797ab91dcf966daa6f533a5743b0c6813329867f97548027f7b239_prof);
 
     }
 
@@ -65,6 +65,6 @@ class __TwigTemplate_d8cdd84a2fafedccf91e0b62b1c4424bc8e3cf7bca9cf31c12ab6bf7a8e
 {% else %}
     {{ value|easyadmin_truncate }}
 {% endif %}
-", "@EasyAdmin/default/field_string.html.twig", "/home/fabien/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/field_string.html.twig");
+", "@EasyAdmin/default/field_string.html.twig", "/home/sunshine/Documents/mecacorp/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/field_string.html.twig");
     }
 }

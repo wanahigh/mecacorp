@@ -1,0 +1,9 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <h1 class="header"><strong style="color:deeppink;">404</strong> Page non trouvée</h1>
+
+    <blockquote><p class="flow-text">
+       La requette n'a pas abouti. Vérifier l'orthographe de l'URL ou <a href="{{ path('homepage') }}">Retour a l'accueil</a>.
+    </p></blockquote>
+{% endblock %}

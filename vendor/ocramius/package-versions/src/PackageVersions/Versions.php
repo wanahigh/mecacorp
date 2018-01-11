@@ -58,7 +58,7 @@ final class Versions
   'psr/simple-cache' => '1.0.0@753fa598e8f3b9966c886fe13f370baa45ef0e24',
   'sensio/distribution-bundle' => 'v5.0.21@eb6266b3b472e4002538610b28a0a04bcf94891a',
   'sensio/framework-extra-bundle' => 'v5.1.3@0696496cb3e2d23add645d424699e5c723238aad',
-  'sensiolabs/security-checker' => 'v4.1.6@387b6a3b723ba35588b33d5f8d14e28ed608bd30',
+  'sensiolabs/security-checker' => 'v4.1.7@d539ccba2b4dce515de04f16b7ed7ae5b9eeb434',
   'stof/doctrine-extensions-bundle' => 'v1.3.0@46db71ec7ffee9122eca3cdddd4ef8d84bae269c',
   'swiftmailer/swiftmailer' => 'v5.4.8@9a06dc570a0367850280eefd3f1dc2da45aef517',
   'symfony/assetic-bundle' => 'v2.8.2@2e0a23a4874838e26de6f025e02fc63328921a4c',
@@ -82,7 +82,7 @@ final class Versions
   'doctrine/doctrine-fixtures-bundle' => '3.0.2@7fc29d2b18c61ed99826b21fbfd1ff9969cc2e7f',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.3@24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9',
-  'akatosh' => 'dev-master@7cde89bfcc48a9660389a5ced3f4310091854192',
+  'akatosh' => 'dev-master@9d4f67faa6da98da251e228d79f29c1943452aca',
 );
 
     private function __construct()
