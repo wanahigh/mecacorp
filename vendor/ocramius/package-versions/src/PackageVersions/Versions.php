@@ -23,7 +23,7 @@ final class Versions
   'doctrine/doctrine-bundle' => '1.8.1@eb6e4fb904a459be28872765ab6e2d246aac7c87',
   'doctrine/doctrine-cache-bundle' => '1.3.2@9baecbd6bfdd1123b0cf8c1b88fee0170a84ddd1',
   'doctrine/doctrine-migrations-bundle' => 'dev-master@d78e19f96b54aed55aceedcdddd0fdc994b1010b',
-  'doctrine/inflector' => 'v1.2.0@e11d84c6e018beedd929cff5220969a3c6d1d462',
+  'doctrine/inflector' => 'v1.3.0@5527a48b7313d15261292c149e55e26eae771b0a',
   'doctrine/instantiator' => '1.1.0@185b8868aa9bf7159f5f953ed5afb2d7fcdc3bda',
   'doctrine/lexer' => 'v1.0.1@83893c552fd2045dd78aef794c31e694c37c0b8c',
   'doctrine/migrations' => 'v1.6.2@e3faf7c96b8a6084045dedcaf51f74c7834644d4',
@@ -43,6 +43,7 @@ final class Versions
   'knplabs/knp-components' => '1.3.5@a03bbd87ecf9e56db6f7533db2c63d6da6cd5f33',
   'knplabs/knp-paginator-bundle' => 'v2.7.1@754129b52cd2bcc86025b4ef0de2d7ace73abac4',
   'kriswallsmith/assetic' => 'v1.4.0@e911c437dbdf006a8f62c2f59b15b2d69a5e0aa1',
+  'liip/search-bundle' => '2.0.0@581bd134a5b77662a93c9e665f75dccd345e67b5',
   'monolog/monolog' => '1.23.0@fd8c787753b3a2ad11bc60c063cff1358a32a3b4',
   'ocramius/package-versions' => '1.2.0@ad8a245decad4897cc6b432743913dad0d69753c',
   'ocramius/proxy-manager' => '2.1.1@e18ac876b2e4819c76349de8f78ccc8ef1554cd7',
@@ -74,13 +75,14 @@ final class Versions
   'symfony/symfony' => 'v3.4.3@21abeae69baf64d689b04ca33663b4354be1a226',
   'twig/extensions' => 'v1.5.1@d188c76168b853481cc75879ea045bf93d718e9c',
   'twig/twig' => 'v2.4.4@eddb97148ad779f27e670e1e3f19fb323aedafeb',
+  'white-october/pagerfanta-bundle' => 'v1.1.2@b783a86877eaa5e9844449db1c86d68ace804ae3',
   'zendframework/zend-code' => '3.3.0@6b1059db5b368db769e4392c6cb6cc139e56640d',
   'zendframework/zend-eventmanager' => '3.2.0@9d72db10ceb6e42fb92350c0cb54460da61bd79c',
   'doctrine/data-fixtures' => 'v1.3.0@7b76ccc8e648c4502aad7f61347326c8a072bd3b',
   'doctrine/doctrine-fixtures-bundle' => '3.0.2@7fc29d2b18c61ed99826b21fbfd1ff9969cc2e7f',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.3@24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9',
-  'akatosh' => 'dev-master@2d8b8f710bc97f81c478b459c13c3b5cda2a0349',
+  'akatosh' => 'dev-master@7cde89bfcc48a9660389a5ced3f4310091854192',
 );
 
     private function __construct()

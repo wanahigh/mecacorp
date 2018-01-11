@@ -4,6 +4,7 @@ acme_accueil:
     prefix:   /
 
 
+
 acme_actor:
     resource: "@AcmeActorBundle/Resources/config/routing.yml"
     prefix:   /
@@ -29,6 +30,7 @@ acme_contact:
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+    prefix:   /
 
 
 fos_user:
