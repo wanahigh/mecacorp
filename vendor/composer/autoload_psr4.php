@@ -62,5 +62,6 @@ return array(
     'Doctrine\\Bundle\\DoctrineBundle\\' => array($vendorDir . '/doctrine/doctrine-bundle'),
     'Curiosity26\\AngularMaterialBundle\\' => array($vendorDir . '/curiosity26/angular-material-bundle'),
     'Composer\\CaBundle\\' => array($vendorDir . '/composer/ca-bundle/src'),
+    'Algolia\\SearchBundle\\' => array($vendorDir . '/algolia/search-bundle/src'),
     '' => array($baseDir . '/src'),
 );

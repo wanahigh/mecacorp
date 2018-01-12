@@ -6,6 +6,7 @@ use Acme\ActuBundle\Entity\Entity\Advert;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 use Symfony\Component\HttpFoundation\Request;
 use Acme\ActuBundle\Form\Entity\CommentType;
+use Symfony\Component\HttpKernel\Exception\HttpException;
 
 /**
  * Advert controller.
@@ -127,5 +128,12 @@ class AdvertController extends Controller
             ->setAction($this->generateUrl('entity_advert_delete', array('id' => $advert->getId())))
             ->setMethod('DELETE')
             ->getForm();
+    }
+
+    public function postUserCommentsAction($slug)
+    {
+        if (!$this->validate($slug)) {
+            throw new HttpException(400, "New comment is not valid.");
+        }
     }
 }

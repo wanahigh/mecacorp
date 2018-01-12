@@ -28,6 +28,15 @@ class Comment
     private $comment;
 
 
+
+    /**
+     * >Advert of this comment
+     *
+     * @var Advert
+     * @ORM\ManyToOne(targetEntity="Acme\ActuBundle\Entity\Entity\Advert")
+     */
+    protected $Advert;
+
     /**
      * Get id.
      *

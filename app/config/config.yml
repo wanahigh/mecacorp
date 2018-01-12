@@ -31,6 +31,8 @@ parameters:
     mailer_password: vbmqvpcuxtzeadng
 
 framework:
+       translator: ~
+#    http_method_override: true
        #esi: ~
        #translator: { fallbacks: ['%locale%'] }
        secret: '%secret%'
@@ -96,6 +98,7 @@ assetic:
     use_controller: '%kernel.debug%'
     filters:
         cssrewrite: ~
+    bundles: [ "FOSCommentBundle" ]
 
 knp_paginator:
     page_range: 5                       # number of links showed in the pagination menu (e.g: you have 10 pages, a page_range of 3, on the 5th page you'll see links to page 4, 5, 6)
@@ -134,5 +137,7 @@ easy_admin:
                        - { name: 'new', icon: 'pencil', label: '', title: 'Edit' }
                        - { name: 'search', icon: 'search', label: '', title: 'rechercher' }
        # ...
+
+
 
 

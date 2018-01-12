@@ -21,6 +21,7 @@
     },
     "require": {
         "php": ">=5.5.9",
+        "algolia/search-bundle": "^3.0",
         "components/jquery": "^3.2",
         "curiosity26/angular-material-bundle": "^0.2.5",
         "doctrine/annotations": "^1.6",

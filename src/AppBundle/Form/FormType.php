@@ -24,6 +24,6 @@ class FormType extends AbstractType
 
     public function getName()
     {
-        return 'readypeeps_user_profile';
+        return 'a_user_profile';
     }
 }

@@ -4,13 +4,18 @@ namespace Acme\ActuBundle\Entity\Entity;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Component\Serializer\Annotation\Groups;
+use Acme\ActuBundle\Entity\Entity\Comment;
 
 /**
  * @ORM\Entity(repositoryClass="Acme\ActuBundle\Repository\AdvertRepository")
  * @ORM\Table(name="advert")
  * @ORM\HasLifecycleCallbacks()
  */
-
+/**
+ * @ORM\Entity
+ * @ORM\ChangeTrackingPolicy("DEFERRED_EXPLICIT")
+ */
 /**
  * Advert
  */
@@ -156,10 +161,10 @@ class Advert
         return $this;
     }
 
+
+
     /**
-     * Get content.
-     *
-     * @return string
+     * @Groups({"searchable"})
      */
     public function getContent()
     {

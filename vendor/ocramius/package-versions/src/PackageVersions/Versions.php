@@ -11,6 +11,8 @@ namespace PackageVersions;
 final class Versions
 {
     const VERSIONS = array (
+  'algolia/algoliasearch-client-php' => '1.25.0@0fd6eabe909c3f860ac3ff38f595a735e74ff6da',
+  'algolia/search-bundle' => '3.0.0@02fdaa5ba11c5b7a830382b22dcc47383c6404d8',
   'behat/transliterator' => 'v1.2.0@826ce7e9c2a6664c0d1f381cbb38b1fb80a7ee2c',
   'components/jquery' => '3.2.1@e5534d4ab8e80c159553d507e358ed20a806d3bf',
   'composer/ca-bundle' => '1.1.0@943b2c4fcad1ef178d16a713c2468bf7e579c288',
@@ -57,7 +59,7 @@ final class Versions
   'psr/log' => '1.0.2@4ebe3a8bf773a19edfe0a84b6585ba3d401b724d',
   'psr/simple-cache' => '1.0.0@753fa598e8f3b9966c886fe13f370baa45ef0e24',
   'sensio/distribution-bundle' => 'v5.0.21@eb6266b3b472e4002538610b28a0a04bcf94891a',
-  'sensio/framework-extra-bundle' => 'v5.1.3@0696496cb3e2d23add645d424699e5c723238aad',
+  'sensio/framework-extra-bundle' => 'v5.1.4@072c00c52b947e88a1e619e9ff426cee6c8c482b',
   'sensiolabs/security-checker' => 'v4.1.7@d539ccba2b4dce515de04f16b7ed7ae5b9eeb434',
   'stof/doctrine-extensions-bundle' => 'v1.3.0@46db71ec7ffee9122eca3cdddd4ef8d84bae269c',
   'swiftmailer/swiftmailer' => 'v5.4.8@9a06dc570a0367850280eefd3f1dc2da45aef517',
@@ -82,7 +84,7 @@ final class Versions
   'doctrine/doctrine-fixtures-bundle' => '3.0.2@7fc29d2b18c61ed99826b21fbfd1ff9969cc2e7f',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.3@24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9',
-  'akatosh' => 'dev-master@9d4f67faa6da98da251e228d79f29c1943452aca',
+  'akatosh' => 'dev-master@aba509416fb984f7be273d9bca9d1412da047005',
 );
 
     private function __construct()

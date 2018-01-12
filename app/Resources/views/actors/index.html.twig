@@ -2,12 +2,6 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
-    <style>
-        section{
-    background-color: #0D47A1;
-
-        }
-    </style>
 
     <h1 class="header">LE CLUSTER</h1>
     <table>
@@ -17,11 +11,12 @@
             <div  class="row">
 
             <div  class="container">
-            <div  class="card medium z-depth-5 hover">
+            <div  class="card medium z-depth-5 hover black">
             <div  class="card-image waves-effect waves-block waves-light">
-            <img  class="activator" src="{{ actor.image }}">
+            <img id="blur" class="activator" src="{{ asset('uploads/images/' ~  actor.image ) }}" height="300px" width="600px">
+
             </div>
-            <div  class="card-content">
+            <div  class="card-content z-depth-10 white">
             <span class="card-title activator grey-text text-darken-4"><a class="btn-large blue" href="{{ path('actors_show', { 'raisonsocial': actor.raisonsocial }) }}">{{ actor.raisonsocial }}</a><i class="material-icons right">more_vert</i></span>
             <p><a href="#">{{ actor.siteweb }}</a></p>
             </div>

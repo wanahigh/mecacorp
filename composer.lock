@@ -4,9 +4,115 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "70fdc223cabe97e967d6f06d74481a72",
-    "content-hash": "c3421c978f5aed10dd9dc9a60b363c88",
+    "hash": "91c2ff6aa30288610d7495d140058252",
+    "content-hash": "29420dbdb386ffebbbf9e348bd81dcfb",
     "packages": [
+        {
+            "name": "algolia/algoliasearch-client-php",
+            "version": "1.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/algoliasearch-client-php.git",
+                "reference": "0fd6eabe909c3f860ac3ff38f595a735e74ff6da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/algoliasearch-client-php/zipball/0fd6eabe909c3f860ac3ff38f595a735e74ff6da",
+                "reference": "0fd6eabe909c3f860ac3ff38f595a735e74ff6da",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4",
+                "satooshi/php-coveralls": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "AlgoliaSearch": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Algolia Team",
+                    "email": "contact@algolia.com"
+                },
+                {
+                    "name": "Ryan T. Catlin",
+                    "email": "ryan.catlin@gmail.com"
+                },
+                {
+                    "name": "Jonathan H. Wage",
+                    "email": "jonwage@gmail.com"
+                }
+            ],
+            "description": "Algolia Search API Client for PHP",
+            "homepage": "https://github.com/algolia/algoliasearch-client-php",
+            "time": "2017-12-28 08:10:23"
+        },
+        {
+            "name": "algolia/search-bundle",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/algolia/search-bundle.git",
+                "reference": "02fdaa5ba11c5b7a830382b22dcc47383c6404d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/algolia/search-bundle/zipball/02fdaa5ba11c5b7a830382b22dcc47383c6404d8",
+                "reference": "02fdaa5ba11c5b7a830382b22dcc47383c6404d8",
+                "shasum": ""
+            },
+            "require": {
+                "algolia/algoliasearch-client-php": "^1.23",
+                "doctrine/common": "^2.5",
+                "symfony/filesystem": "^3.4.0 || ^4.0.0",
+                "symfony/property-access": "^3.4.0 || ^4.0.0",
+                "symfony/serializer": "^3.4.0 || ^4.0.0"
+            },
+            "require-dev": {
+                "doctrine/doctrine-bundle": "^1.8",
+                "doctrine/orm": "^2.5",
+                "phpunit/phpunit": "^5.7 || ^6.5",
+                "symfony/doctrine-bridge": "^3.4.0 || ^4.0.0",
+                "symfony/framework-bundle": "^3.4.0 || ^4.0.0",
+                "symfony/yaml": "^3.4.0 || ^4.0.0"
+            },
+            "type": "symfony-bundle",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Algolia\\SearchBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Algolia Team",
+                    "email": "contact@algolia.com"
+                },
+                {
+                    "name": "Julien Bourdeau",
+                    "email": "julien@sigerr.org"
+                }
+            ],
+            "time": "2018-01-10 16:50:28"
+        },
         {
             "name": "behat/transliterator",
             "version": "v1.2.0",
@@ -2786,16 +2892,16 @@
         },
         {
             "name": "sensio/framework-extra-bundle",
-            "version": "v5.1.3",
+            "version": "v5.1.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "0696496cb3e2d23add645d424699e5c723238aad"
+                "reference": "072c00c52b947e88a1e619e9ff426cee6c8c482b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/0696496cb3e2d23add645d424699e5c723238aad",
-                "reference": "0696496cb3e2d23add645d424699e5c723238aad",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/072c00c52b947e88a1e619e9ff426cee6c8c482b",
+                "reference": "072c00c52b947e88a1e619e9ff426cee6c8c482b",
                 "shasum": ""
             },
             "require": {
@@ -2851,7 +2957,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2017-12-04 18:33:55"
+            "time": "2018-01-12 13:08:16"
         },
         {
             "name": "sensiolabs/security-checker",

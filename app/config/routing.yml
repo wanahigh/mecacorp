@@ -3,8 +3,6 @@ acme_accueil:
     type:     annotation
     prefix:   /
 
-
-
 acme_actor:
     resource: "@AcmeActorBundle/Resources/config/routing.yml"
     prefix:   /
