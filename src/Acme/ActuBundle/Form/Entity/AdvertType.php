@@ -14,7 +14,7 @@ class AdvertType extends AbstractType
      */
     public function buildForm(FormBuilderInterface $builder, array $options)
     {
-        $builder->add('date')->add('title')->add('author')->add('content')->add('image', FileType::class, array('label' => 'Image(JPG)','class'=>'FooImg'))->add('categories');
+        $builder->add('date')->add('title')->add('author')->add('content')->add('image', FileType::class, array('label' => 'Image(JPG)','class'=>'FooImg'))->add('category', CategoryType::class);
 
     }/**
      * {@inheritdoc}

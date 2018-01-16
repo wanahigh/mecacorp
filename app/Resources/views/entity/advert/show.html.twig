@@ -3,6 +3,12 @@
 {% block body %}
     <h1 class="header">  {{ advert.title }}</h1>
 
+    <h3>Category</h3>
+    <div class="category">
+        {{ form_row(form.category.name) }}
+    </div>
+
+
     <table>
         <tbody>
             <tr>

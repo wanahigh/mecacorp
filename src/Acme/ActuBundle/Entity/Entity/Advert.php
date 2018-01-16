@@ -2,8 +2,8 @@
 namespace Acme\ActuBundle\Entity\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\ArrayCollection;
+use Symfony\Component\Validator\Constraints as Assert;
 use Symfony\Component\Serializer\Annotation\Groups;
 use Acme\ActuBundle\Entity\Entity\Comment;
 
@@ -12,12 +12,10 @@ use Acme\ActuBundle\Entity\Entity\Comment;
  * @ORM\Table(name="advert")
  * @ORM\HasLifecycleCallbacks()
  */
-/**
- * @ORM\Entity
- * @ORM\ChangeTrackingPolicy("DEFERRED_EXPLICIT")
- */
+
 /**
  * Advert
+ * @property string categories
  */
 class Advert
 {
@@ -59,12 +57,7 @@ class Advert
      */
     private $image;
 
-    /**
-     * @var string
-     */
-    private $categories;
-
-
+    private $category;
     /**
      * Get id.
      *
@@ -162,7 +155,6 @@ class Advert
     }
 
 
-
     /**
      * @Groups({"searchable"})
      */
@@ -196,33 +188,19 @@ class Advert
     }
 
     /**
-     * Set categories.
-     *
-     * @param string $categories
-     *
-     * @return Advert
+     * @return mixed
      */
-    public function setCategories($categories)
+    public function getCategory()
     {
-        $this->categories = $categories;
-
-        return $this;
+        return $this->category;
     }
 
     /**
-     * Get categories.
-     *
-     * @return string
+     * @param mixed $category
      */
-    public function getCategories()
+    public function setCategory($category)
     {
-        return $this->categories;
-    }
-
-    public function __construct()
-    {
-        $this->comments = new ArrayCollection();
-
+        $this->category = $category;
     }
 }
 

@@ -23,7 +23,11 @@ Acme\ActuBundle\Entity\Entity\Advert:
         image:
             type: string
             length: 255
-        categories:
-            type: string
-            length: 255
+    manyToOne:
+            category:
+                targetEntity: Category
+                inversedBy: adverts
+                joinColumn:
+                    name: category_id
+                    referencedColumnName: id
     lifecycleCallbacks: {  }
