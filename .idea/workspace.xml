@@ -5,144 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17744b38-e1d0-43af-a86a-19395c3b6afc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CommentType.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/symfony-stg.iml" afterPath="$PROJECT_DIR$/.idea/symfony-stg.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/Accueil.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/Accueil.html.twig" />
       <change beforePath="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" />
-      <change beforePath="$PROJECT_DIR$/app/bdd" afterPath="$PROJECT_DIR$/app/bdd" />
-      <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" afterPath="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.xml.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerCompiler.log" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/assetic/routing.yml" afterPath="$PROJECT_DIR$/var/cache/dev/assetic/routing.yml" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/01/015e0d837e5adf6b30ff9ec047687bdbdd86b0738a930d94555c66cbb3004f74.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/01/015e0d837e5adf6b30ff9ec047687bdbdd86b0738a930d94555c66cbb3004f74.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/01/01ec5319374f0cbf24f8fb7182f480e3ae0683fd82d3e58a6cf9b4aab090d980.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/01/01ec5319374f0cbf24f8fb7182f480e3ae0683fd82d3e58a6cf9b4aab090d980.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b07fd545f6981f462ab56ac9539dc342fdcbebf74bd1394c755dfbe7197f124.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b07fd545f6981f462ab56ac9539dc342fdcbebf74bd1394c755dfbe7197f124.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/10/103dca2f39bc97bb88d8ed9834178329d3c2bc0840128710b7caf774c846a374.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/10/103dca2f39bc97bb88d8ed9834178329d3c2bc0840128710b7caf774c846a374.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/1248fa1f465bb2ffe1c4f6a00dce10064f3b2684a4c77a3ac9e7b2a7391b66d3.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/161079b417f02d0c2ae766e04899673097d2e140d6944930b69235b03f55f44c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/16/161079b417f02d0c2ae766e04899673097d2e140d6944930b69235b03f55f44c.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1a/1ad840d08b8deeb135b6f9ff4109ad8e4871a788cccc8e7b71bb9e55e32105bd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1a/1ad840d08b8deeb135b6f9ff4109ad8e4871a788cccc8e7b71bb9e55e32105bd.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1e/1e8ced1692f1206cdbbc594a7fb351a44c2de08aaa0ef46435b4e6a97549d279.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1e/1e8ced1692f1206cdbbc594a7fb351a44c2de08aaa0ef46435b4e6a97549d279.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/2d/2dec284e78d570aad01be78a71d26a534fd2c0838bd3f2d1f78f40bfc2fa01e4.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/2d/2dec284e78d570aad01be78a71d26a534fd2c0838bd3f2d1f78f40bfc2fa01e4.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/34/3400e5b44e9b946736f0d86a3d9871be5841e41ffdac71bb64450305bf0f8b5b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/34/3400e5b44e9b946736f0d86a3d9871be5841e41ffdac71bb64450305bf0f8b5b.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/36/36b359a051b4eb1aad9dd3c18bb011b711b7a4735451da850a9315f4dd0d9843.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/36/36b359a051b4eb1aad9dd3c18bb011b711b7a4735451da850a9315f4dd0d9843.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/41/417049a72e25bdc79f97e57bc9bfba67f78fcbf75befdc11860a191724c1643e.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/41/417049a72e25bdc79f97e57bc9bfba67f78fcbf75befdc11860a191724c1643e.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4a/4a86477a6f6b2285fb83127ef528267bcb742de48b3e01e134cfee17a590e012.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4a/4a86477a6f6b2285fb83127ef528267bcb742de48b3e01e134cfee17a590e012.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/4e/4e887e1fbda3ec0f4d86d3a07f6bfc186822f83738d545be9be06ae4a960b108.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/4e/4e887e1fbda3ec0f4d86d3a07f6bfc186822f83738d545be9be06ae4a960b108.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/56/565ad38dd0d917ad47e2e2aa34da648dbadacaa21d9269ccce040679171b1e0b.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/56/565ad38dd0d917ad47e2e2aa34da648dbadacaa21d9269ccce040679171b1e0b.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/59/595fb5e1653a60a1628f98d3890c32958f2d73f53651af1751a789ea010c8cfe.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/59/595fb5e1653a60a1628f98d3890c32958f2d73f53651af1751a789ea010c8cfe.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b860b4da3750fa92cd6799e89bd1cc25df23381ab54f005951535eca2667356.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5b/5b860b4da3750fa92cd6799e89bd1cc25df23381ab54f005951535eca2667356.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/5d/5d34efd69e7930384374eb539531b0be99a15b6a1feab4d59e59e0f51768ed56.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/5d/5d34efd69e7930384374eb539531b0be99a15b6a1feab4d59e59e0f51768ed56.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/60/60f9ae4236be407d34fe35d09d08bcdcc5103c9ff715ec8656ebca5159db7da0.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/60/60f9ae4236be407d34fe35d09d08bcdcc5103c9ff715ec8656ebca5159db7da0.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/86/86e19491c56fcca8ae51e1462fce26a597892fd169d1ea47c1638354894034bc.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/86/86e19491c56fcca8ae51e1462fce26a597892fd169d1ea47c1638354894034bc.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/8854764513af17b83810c284c3afb4be708f4aeff3617d1d6cd7509b42cd759a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/88/8854764513af17b83810c284c3afb4be708f4aeff3617d1d6cd7509b42cd759a.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/88/88de3ef7aaa2fcf16be0221e3db4ff9a89e28e70932d3b31b118080676b76b0a.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/88/88de3ef7aaa2fcf16be0221e3db4ff9a89e28e70932d3b31b118080676b76b0a.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b0a36785c2593c2997fa5105576accf3f6714360aa50e5843b08761a70a8a36.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8b/8b0a36785c2593c2997fa5105576accf3f6714360aa50e5843b08761a70a8a36.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/8e/8eb445f86c96b579c72420a97131ea065a0b4300510e7b1305f0aa42f0ceb015.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/8e/8eb445f86c96b579c72420a97131ea065a0b4300510e7b1305f0aa42f0ceb015.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/90/9068f17959dd9c55176c164d3287aa6c55b80838a39bff08811ab9a76ed1aa33.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/90/9068f17959dd9c55176c164d3287aa6c55b80838a39bff08811ab9a76ed1aa33.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/952915b95e692ee0ecde116b0562242b13e208e5613b75bd1374befda20440b8.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/95/952915b95e692ee0ecde116b0562242b13e208e5613b75bd1374befda20440b8.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/95/95ee0de1e6748c9cae1564b60836908fe155e689cb420dddffee36c2133db8da.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/95/95ee0de1e6748c9cae1564b60836908fe155e689cb420dddffee36c2133db8da.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/a0/a02a4dcf0f86c623c637601182f225c98e911cb48392f4986ac8825a19c77976.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/a0/a02a4dcf0f86c623c637601182f225c98e911cb48392f4986ac8825a19c77976.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/b2/b28fec80acf316db1e7a7496bac9dfebcbd6e13f540f7549c747663c8fe4b8d1.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/b2/b28fec80acf316db1e7a7496bac9dfebcbd6e13f540f7549c747663c8fe4b8d1.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ba/ba48c5b0386d33bdeb97d5a3df0c90d257a073f29d2edf1a2dddbbeacfb92e5c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ba/ba48c5b0386d33bdeb97d5a3df0c90d257a073f29d2edf1a2dddbbeacfb92e5c.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ba/bad109c969c6721de13daf441e21b52bdbd611ea4a49319bd80ce8db36156b03.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ba/bad109c969c6721de13daf441e21b52bdbd611ea4a49319bd80ce8db36156b03.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/bb/bb3ff41c210bd1b0940b0457dbe65313dbddc2184e514c264709d4a81b859447.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/bb/bb3ff41c210bd1b0940b0457dbe65313dbddc2184e514c264709d4a81b859447.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c4/c47b5db403e174e6c09523aecb9c9c20d724421eac26d9007551ea7f81086208.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c4/c47b5db403e174e6c09523aecb9c9c20d724421eac26d9007551ea7f81086208.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/c9/c929737fc718e73c91c6720eff3dc5f891b7effaf9d732df56f79cc605b2af70.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/c9/c929737fc718e73c91c6720eff3dc5f891b7effaf9d732df56f79cc605b2af70.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/d0/d0db456cb9e16e36bdd3079c73300c3c4f73fcc94d9428e9d5942302ad03a5b5.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/d0/d0db456cb9e16e36bdd3079c73300c3c4f73fcc94d9428e9d5942302ad03a5b5.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e0/e0244eedd3ac6c1aa631f45dd84253f909430215336f53f086a27c2b2df51064.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/e0/e0244eedd3ac6c1aa631f45dd84253f909430215336f53f086a27c2b2df51064.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb809751606d3f5742281d02651ff7cc9dff64302b6d28667a180ba96b4e95f9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb809751606d3f5742281d02651ff7cc9dff64302b6d28667a180ba96b4e95f9.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ed/ed8ebbf5e84d4c4297aa5c405fcfc9823e47db103e12a19d59bb72dca5bcfc88.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ed/ed8ebbf5e84d4c4297aa5c405fcfc9823e47db103e12a19d59bb72dca5bcfc88.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f1/f1d3f9d22b7c812dc055f00e17919f27a412dc0f284e86fcb62c0927ab84386d.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f7/f75fa83732688abbb08716ac4a7cdaade6af1ed6ddfc2b06507ff83f395e8726.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f7/f75fa83732688abbb08716ac4a7cdaade6af1ed6ddfc2b06507ff83f395e8726.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fb/fbcdc0e8a4baebc5d402a400bd89853feaf55d4570e952ca881fd89bba9e8d33.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fb/fbcdc0e8a4baebc5d402a400bd89853feaf55d4570e952ca881fd89bba9e8d33.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc6e1037101d9649780af07ec83cab4d97968b26a93f0b2bd020d2609dfd71ef.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/integration/fosuserbundle.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/integration/fosuserbundle.rst" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/tutorials/custom-actions.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/tutorials/custom-actions.rst" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/bin/compile_assets.sh" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/bin/compile_assets.sh" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ar.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/az.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/az.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/bg.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ca.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/cs.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/da.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/da.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/de.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/de.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/el.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/el.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/en.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/en.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/es.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/es.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/et.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/et.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/eu.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fa.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fi.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fr.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/gl.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/he.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/he.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hi.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hr.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hu.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/id.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/id.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/is.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/is.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/it.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/it.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ja.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/km.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/km.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ko.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lt.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lv.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/mk.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ms.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nb.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nl.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pl.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt-BR.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ro.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ru.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sk.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr-Cyrl.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sv.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/th.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/th.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/tr.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/uk.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/vi.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-CN.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-TW.js" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.fr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.fr.xlf" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.it.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.it.xlf" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/layout.html.twig" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/show.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/show.html.twig" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Twig/EasyAdminTwigExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Twig/EasyAdminTwigExtension.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomFieldTemplateTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomFieldTemplateTest.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/AppKernel.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/AppKernel.php" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/Resources/views/easy_admin/custom_field_template.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/Resources/views/easy_admin/custom_field_template.html.twig" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_field_template.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_field_template.yml" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" />
-      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Internationalization/xliff-core-1.2-strict.xsd" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Internationalization/xliff-core-1.2-strict.xsd" />
-      <change beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -202,8 +70,8 @@
       <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1824">
-              <caret line="76" column="70" lean-forward="true" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+            <state relative-caret-position="408">
+              <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -261,8 +129,8 @@
       <file leaf-file-name="Accueil.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+            <state relative-caret-position="390">
+              <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -371,7 +239,6 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Form/FormType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/RegistrationType.php" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/Accueil.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/actors/show.html.twig" />
@@ -400,6 +267,7 @@
         <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/Accueil.html.twig" />
       </list>
     </option>
   </component>
@@ -496,8 +364,8 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="488" />
-    <option name="y" value="108" />
+    <option name="x" value="458" />
+    <option name="y" value="177" />
     <option name="width" value="1157" />
     <option name="height" value="636" />
   </component>
@@ -703,7 +571,7 @@
       <workItem from="1516692529837" duration="106000" />
       <workItem from="1516692716184" duration="39000" />
       <workItem from="1516692782249" duration="54000" />
-      <workItem from="1516692996537" duration="13642000" />
+      <workItem from="1516692996537" duration="16952000" />
     </task>
     <task id="LOCAL-00001" summary="cluster done">
       <created>1515163100332</created>
@@ -754,11 +622,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516101483148</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="maj soir">
+      <created>1516718128176</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1516718128176</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146724000" />
+    <option name="totallyTimeSpent" value="150034000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -771,7 +646,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1514649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -781,7 +655,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24493062" sideWeight="0.47953215" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3712766" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3712766" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37201646" sideWeight="0.5204678" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1152,14 +1026,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-156">
@@ -1168,10 +1034,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1824">
-          <caret line="76" column="70" lean-forward="true" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+        <state relative-caret-position="408">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding />
         </state>
       </provider>

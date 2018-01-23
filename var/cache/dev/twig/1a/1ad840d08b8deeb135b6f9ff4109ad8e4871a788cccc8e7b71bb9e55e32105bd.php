@@ -21,29 +21,29 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        $__internal_2889a2c087b790ade65a91a46491a7dcd8102866e2d0fc0e90e53a700b1c7c6f = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_2889a2c087b790ade65a91a46491a7dcd8102866e2d0fc0e90e53a700b1c7c6f->enter($__internal_2889a2c087b790ade65a91a46491a7dcd8102866e2d0fc0e90e53a700b1c7c6f_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "actors/index.html.twig"));
+        $__internal_e79ab46894db032a54f03bfd170ce82f42b71df0df2f55c7d480d4de09be829c = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_e79ab46894db032a54f03bfd170ce82f42b71df0df2f55c7d480d4de09be829c->enter($__internal_e79ab46894db032a54f03bfd170ce82f42b71df0df2f55c7d480d4de09be829c_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "actors/index.html.twig"));
 
-        $__internal_1ddcc87093a46c678c8de57fbb741aca2ea4c6e653fc8809de1389c3d92ee767 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_1ddcc87093a46c678c8de57fbb741aca2ea4c6e653fc8809de1389c3d92ee767->enter($__internal_1ddcc87093a46c678c8de57fbb741aca2ea4c6e653fc8809de1389c3d92ee767_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "actors/index.html.twig"));
+        $__internal_9a42b476102478a3875665e5f931a45a9308861dc924a4d1df04defd2fd48297 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_9a42b476102478a3875665e5f931a45a9308861dc924a4d1df04defd2fd48297->enter($__internal_9a42b476102478a3875665e5f931a45a9308861dc924a4d1df04defd2fd48297_prof = new Twig_Profiler_Profile($this->getTemplateName(), "template", "actors/index.html.twig"));
 
         $this->parent->display($context, array_merge($this->blocks, $blocks));
         
-        $__internal_2889a2c087b790ade65a91a46491a7dcd8102866e2d0fc0e90e53a700b1c7c6f->leave($__internal_2889a2c087b790ade65a91a46491a7dcd8102866e2d0fc0e90e53a700b1c7c6f_prof);
+        $__internal_e79ab46894db032a54f03bfd170ce82f42b71df0df2f55c7d480d4de09be829c->leave($__internal_e79ab46894db032a54f03bfd170ce82f42b71df0df2f55c7d480d4de09be829c_prof);
 
         
-        $__internal_1ddcc87093a46c678c8de57fbb741aca2ea4c6e653fc8809de1389c3d92ee767->leave($__internal_1ddcc87093a46c678c8de57fbb741aca2ea4c6e653fc8809de1389c3d92ee767_prof);
+        $__internal_9a42b476102478a3875665e5f931a45a9308861dc924a4d1df04defd2fd48297->leave($__internal_9a42b476102478a3875665e5f931a45a9308861dc924a4d1df04defd2fd48297_prof);
 
     }
 
     // line 4
     public function block_body($context, array $blocks = array())
     {
-        $__internal_8c6a7c74e5690330bfc9ed2c3d4e35859d15e268e82ac3b9233023c6cd0944a7 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
-        $__internal_8c6a7c74e5690330bfc9ed2c3d4e35859d15e268e82ac3b9233023c6cd0944a7->enter($__internal_8c6a7c74e5690330bfc9ed2c3d4e35859d15e268e82ac3b9233023c6cd0944a7_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_2213f06478b374f5fc58a71b1084a87ddae037e458031250d4c73a71b9c3dc56 = $this->env->getExtension("Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension");
+        $__internal_2213f06478b374f5fc58a71b1084a87ddae037e458031250d4c73a71b9c3dc56->enter($__internal_2213f06478b374f5fc58a71b1084a87ddae037e458031250d4c73a71b9c3dc56_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
-        $__internal_5e2ed07006212a23e8f3871ca29e626869452cc7e919f48cdac76d86d040e62a = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
-        $__internal_5e2ed07006212a23e8f3871ca29e626869452cc7e919f48cdac76d86d040e62a->enter($__internal_5e2ed07006212a23e8f3871ca29e626869452cc7e919f48cdac76d86d040e62a_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
+        $__internal_826a1dcf4b59e97f7229e0321d61c1eb118931a3ab5e7960a2deb357cd099ed4 = $this->env->getExtension("Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension");
+        $__internal_826a1dcf4b59e97f7229e0321d61c1eb118931a3ab5e7960a2deb357cd099ed4->enter($__internal_826a1dcf4b59e97f7229e0321d61c1eb118931a3ab5e7960a2deb357cd099ed4_prof = new Twig_Profiler_Profile($this->getTemplateName(), "block", "body"));
 
         // line 5
         echo "    <style>
@@ -91,9 +91,7 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
         $context['_seq'] = twig_ensure_traversable((isset($context["pagination"]) || array_key_exists("pagination", $context) ? $context["pagination"] : (function () { throw new Twig_Error_Runtime('Variable "pagination" does not exist.', 43, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["actor"]) {
             // line 44
-            echo "                        <li><a href=\"";
-            echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "categorie", array()), "html", null, true);
-            echo "\">";
+            echo "                        <li><a href=\"\">";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "categorie", array()), "html", null, true);
             echo "</a></li>
                         ";
@@ -118,84 +116,85 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
             </div>
         </nav>
     </div>
+    <hr>
         ";
-        // line 62
+        // line 63
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable((isset($context["pagination"]) || array_key_exists("pagination", $context) ? $context["pagination"] : (function () { throw new Twig_Error_Runtime('Variable "pagination" does not exist.', 62, $this->getSourceContext()); })()));
+        $context['_seq'] = twig_ensure_traversable((isset($context["pagination"]) || array_key_exists("pagination", $context) ? $context["pagination"] : (function () { throw new Twig_Error_Runtime('Variable "pagination" does not exist.', 63, $this->getSourceContext()); })()));
         foreach ($context['_seq'] as $context["_key"] => $context["actor"]) {
-            // line 63
+            // line 64
             echo "            <div id=\"actors\">
             <div  class=\"card medium z-depth-5 hover white\">
             <div  class=\"card-image waves-effect waves-block waves-light\">
             <img id=\"blur\" class=\"activator\" src=\"";
-            // line 66
+            // line 67
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\AssetExtension')->getAssetUrl(("uploads/images/" . twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "image", array()))), "html", null, true);
             echo "\" height=\"300px\" width=\"600px\">
 
             </div>
             <div  class=\"card-content z-depth-10 white\">
             <span class=\"card-title activator grey-text text-darken-4\"><a class=\"btn-large blue\" href=\"";
-            // line 70
+            // line 71
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("actors_show", array("raisonsocial" => twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "raisonsocial", array()))), "html", null, true);
             echo "\">";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "raisonsocial", array()), "html", null, true);
             echo "</a><i class=\"material-icons right\">more_vert</i></span>
             <p><a href=\"#\">";
-            // line 71
+            // line 72
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "siteweb", array()), "html", null, true);
             echo "</a></p>
             </div>
             <div  class=\"card-reveal\">
             <span class=\"card-title grey-text text-darken-4\"><i class=\"material-icons\">accessibility</i>";
-            // line 74
+            // line 75
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "nomdudirigeant", array()), "html", null, true);
             echo "<i class=\"material-icons right\">close</i></span>
             <ul>
             <li> <i class=\"material-icons\">place</i>";
-            // line 76
+            // line 77
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "adresse", array()), "html", null, true);
             echo " </li>
             <li><i  class=\"material-icons\">phone</i> ";
-            // line 77
+            // line 78
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "tel", array()), "html", null, true);
             echo " </li>
             <li><i  class=\"material-icons\">mail</i> ";
-            // line 78
+            // line 79
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "mail", array()), "html", null, true);
             echo " </li>
             <li><i class=\"material-icons\">arrow</i> <blockquote> <strong>";
-            // line 79
+            // line 80
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "secteur", array()), "html", null, true);
             echo " </strong> ";
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "description", array()), "html", null, true);
             echo "</blockquote> </li>
 
             <li> <i class=\"material-icons\">device_hub</i> ";
-            // line 81
+            // line 82
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "facebook", array()), "html", null, true);
             echo " </li>
             <li><i  class=\"material-icons\">linkedin</i> ";
-            // line 82
+            // line 83
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "linkedin", array()), "html", null, true);
             echo " </li>
             <li><a  href=\"\"><i class=\"material-icons\">twitter</i> ";
-            // line 83
+            // line 84
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "twitter", array()), "html", null, true);
             echo "</a> </li>
             <li><i  class=\"material-icons\">instragram</i> ";
-            // line 84
+            // line 85
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "instagram", array()), "html", null, true);
             echo " </li>
             <li></li>
             <li>  ";
-            // line 86
+            // line 87
             echo twig_escape_filter($this->env, twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "competences", array()), "html", null, true);
             echo " </li>
             </ul>
             <ul>
             <li>
             <a class=\"btn-large green\" href=\"";
-            // line 90
+            // line 91
             echo twig_escape_filter($this->env, $this->env->getExtension('Symfony\Bridge\Twig\Extension\RoutingExtension')->getPath("actors_show", array("raisonsocial" => twig_get_attribute($this->env, $this->getSourceContext(), $context["actor"], "raisonsocial", array()))), "html", null, true);
             echo "\">Voir +</a>
             </li>
@@ -207,28 +206,28 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['actor'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 96
+        // line 97
         echo "</div>
     </table>
 </div>
     <div class=\"navigation\">
         ";
-        // line 100
-        echo $this->env->getExtension('Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension')->render($this->env, (isset($context["pagination"]) || array_key_exists("pagination", $context) ? $context["pagination"] : (function () { throw new Twig_Error_Runtime('Variable "pagination" does not exist.', 100, $this->getSourceContext()); })()));
+        // line 101
+        echo $this->env->getExtension('Knp\Bundle\PaginatorBundle\Twig\Extension\PaginationExtension')->render($this->env, (isset($context["pagination"]) || array_key_exists("pagination", $context) ? $context["pagination"] : (function () { throw new Twig_Error_Runtime('Variable "pagination" does not exist.', 101, $this->getSourceContext()); })()));
         echo "
     </div>
 
-
+    <hr>
 
 
 
 
 ";
         
-        $__internal_5e2ed07006212a23e8f3871ca29e626869452cc7e919f48cdac76d86d040e62a->leave($__internal_5e2ed07006212a23e8f3871ca29e626869452cc7e919f48cdac76d86d040e62a_prof);
+        $__internal_826a1dcf4b59e97f7229e0321d61c1eb118931a3ab5e7960a2deb357cd099ed4->leave($__internal_826a1dcf4b59e97f7229e0321d61c1eb118931a3ab5e7960a2deb357cd099ed4_prof);
 
         
-        $__internal_8c6a7c74e5690330bfc9ed2c3d4e35859d15e268e82ac3b9233023c6cd0944a7->leave($__internal_8c6a7c74e5690330bfc9ed2c3d4e35859d15e268e82ac3b9233023c6cd0944a7_prof);
+        $__internal_2213f06478b374f5fc58a71b1084a87ddae037e458031250d4c73a71b9c3dc56->leave($__internal_2213f06478b374f5fc58a71b1084a87ddae037e458031250d4c73a71b9c3dc56_prof);
 
     }
 
@@ -244,7 +243,7 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
 
     public function getDebugInfo()
     {
-        return array (  217 => 100,  211 => 96,  199 => 90,  192 => 86,  187 => 84,  183 => 83,  179 => 82,  175 => 81,  168 => 79,  164 => 78,  160 => 77,  156 => 76,  151 => 74,  145 => 71,  139 => 70,  132 => 66,  127 => 63,  123 => 62,  105 => 46,  94 => 44,  90 => 43,  77 => 32,  49 => 5,  40 => 4,  11 => 2,);
+        return array (  216 => 101,  210 => 97,  198 => 91,  191 => 87,  186 => 85,  182 => 84,  178 => 83,  174 => 82,  167 => 80,  163 => 79,  159 => 78,  155 => 77,  150 => 75,  144 => 72,  138 => 71,  131 => 67,  126 => 64,  122 => 63,  103 => 46,  94 => 44,  90 => 43,  77 => 32,  49 => 5,  40 => 4,  11 => 2,);
     }
 
     public function getSourceContext()
@@ -292,7 +291,7 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
 
                     <ul id='dropdown1' class='dropdown-content'>
                         {% for actor in pagination %}
-                        <li><a href=\"{{ actor.categorie }}\">{{  actor.categorie }}</a></li>
+                        <li><a href=\"\">{{  actor.categorie }}</a></li>
                         {% endfor %}
 
 
@@ -310,6 +309,7 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
             </div>
         </nav>
     </div>
+    <hr>
         {% for actor in pagination %}
             <div id=\"actors\">
             <div  class=\"card medium z-depth-5 hover white\">
@@ -351,7 +351,7 @@ class __TwigTemplate_3425300761e105d7093ec33cef7609426b783ef2f4e53a426381ef09290
         {{ knp_pagination_render(pagination) }}
     </div>
 
-
+    <hr>
 
 
 
