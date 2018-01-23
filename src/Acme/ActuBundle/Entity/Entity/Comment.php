@@ -15,7 +15,7 @@ class Comment
     /**
      * @var string
      */
-    private $pseudo;
+    private $user;
 
     /**
      * @var string
@@ -25,17 +25,13 @@ class Comment
     /**
      * @var string
      */
-    private $comment;
-
-
+    private $content;
 
     /**
-     * >Advert of this comment
-     *
-     * @var Advert
-     * @ORM\ManyToOne(targetEntity="Acme\ActuBundle\Entity\Entity\Advert")
+     * @var string
      */
-    protected $Advert;
+    private $image;
+
 
     /**
      * Get id.
@@ -48,27 +44,27 @@ class Comment
     }
 
     /**
-     * Set pseudo.
+     * Set user.
      *
-     * @param string $pseudo
+     * @param string $user
      *
      * @return Comment
      */
-    public function setPseudo($pseudo)
+    public function setUser($user)
     {
-        $this->pseudo = $pseudo;
+        $this->user = $user;
 
         return $this;
     }
 
     /**
-     * Get pseudo.
+     * Get user.
      *
      * @return string
      */
-    public function getPseudo()
+    public function getUser()
     {
-        return $this->pseudo;
+        return $this->user;
     }
 
     /**
@@ -96,26 +92,50 @@ class Comment
     }
 
     /**
-     * Set comment.
+     * Set content.
      *
-     * @param string $comment
+     * @param string $content
      *
      * @return Comment
      */
-    public function setComment($comment)
+    public function setContent($content)
     {
-        $this->comment = $comment;
+        $this->content = $content;
 
         return $this;
     }
 
     /**
-     * Get comment.
+     * Get content.
      *
      * @return string
      */
-    public function getComment()
+    public function getContent()
     {
-        return $this->comment;
+        return $this->content;
+    }
+
+    /**
+     * Set image.
+     *
+     * @param string $image
+     *
+     * @return Comment
+     */
+    public function setImage($image)
+    {
+        $this->image = $image;
+
+        return $this;
+    }
+
+    /**
+     * Get image.
+     *
+     * @return string
+     */
+    public function getImage()
+    {
+        return $this->image;
     }
 }

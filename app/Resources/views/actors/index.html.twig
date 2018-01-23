@@ -2,16 +2,66 @@
 {% extends 'base.html.twig' %}
 
 {% block body %}
+    <style>
+        nav .brand-logo {
+            margin-left: 20px;
+        }
+        nav form {
+            margin-left: 180px;
+            width: 300px;
+        }
 
-    <h1 class="header">LE CLUSTER</h1>
-    <table>
+        #actors{
+            display:flex;
+            margin-left:5%;
+        }
+        .material-icons{
+            color:dodgerblue!important;
+        }
+    </style>
 
-        {# table body #}
+
+<div class="container">
+        <blockquote><h4 class="header">Les acteurs de la filière "Sport mécaniques & Mobilité Durable"     </h4></blockquote>
+        <hr>
+        <p class="flowtext">cet annuaire regroupe les coordonnées de tous les acteurs (entreprises, clubs, écoles, organisme de formation...) qui oeuvrent dans une ou plusieurs catégories de la filière "Sport Mécanique et Mobilité Durable" sur le territoire Alès Cévènnes.
+        Vous recherchez un prestataire, un service, une formation dans ces métier? <strong>C'est ici</strong></p>
+
+
+{#search bar#}
+
+    <div>
+        <nav>
+            <div class="nav-wrapper white z-depht-10"><a class="brand-logo" href="/"><i class="material-icons">search</i></a><a class="right button-collapse" href="#" data-activates="nav-mobile"><i class="mdi-navigation-more-vert"></i></a>
+
+
+                <ul class="right hide-on-med-and-down" id="nav-mobile">
+
+                    <a class='dropdown-button btn blue' href='#' data-activates='dropdown1'>Catégorie</a>
+
+                    <ul id='dropdown1' class='dropdown-content'>
+                        {% for actor in pagination %}
+                        <li><a href="">{{  actor.categorie }}</a></li>
+                        {% endfor %}
+
+
+                    </ul>
+
+                </ul>
+
+                <form class="red lighten-3">
+                    <div class="input-field">
+                        <input class="grey" id="search" type="search"/>
+                        <label for="search"><i class="mdi-action-search">MOTS CLEES</i></label><i class="mdi-navigation-close close"></i>
+                    </div>
+
+                </form>
+            </div>
+        </nav>
+    </div>
         {% for actor in pagination %}
-            <div  class="row">
-
-            <div  class="container">
-            <div  class="card medium z-depth-5 hover black">
+            <div id="actors">
+            <div  class="card medium z-depth-5 hover white">
             <div  class="card-image waves-effect waves-block waves-light">
             <img id="blur" class="activator" src="{{ asset('uploads/images/' ~  actor.image ) }}" height="300px" width="600px">
 
@@ -26,7 +76,7 @@
             <li> <i class="material-icons">place</i>{{ actor.adresse }} </li>
             <li><i  class="material-icons">phone</i> {{ actor.tel }} </li>
             <li><i  class="material-icons">mail</i> {{ actor.mail }} </li>
-            <li><i " class="material-icons">arrow</i> <blockquote> <strong>{{ actor.secteur}} </strong> {{ actor.description }}</blockquote> </li>
+            <li><i class="material-icons">arrow</i> <blockquote> <strong>{{ actor.secteur}} </strong> {{ actor.description }}</blockquote> </li>
 
             <li> <i class="material-icons">device_hub</i> {{ actor.facebook }} </li>
             <li><i  class="material-icons">linkedin</i> {{ actor.linkedin }} </li>
@@ -42,11 +92,10 @@
             </ul>
             </div>
             </div>
-            </div>
-            </div>
         {% endfor %}
+</div>
     </table>
-    {# display navigation #}
+</div>
     <div class="navigation">
         {{ knp_pagination_render(pagination) }}
     </div>

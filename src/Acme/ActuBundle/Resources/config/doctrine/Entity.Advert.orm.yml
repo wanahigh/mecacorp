@@ -30,4 +30,11 @@ Acme\ActuBundle\Entity\Entity\Advert:
                 joinColumn:
                     name: category_id
                     referencedColumnName: id
+    manaToMany:
+            comment:
+                targerEntity: Comment
+                inverserBy: Adverts
+                joinColumn:
+                    name: comment_id
+                    referencedColumnName: id
     lifecycleCallbacks: {  }

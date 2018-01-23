@@ -21,7 +21,6 @@ class ActorsController extends Controller
         $em    = $this->get('doctrine.orm.entity_manager');
         $dql   = "SELECT a FROM AcmeActorBundle:Actors a";
         $query = $em->createQuery($dql);
-
         $paginator  = $this->get('knp_paginator');
         $pagination = $paginator->paginate(
             $query, /* query NOT result */
@@ -30,7 +29,7 @@ class ActorsController extends Controller
         );
 
         // parameters to template
-        return $this->render('actors/index.html.twig', array('pagination' => $pagination));
+        return $this->render('actors/index.html.twig', array('pagination' => $pagination,'actor' => $dql));
     }
 
     /**

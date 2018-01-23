@@ -31,6 +31,7 @@
         "doctrine/migrations": "^1.6",
         "doctrine/orm": "^2.6",
         "evheniy/materialize-bundle": "1.*",
+        "friendsofsymfony/elastica-bundle": "^5.0",
         "friendsofsymfony/user-bundle": "~2.0",
         "incenteev/composer-parameter-handler": "^2.0",
         "jacobbennett/sendyphp": "1.3.*",

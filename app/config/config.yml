@@ -136,8 +136,3 @@ easy_admin:
                        - { name: 'delete', icon: 'pencil', label: 'supprimer', title: 'Edit' }
                        - { name: 'new', icon: 'pencil', label: '', title: 'Edit' }
                        - { name: 'search', icon: 'search', label: '', title: 'rechercher' }
-       # ...
-
-
-
-

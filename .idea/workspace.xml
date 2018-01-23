@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17744b38-e1d0-43af-a86a-19395c3b6afc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CategoryType.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CommentType.php" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="$PROJECT_DIR$/.idea/php.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/symfony-stg.iml" afterPath="$PROJECT_DIR$/.idea/symfony-stg.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" />
       <change beforePath="$PROJECT_DIR$/app/bdd" afterPath="$PROJECT_DIR$/app/bdd" />
       <change beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php" />
-      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Category.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change beforePath="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" afterPath="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" />
+      <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php" />
       <change beforePath="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" afterPath="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainer.php" />
@@ -24,14 +27,13 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerDeprecations.log" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlGenerator.php.meta" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" afterPath="$PROJECT_DIR$/var/cache/dev/appDevDebugProjectContainerUrlMatcher.php.meta" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/assetic/config/6/684bfea6679f867d9b150307c5e8f027.php" afterPath="$PROJECT_DIR$/var/cache/dev/assetic/config/6/684bfea6679f867d9b150307c5e8f027.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/assetic/routing.yml" afterPath="$PROJECT_DIR$/var/cache/dev/assetic/routing.yml" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/01/015e0d837e5adf6b30ff9ec047687bdbdd86b0738a930d94555c66cbb3004f74.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/01/015e0d837e5adf6b30ff9ec047687bdbdd86b0738a930d94555c66cbb3004f74.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/01/01ec5319374f0cbf24f8fb7182f480e3ae0683fd82d3e58a6cf9b4aab090d980.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/01/01ec5319374f0cbf24f8fb7182f480e3ae0683fd82d3e58a6cf9b4aab090d980.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b07fd545f6981f462ab56ac9539dc342fdcbebf74bd1394c755dfbe7197f124.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/0b/0b07fd545f6981f462ab56ac9539dc342fdcbebf74bd1394c755dfbe7197f124.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/10/103dca2f39bc97bb88d8ed9834178329d3c2bc0840128710b7caf774c846a374.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/10/103dca2f39bc97bb88d8ed9834178329d3c2bc0840128710b7caf774c846a374.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/1248fa1f465bb2ffe1c4f6a00dce10064f3b2684a4c77a3ac9e7b2a7391b66d3.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/12/1248fa1f465bb2ffe1c4f6a00dce10064f3b2684a4c77a3ac9e7b2a7391b66d3.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/12/1248fa1f465bb2ffe1c4f6a00dce10064f3b2684a4c77a3ac9e7b2a7391b66d3.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/16/161079b417f02d0c2ae766e04899673097d2e140d6944930b69235b03f55f44c.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/16/161079b417f02d0c2ae766e04899673097d2e140d6944930b69235b03f55f44c.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1a/1ad840d08b8deeb135b6f9ff4109ad8e4871a788cccc8e7b71bb9e55e32105bd.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1a/1ad840d08b8deeb135b6f9ff4109ad8e4871a788cccc8e7b71bb9e55e32105bd.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/1e/1e8ced1692f1206cdbbc594a7fb351a44c2de08aaa0ef46435b4e6a97549d279.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/1e/1e8ced1692f1206cdbbc594a7fb351a44c2de08aaa0ef46435b4e6a97549d279.php" />
@@ -65,11 +67,82 @@
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/e0/e0244eedd3ac6c1aa631f45dd84253f909430215336f53f086a27c2b2df51064.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/e0/e0244eedd3ac6c1aa631f45dd84253f909430215336f53f086a27c2b2df51064.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb809751606d3f5742281d02651ff7cc9dff64302b6d28667a180ba96b4e95f9.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/eb/eb809751606d3f5742281d02651ff7cc9dff64302b6d28667a180ba96b4e95f9.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/ed/ed8ebbf5e84d4c4297aa5c405fcfc9823e47db103e12a19d59bb72dca5bcfc88.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/ed/ed8ebbf5e84d4c4297aa5c405fcfc9823e47db103e12a19d59bb72dca5bcfc88.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f1/f1d3f9d22b7c812dc055f00e17919f27a412dc0f284e86fcb62c0927ab84386d.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f1/f1d3f9d22b7c812dc055f00e17919f27a412dc0f284e86fcb62c0927ab84386d.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f1/f1d3f9d22b7c812dc055f00e17919f27a412dc0f284e86fcb62c0927ab84386d.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/f7/f75fa83732688abbb08716ac4a7cdaade6af1ed6ddfc2b06507ff83f395e8726.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/f7/f75fa83732688abbb08716ac4a7cdaade6af1ed6ddfc2b06507ff83f395e8726.php" />
       <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fb/fbcdc0e8a4baebc5d402a400bd89853feaf55d4570e952ca881fd89bba9e8d33.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fb/fbcdc0e8a4baebc5d402a400bd89853feaf55d4570e952ca881fd89bba9e8d33.php" />
-      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc6e1037101d9649780af07ec83cab4d97968b26a93f0b2bd020d2609dfd71ef.php" afterPath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc6e1037101d9649780af07ec83cab4d97968b26a93f0b2bd020d2609dfd71ef.php" />
+      <change beforePath="$PROJECT_DIR$/var/cache/dev/twig/fc/fc6e1037101d9649780af07ec83cab4d97968b26a93f0b2bd020d2609dfd71ef.php" afterPath="" />
       <change beforePath="$PROJECT_DIR$/var/logs/dev.log" afterPath="$PROJECT_DIR$/var/logs/dev.log" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/composer.json" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/book/complex-dynamic-backends.rst" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/integration/fosuserbundle.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/integration/fosuserbundle.rst" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/tutorials/custom-actions.rst" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/doc/tutorials/custom-actions.rst" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Controller/AdminController.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/EasyAdminBundle.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/bin/compile_assets.sh" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/bin/compile_assets.sh" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ar.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/az.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/az.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/bg.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ca.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/cs.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/da.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/da.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/de.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/de.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/el.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/el.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/en.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/en.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/es.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/es.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/et.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/et.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/eu.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fa.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fi.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/fr.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/gl.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/he.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/he.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hi.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hr.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/hu.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/id.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/id.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/is.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/is.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/it.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/it.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ja.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/km.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/km.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ko.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lt.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/lv.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/mk.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ms.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nb.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/nl.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pl.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt-BR.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/pt.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ro.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/ru.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sk.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr-Cyrl.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sr.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/sv.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/th.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/th.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/tr.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/uk.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/vi.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-CN.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/public/javascript/select2/i18n/zh-TW.js" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.en.xlf" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.fr.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.fr.xlf" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.it.xlf" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/translations/EasyAdminBundle.it.xlf" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/layout.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/layout.html.twig" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/show.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Resources/views/default/show.html.twig" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Twig/EasyAdminTwigExtension.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/src/Twig/EasyAdminTwigExtension.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomFieldTemplateTest.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Controller/CustomFieldTemplateTest.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/AppKernel.php" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/AppKernel.php" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/Resources/views/easy_admin/custom_field_template.html.twig" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/Resources/views/easy_admin/custom_field_template.html.twig" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_field_template.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_custom_field_template.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Fixtures/App/config/config_customized_backend.yml" />
+      <change beforePath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Internationalization/xliff-core-1.2-strict.xsd" afterPath="$PROJECT_DIR$/vendor/javiereguiluz/easyadmin-bundle/tests/Internationalization/xliff-core-1.2-strict.xsd" />
+      <change beforePath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" afterPath="$PROJECT_DIR$/vendor/ocramius/package-versions/src/PackageVersions/Versions.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -98,6 +171,11 @@
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="bdd" type="feb32156:DbDataSourceImpl" />
+        <item name="collations" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="bdd" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
@@ -111,14 +189,7 @@
         <item name="bdd" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="advert: table" type="ffe0bd85:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="bdd" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="90513b60:SqliteImplModel$Schema" />
-        <item name="category: table" type="ffe0bd85:SqliteImplModel$Table" />
+        <item name="Actors: table" type="ffe0bd85:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -128,18 +199,58 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Entity.Advert.orm.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state relative-caret-position="1824">
+              <caret line="76" column="70" lean-forward="true" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="advert" pinned="false" current-in-tab="false">
-        <entry file="das://table:/2b5a2bde/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.advert">
+      <file leaf-file-name="Actors.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="55">
+              <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="parameters.yml.dist" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3331">
+              <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Actors" pinned="false" current-in-tab="false">
+        <entry file="das://table:/58953e14/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.Actors">
           <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
             <state>
               <filtering enabled="true" />
@@ -147,78 +258,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CategoryType.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CategoryType.php">
+      <file leaf-file-name="Accueil.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-              <folding>
-                <element signature="e#24#67#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvertType.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="910">
-              <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-              <folding>
-                <element signature="e#47#87#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Advert.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3510">
-              <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
-              <folding>
-                <element signature="e#48#80#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
+            <state relative-caret-position="60">
+              <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig">
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/index.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdvertController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/AdvertController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageUpload.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/ImageUpload.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-156">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ActorsController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="237">
+              <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+              <folding>
+                <element signature="e#47#82#0#PHP" expanded="true" />
+                <marker date="1516715412448" expanded="true" signature="454:492" ph="SELECT a FRO... AcmeActorBundle" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -254,6 +322,10 @@
       <find>P</find>
       <find>products</find>
       <find>product</find>
+      <find>black</find>
+      <find>catég</find>
+      <find>categorie</find>
+      <find>act1</find>
     </findStrings>
     <replaceStrings>
       <replace>tel</replace>
@@ -267,6 +339,8 @@
       <replace>&gt;advert</replace>
       <replace>&gt;Avert</replace>
       <replace>advert</replace>
+      <replace>categories</replace>
+      <replace>categorie</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -275,17 +349,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/FOS/Controller/FOSController.php" />
-        <option value="$PROJECT_DIR$/src/FOS/Resources/views/Security/login_content.html.twig" />
-        <option value="$PROJECT_DIR$/src/FOS/Resources/views/Security/login.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login_content.html.twig" />
         <option value="$PROJECT_DIR$/src/Acme/ContactBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/contact.html.twig" />
         <option value="$PROJECT_DIR$/src/Acme/ActorBundle/EventListener/UploadImageListener.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActorBundle/ImageUpload.php" />
-        <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php" />
         <option value="$PROJECT_DIR$/app/config/routing_dev.yml" />
         <option value="$PROJECT_DIR$/app/Resources/TwigBundle/views/Exception/error404.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/exception.php" />
@@ -302,7 +371,6 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Form/FormType.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Form/RegistrationType.php" />
         <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/Accueil.html.twig" />
         <option value="$PROJECT_DIR$/web/css/style.css" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
@@ -310,14 +378,10 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/AdvertController.php" />
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Category.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Categoryy.php" />
-        <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Advert.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Category.orm.yml" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php" />
@@ -325,7 +389,17 @@
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CategoryType.php" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig" />
+        <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml" />
         <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php" />
+        <option value="$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CommentType.php" />
+        <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Resources/config/doctrine/Category.orm.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Category.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php" />
+        <option value="$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/views/actors/index.html.twig" />
       </list>
     </option>
   </component>
@@ -413,13 +487,19 @@
       <path value="$PROJECT_DIR$/vendor/white-october/pagerfanta-bundle" />
       <path value="$PROJECT_DIR$/vendor/algolia/algoliasearch-client-php" />
       <path value="$PROJECT_DIR$/vendor/algolia/search-bundle" />
+      <path value="$PROJECT_DIR$/vendor/elasticsearch/elasticsearch" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/streams" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/ringphp" />
+      <path value="$PROJECT_DIR$/vendor/react/promise" />
+      <path value="$PROJECT_DIR$/vendor/ruflin/elastica" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/elastica-bundle" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="691" />
-    <option name="y" value="155" />
-    <option name="width" value="1159" />
-    <option name="height" value="647" />
+    <option name="x" value="488" />
+    <option name="y" value="108" />
+    <option name="width" value="1157" />
+    <option name="height" value="636" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -444,142 +524,109 @@
         <subPane>
           <expand>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="actors" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="advert" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="ActuBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="doctrine" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="AccueilBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ActorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ActorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Acme" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ActorBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="AppBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="mecacorp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mecacorp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vendor" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="friendsofsymfony" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="mecacorp maj" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mecacorp maj" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -649,7 +696,14 @@
       <workItem from="1515751312668" duration="223000" />
       <workItem from="1515777566846" duration="799000" />
       <workItem from="1516092973000" duration="19000" />
-      <workItem from="1516092992945" duration="6879000" />
+      <workItem from="1516092992945" duration="8067000" />
+      <workItem from="1516605878715" duration="485000" />
+      <workItem from="1516606772099" duration="10051000" />
+      <workItem from="1516617062167" duration="1619000" />
+      <workItem from="1516692529837" duration="106000" />
+      <workItem from="1516692716184" duration="39000" />
+      <workItem from="1516692782249" duration="54000" />
+      <workItem from="1516692996537" duration="13642000" />
     </task>
     <task id="LOCAL-00001" summary="cluster done">
       <created>1515163100332</created>
@@ -693,11 +747,18 @@
       <option name="project" value="LOCAL" />
       <updated>1515680704476</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="maj soir">
+      <created>1516101483148</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1516101483148</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119540000" />
+    <option name="totallyTimeSpent" value="146724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -712,15 +773,15 @@
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13432837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1514649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10613599" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10724157" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930845" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24493062" sideWeight="0.47953215" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36595744" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3712766" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37201646" sideWeight="0.5204678" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -807,105 +868,8 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2640">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FOS/UserBundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2184">
-          <caret line="91" column="0" lean-forward="false" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FOS/UserBundle/Model/Group.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/Handler/RegistrationFormHandler.php" />
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ src/AppBundle/Form/RegistrationType.php" />
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="44" column="69" lean-forward="false" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/FormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="11" column="5" lean-forward="false" selection-start-line="11" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/RegistrationType.php" />
-    <entry file="das://table:/16e37660/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.fos_user" />
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Model/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="127" column="0" lean-forward="true" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Doctrine/UserListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2160">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/16e37660/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.entity_work" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="19" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/result.html.twig" />
-    <entry file="file://$PROJECT_DIR$/web/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1200">
-          <caret line="411" column="16" lean-forward="false" selection-start-line="411" selection-start-column="16" selection-end-line="411" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/ProfileFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="101" column="36" lean-forward="false" selection-start-line="101" selection-start-column="36" selection-end-line="101" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/16e37660/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.Actors" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-312">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/comment-bundle/FOS/CommentBundle/Form/CommentType.php" />
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/show.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing_dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -938,7 +902,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,7 +909,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -954,7 +916,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,22 +923,165 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Category.orm.php" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Category.orm.yml" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/ImageUpload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://table:/2b5a2bde/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.advert" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="988">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Category.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="16" column="107" lean-forward="false" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CategoryType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="1" column="6" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CommentType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="37" column="6" lean-forward="false" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="11" lean-forward="false" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="155" column="0" lean-forward="false" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Comment.orm.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-227">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/AcmeActorBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/AccueilBundle/AcmeAccueilBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/AccueilBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/AdvertController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Resources/config/routing/actors.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Resources/config/doctrine/Category.orm.php" />
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Resources/config/doctrine/Category.orm.yml" />
+    <entry file="das://table:/2b5a2bde/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.Actors" />
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="45" column="33" lean-forward="false" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="962">
+          <caret line="37" column="35" lean-forward="false" selection-start-line="37" selection-start-column="35" selection-end-line="37" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="32" column="44" lean-forward="false" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="30" column="55" lean-forward="false" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+        <state relative-caret-position="1326">
+          <caret line="51" column="33" lean-forward="false" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -990,160 +1094,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="63" column="72" lean-forward="false" selection-start-line="63" selection-start-column="72" selection-end-line="63" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2607">
-          <caret line="137" column="22" lean-forward="false" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-642">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="78">
+          <caret line="3" column="11" lean-forward="false" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="3331">
+          <caret line="135" column="12" lean-forward="false" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Category.orm.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="198" column="0" lean-forward="false" selection-start-line="198" selection-start-column="0" selection-end-line="198" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Category.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="16" column="66" lean-forward="false" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Comment.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="37" column="18" lean-forward="false" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="56" column="20" lean-forward="false" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Resources/config/doctrine/Entity.Advert.orm.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="27" column="12" lean-forward="false" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/ImageUpload.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/2b5a2bde/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.advert">
+    <entry file="das://table:/58953e14/7a02fb9c-95f6-48b7-9bf0-2be932f52b1e/main.Actors">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
           <filtering enabled="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/show.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        <state relative-caret-position="55">
+          <caret line="26" column="85" lean-forward="false" selection-start-line="26" selection-start-column="85" selection-end-line="26" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Controller/Entity/AdvertController.php">
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Category.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="10" lean-forward="false" selection-start-line="30" selection-start-column="10" selection-end-line="30" selection-end-column="10" />
+        <state relative-caret-position="-190">
+          <caret line="16" column="14" lean-forward="false" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/AdvertType.php">
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Entity/Actors.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="910">
-          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding>
-            <element signature="e#47#87#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        <state relative-caret-position="356">
+          <caret line="31" column="20" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Entity/Entity/Advert.php">
+    <entry file="file://$PROJECT_DIR$/src/Acme/ActorBundle/Controller/ActorsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3510">
-          <caret line="135" column="21" lean-forward="false" selection-start-line="135" selection-start-column="21" selection-end-line="135" selection-end-column="21" />
+        <state relative-caret-position="237">
+          <caret line="17" column="7" lean-forward="false" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
           <folding>
-            <element signature="e#48#80#0#PHP" expanded="true" />
+            <element signature="e#47#82#0#PHP" expanded="true" />
+            <marker date="1516715412448" expanded="true" signature="454:492" ph="SELECT a FRO... AcmeActorBundle" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Acme/ActuBundle/Form/Entity/CategoryType.php">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/Accueil.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
-          <folding>
-            <element signature="e#24#67#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/entity/advert/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-156">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/actors/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1824">
+          <caret line="76" column="70" lean-forward="true" selection-start-line="76" selection-start-column="70" selection-end-line="76" selection-end-column="70" />
+          <folding />
         </state>
       </provider>
     </entry>
