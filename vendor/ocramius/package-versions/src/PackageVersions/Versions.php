@@ -90,7 +90,7 @@ final class Versions
   'doctrine/doctrine-fixtures-bundle' => '3.0.2@7fc29d2b18c61ed99826b21fbfd1ff9969cc2e7f',
   'sensio/generator-bundle' => 'v3.1.7@28cbaa244bd0816fd8908b93f90380bcd7b67a65',
   'symfony/phpunit-bridge' => 'v3.4.3@24ffb71a115c25f5ee56cbfd38e56ed2cdbeb0a9',
-  'akatosh' => 'dev-master@04ecca82d3fc53914d3f27cc43a75fca859eaa76',
+  'akatosh' => 'dev-master@44d8e5edf2f1430bda622a0a6f1745ec2ccc2e80',
 );
 
     private function __construct()

@@ -29,7 +29,8 @@ parameters:
     images_directory: '%kernel.root_dir%/../web/uploads/images'
     mailer_user:     fabienruault@gmail.com
     mailer_password: vbmqvpcuxtzeadng
-
+    env(ALGOLIA_APP_ID): MTAEC10AE4
+    env(ALGOLIA_API_KEY): 37b1a8cbd7cec6f8aaf77b49e9fe0be7
 framework:
        translator: ~
 #    http_method_override: true
@@ -42,7 +43,7 @@ framework:
        form: ~
        csrf_protection: ~
        validation: { enable_annotations: true }
-       #serializer: { enable_annotations: true }
+       serializer: { enable_annotations: true }
        templating:
            engines: ['twig']
        default_locale: '%locale%'
@@ -136,3 +137,15 @@ easy_admin:
                        - { name: 'delete', icon: 'pencil', label: 'supprimer', title: 'Edit' }
                        - { name: 'new', icon: 'pencil', label: '', title: 'Edit' }
                        - { name: 'search', icon: 'search', label: '', title: 'rechercher' }
+
+
+
+
+algolia_search:
+  indices:
+    - name: actors
+      class: Acme\ActorBundle\Entity\Actors
+      enable_serializer_groups: true
+    - name: Advert
+      class: Acme\ActuBundle\Entity\Entity\Advert
+      enable_serializer_groups: true

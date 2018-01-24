@@ -29,6 +29,7 @@ class AppKernel extends Kernel
             new EasyCorp\Bundle\EasyAdminBundle\EasyAdminBundle(),
             new Acme\ActorBundle\AcmeActorBundle(),
             new Acme\AccueilBundle\AcmeAccueilBundle(),
+            new Algolia\SearchBundle\AlgoliaSearchBundle(),
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

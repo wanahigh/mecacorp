@@ -9,27 +9,26 @@ use Symfony\Component\HttpFoundation\Request;
 /**
  * Actor controller.
  *
+ * @property  indexManager
  */
 class ActorsController extends Controller
 {
+    private $indexManager;
+
     /**
      * Lists all actor entities.
      *
      */
     public function indexAction(Request $request)
     {
-        $em    = $this->get('doctrine.orm.entity_manager');
-        $dql   = "SELECT a FROM AcmeActorBundle:Actors a";
-        $query = $em->createQuery($dql);
-        $paginator  = $this->get('knp_paginator');
-        $pagination = $paginator->paginate(
-            $query, /* query NOT result */
-            $request->query->getInt('page', 1)/*page number*/,
-            3/*limit per page*/
-        );
+
+
+        $em = $this->getDoctrine()->getManagerForClass(Actors::class);
+        $actors = $this->indexManager->search('query', Actors::class, $em, 2, 100);
+
 
         // parameters to template
-        return $this->render('actors/index.html.twig', array('pagination' => $pagination,'actor' => $dql));
+        return $this->render('actors/index.html.twig', array('actor' => $actors));
     }
 
     /**

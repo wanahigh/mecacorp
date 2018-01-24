@@ -6,7 +6,8 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Component\HttpFoundation\File\File;
 use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\Common\Collections\ArrayCollection;
-
+use Symfony\Component\Serializer\Annotation\Groups;
+use Algolia\SearchBundle\IndexManagerInterface;
 /**
  * @ORM\Entity(repositoryClass="Acme\ActorBundle\Repository\ActorRepository")
  * @ORM\Table(name="Actors")
@@ -26,7 +27,7 @@ class Actors
 
     /**
      * @var string
-     *
+     *@Groups({"searchable"})
      * @ORM\Column(name="Categorie", type="string", length=28, nullable=false)
      */
     private $categorie;
@@ -133,12 +134,18 @@ class Actors
     private $image;
 
 
+
+
+
     /**
      * Set categorie.
      *
      * @param string $categorie
      *
      * @return Actors
+     */
+    /**
+     * @Groups({"searchable"})
      */
     public function setCategorie($categorie)
     {
@@ -152,6 +159,9 @@ class Actors
      *
      * @return string
      */
+    /**
+     * @Groups({"searchable"})
+     */
     public function getCategorie()
     {
         return $this->categorie;
@@ -164,6 +174,9 @@ class Actors
      *
      * @return Actors
      */
+    /**
+     * @Groups({"searchable"})
+     */
     public function setNomdudirigeant($nomdudirigeant)
     {
         $this->nomdudirigeant = $nomdudirigeant;
@@ -175,6 +188,9 @@ class Actors
      * Get nomdudirigeant.
      *
      * @return string
+     */
+    /**
+     * @Groups({"searchable"})
      */
     public function getNomdudirigeant()
     {
@@ -200,6 +216,9 @@ class Actors
      *
      * @return string
      */
+    /**
+     * @Groups({"searchable"})
+     */
     public function getAdresse()
     {
         return $this->adresse;
@@ -211,6 +230,9 @@ class Actors
      * @param string|null $tel
      *
      * @return Actors
+     */
+    /**
+     * @Groups({"searchable"})
      */
     public function setTel($tel = null)
     {
@@ -450,6 +472,9 @@ class Actors
      *
      * @return string
      */
+    /**
+     * @Groups({"searchable"})
+     */
     public function getRaisonsocial()
     {
         return $this->raisonsocial;
@@ -461,6 +486,9 @@ class Actors
      * @param string $image
      *
      * @return string
+     */
+    /**
+     * @Groups({"searchable"})
      */
     public function setImage($image)
     {
@@ -474,9 +502,18 @@ class Actors
      *
      * @return string
      */
+    /**
+     * @Groups({"searchable"})
+     */
     public function getImage()
     {
         return $this->image;
     }
 
+    protected $indexManager;
+
+    public function __construct(IndexManagerInterface $indexingManager)
+    {
+        $this->indexManager = $indexingManager;
+    }
 }
